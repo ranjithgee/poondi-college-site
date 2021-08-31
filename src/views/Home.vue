@@ -4,7 +4,7 @@
      <div class="citeria_content">
            <div class="tab_box">
               <div class="tab_item" v-for="data in datas.data" :key="data.id">
-                <router-link :to="data.link">{{data.name}}</router-link> 
+                <router-link exact-active-class="active" :to="data.link">{{data.name}}</router-link> 
               </div>
           </div>
           <div class="content_item">
@@ -23,40 +23,48 @@ export default {
   },
   data(){
     return{
-      datas:json
+      datas:json,
     }
   }
 }
 </script>
 
 <style scoped>
-/* .criteria_sec{
-  margin: 80px 0;
-} */
 .citeria_content{
-  margin: 50px 0;
+  margin: 50px 30px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
 }
 .tab_box{
   margin-top:40px;
+  margin:40px 20px 0 20px;
   width: 25%;
-  padding: 20px;
+  padding: 50px 35px;
+  box-shadow: 0 2px 10px 4px rgb(0 0 0/15%);
+  border-radius: 13px;
 }
 .tab_item{
-  margin: 13px 0;
-  font-size: 18px;
+  margin: 18px 0;
+  font-size: 16px;
   font-weight: 700;
   background: #0066cc;
   color: white;
 }
 .tab_item a{
-  padding: 10px;
+  padding: 12px 15px;
   color: white;
   text-decoration: none;
   width: 100%;
   display: block;
+  transition: .3s ease-in-out;
+}
+.tab_item a.active{
+  color: black;
+}
+.tab_item a:hover{
+  color: black;
+  transition: .3s ease-in-out;
 }
 .content_item{
   margin: 0 40px;

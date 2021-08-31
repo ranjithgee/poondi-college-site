@@ -61,5 +61,6 @@ export default {
 }
 .social_media_sec i{
     margin: 0 10px;
+    cursor: pointer;
 }
 </style>

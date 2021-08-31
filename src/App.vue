@@ -8,6 +8,6 @@
 @import './assets/css/style.css';
 body{
   margin: 0;
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family:sans-serif;
 }
 </style>

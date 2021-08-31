@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+import Login from '../views/Login.vue'
 import Content1 from '../components/content-1.vue'
 import Content2 from '../components/content-2.vue'
 import Content3 from '../components/content-3.vue'
@@ -60,6 +61,11 @@ import Content7_3 from '../components/content7/content-7.3.vue'
 
 const routes = [
   {
+    path: '/login',
+    name: 'Login',
+    component: Login,
+  },  
+  {
     path: '/',
     name: 'Home',
     component: Home,
@@ -70,7 +76,7 @@ const routes = [
         component:Content1,
       },
       {
-        path:'/criteria-2',
+        path:'/criteria-2/',
         name:'Content2',
         component:Content2,
       },
@@ -286,6 +292,16 @@ const router = createRouter({
   routes,
   linkActiveClass: 'active',
   linkExactActiveClass: 'exact-active'
+})
+
+router.beforeEach((to, from, next) => {
+  const publicPages = ['/login']
+  const authRequired = !publicPages.includes(to.path)
+  if (authRequired && !localStorage.getItem('user_token')) {
+    return next('/login')
+  } else {
+    next()
+  }
 })
 
 export default router

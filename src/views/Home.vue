@@ -21,6 +21,11 @@ export default {
   components:{
     Header
   },
+  beforeCreate(){
+    if(!localStorage.getItem('user_token')){
+      this.$router.push('/login')
+    }
+  },
   data(){
     return{
       datas:json,

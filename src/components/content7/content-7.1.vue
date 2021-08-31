@@ -3,7 +3,7 @@
       <div class="heading">  7.1 Institutional Values and Social Responsibilities</div>
 
       <div class="list">
-          <div class="item" v-for="item in datas.c_6_1" :key="item.id">
+          <div class="item" v-for="item in datas.c_7_1" :key="item.id">
               <router-link :to="item.link"> <i class="fas fa-arrow-right"></i> {{item.name}}</router-link>
           </div>
       </div>

@@ -11,11 +11,10 @@
 </template>
 
 <script>
-import json from '@/JSON/mock.json'
 export default {
     data(){
         return{
-            datas:json
+            datas:this.$store.state.data
         }
     },
 }

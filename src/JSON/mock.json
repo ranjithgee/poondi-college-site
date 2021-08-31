@@ -3,37 +3,44 @@
         {
             "id":1,
             "name":"1. Curricular Aspects",
-            "link":"/"
+            "link":"/",
+            "icon":"fa-tachometer-alt"
         },
         {
             "id":2,
             "name":"2.Teaching- Learning and Evaluation",
-            "link":"/criteria-2"
+            "link":"/criteria-2",
+            "icon":"fa-laptop"
         },
         {
             "id":3,
             "name":"3.Research, Innovations and Extension",
-            "link":"/criteria-3"
+            "link":"/criteria-3",
+            "icon":"fa-bullseye"
         },
         {
             "id":4,
             "name":"4.Infrastructure and Learning Resources",
-            "link":"/criteria-4"
+            "link":"/criteria-4",
+            "icon":"fa-city"
         },
         {
             "id":5,
             "name":"5.Student Support and Progression",
-            "link":"/criteria-5"
+            "link":"/criteria-5",
+            "icon":"fa-user-friends"
         },
         {
             "id":6,
             "name":"6.Governance, Leadership and Management",
-            "link":"/criteria-6"
+            "link":"/criteria-6",
+            "icon":"fa-bullseye"
         },
         {
             "id":7,
             "name":"7.Institutional Values and Best Practices",
-            "link":"/criteria-7"
+            "link":"/criteria-7",
+            "icon":"fa-city"
         }
     ],
     "c_1":[

@@ -1,6 +1,6 @@
 <template>
   <div>
-      <div class="heading"> 7.3 Institutional Distinctiveness</div>
+      <div class="heading"><i class="fas fa-arrow-left" @click="this.$router.go(-1)" ></i> 7.3 Institutional Distinctiveness</div>
 
       <div class="list">
           <div class="item" v-for="item in datas.c_7_3" :key="item.id">

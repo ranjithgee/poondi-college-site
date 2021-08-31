@@ -1,6 +1,6 @@
 <template>
   <div>
-      <div class="heading">6.5 Internal Quality Assurance System (IQAS)</div>
+      <div class="heading"><i class="fas fa-arrow-left" @click="this.$router.go(-1)" ></i>6.5 Internal Quality Assurance System (IQAS)</div>
 
       <div class="list">
           <div class="item" v-for="item in datas.c_6_4" :key="item.id">

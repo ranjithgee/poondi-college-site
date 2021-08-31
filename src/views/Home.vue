@@ -4,7 +4,7 @@
      <div class="citeria_content">
            <div class="tab_box">
               <div class="tab_item" v-for="data in datas.data" :key="data.id">
-                <router-link exact-active-class="active" :to="data.link">{{data.name}}</router-link> 
+                <router-link exact-active-class="active" :to="data.link"><i class="fas" :class="data.icon" ></i>{{data.name}}</router-link> 
               </div>
           </div>
           <div class="content_item">
@@ -63,6 +63,9 @@ export default {
   width: 100%;
   display: block;
   transition: .3s ease-in-out;
+}
+.tab_item a i{
+  margin-right: 8px;
 }
 .tab_item a.active{
   color: black;

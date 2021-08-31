@@ -8,6 +8,11 @@
     border-radius: 5px;
     padding: 13px;
 }
+.heading i{
+    float: left;
+    cursor: pointer;
+    padding-top: 3px;
+}
 .list{
     margin-top: 70px;
     padding-left: 20px;

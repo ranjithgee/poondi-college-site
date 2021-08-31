@@ -1,6 +1,6 @@
 <template>
   <div>
-      <div class="heading">3.1 Promotion of Research and Facilities</div>
+      <div class="heading"><i class="fas fa-arrow-left" @click="this.$router.go(-1)" ></i>3.1 Promotion of Research and Facilities</div>
 
       <div class="list">
           <div class="item" v-for="item in datas.c_3_1" :key="item.id">

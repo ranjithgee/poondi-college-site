@@ -3,8 +3,8 @@
     <Header />
      <div class="citeria_content">
            <div class="tab_box">
-              <div class="tab_item" v-for="data in datas.data" :key="data.id">
-                <router-link exact-active-class="active" :to="data.link"><i class="fas" :class="data.icon" ></i>{{data.name}}</router-link> 
+              <div class="tab_item" v-for="(data, index) in datas.data" :key="data.id">
+                <router-link class="item_menu" :class="index === 0 ? 'active':'non'" :to="data.link" @click="Toggle" ><i class="fas" :class="data.icon" ></i>{{data.name}}</router-link> 
               </div>
           </div>
           <div class="content_item">
@@ -29,6 +29,22 @@ export default {
   data(){
     return{
       datas:json,
+    }
+  },
+  methods:{
+    Toggle(e){
+      var tabs = document.querySelectorAll('.item_menu');
+      tabs.forEach((item)=>{
+        if(item.classList.contains('active')){
+          item.classList.remove('active')
+        }
+      });
+      setTimeout(()=>{
+        e.target.classList.add('active')
+      },300)
+      
+      console.log(e.target)
+
     }
   }
 }

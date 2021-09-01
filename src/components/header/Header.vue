@@ -2,6 +2,7 @@
   <div class="header-sec">
       <div class="logo">
           <img src="@/assets/company-logo.jpg" alt="" srcset="">
+          <i class="fas fa-bars" style="display:none" ></i>
       </div>
       <div class="title_sec">
           <div class="head">A. Veeriya Vandayar Memorial Sri Pushpam College (Autonomous)</div>
@@ -62,5 +63,37 @@ export default {
 .social_media_sec i{
     margin: 0 10px;
     cursor: pointer;
+}
+@media only screen and (min-width:300px) and (max-width:600px){
+    .header-sec{
+        display: block;
+        padding: 8px 0 !important;
+    }
+    .social_media_sec{
+        display: none;
+    }
+    .detailsec{
+        display: none;
+    }
+    .title_sec{
+        width: 100%;
+        display: none;
+    }
+    .logo{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo img{
+        width: 41px;
+        margin: 0 15px;
+    }
+    .logo i{
+        display: block!important;
+        color: white;
+        font-size: 25px;
+        margin: 0 15px;
+    }
 }
 </style>

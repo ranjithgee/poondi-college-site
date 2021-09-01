@@ -979,29 +979,29 @@
         {
             "id":1,
             "name":"Local, National and Global needs",
-            "link":""
+            "link":"public/pdf/Local_National_and_Global_needs.pdf"
         },
         {
             "id":2,
             "name":"Programme_outcomes",
-            "link":""
+            "link":"public/pdf/Programme_outcomes.pdf"
         },
         {
             "id":3,
             "name":"Programme_specific_outcomes",
-            "link":""
+            "link":"public/pdf/Programme_specific_outcomes.pdf"
         }
     ],
     "c_1_1_2":[
         {
             "id":1,
             "name":"Academic_council_meeting_minutes",
-            "link":""
+            "link":"public/pdf/1.1.2_Academic_council_meeting_minutes.pdf"
         },
         {
             "id":2,
             "name":"Programme_wise_Percentage_of_syllabus_revision",
-            "link":""
+            "link":"public/pdf/1.1.2_Programme_wise_Percentage_of_syllabus_revision.pdf"
         }
     ]
 

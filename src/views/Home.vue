@@ -2,12 +2,16 @@
   <div class="criteria_sec">
     <Header />
      <div class="citeria_content">
+           
            <div class="tab_box">
               <div class="tab_item" v-for="(data, index) in datas.data" :key="data.id">
                 <router-link class="item_menu" :class="activeTab === index ? 'active':''" :to="data.link"  @click="activeTab = index" ><span><i class="fas" :class="data.icon" ></i>{{data.name}}</span> <span class="chevron"><i class="fas fa-chevron-right"></i></span> </router-link> 
               </div>
           </div>
           <div class="content_item">
+            <!-- <div class="breadcrums">
+              <span>Home</span> <i class="fas fa-chevron-right" style="font-size:14px; margin:0 7px;" ></i> <span>{{$route.name}}</span>
+            </div> -->
              <router-view/>
           </div>
      </div>
@@ -36,6 +40,13 @@ export default {
 </script>
 
 <style scoped>
+.breadcrums{
+  font-weight: bold;
+  font-size: 18px;
+}
+.breadcrums span{
+  cursor: pointer;
+}
 .citeria_content{
   margin: 50px 30px;
   display: flex;

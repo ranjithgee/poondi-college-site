@@ -59,6 +59,10 @@ import Content7_1 from '../components/content7/content-7.1.vue'
 import Content7_2 from '../components/content7/content-7.2.vue'
 import Content7_3 from '../components/content7/content-7.3.vue'
 
+
+import Content1_1_1 from '../components/content1.1/content-1.1.1.vue'
+import Content1_1_2 from '../components/content1.1/content-1.1.2.vue'
+
 const routes = [
   {
     path: '/login',
@@ -70,6 +74,18 @@ const routes = [
     name: 'Home',
     component: Home,
     children:[
+      {
+        path:'/c_1.1.1',
+        name:'Content1_1_1',
+        component:Content1_1_1,
+      },
+      {
+        path:'/c_1.1.2',
+        name:'Content1_1_2',
+        component:Content1_1_2,
+      },
+
+      // hierarchy contents
       {
         path:'/',
         name:'Content1',

@@ -63,6 +63,7 @@ export default {
 .social_media_sec i{
     margin: 0 10px;
     cursor: pointer;
+    color: white;
 }
 @media only screen and (min-width:300px) and (max-width:600px){
     .header-sec{

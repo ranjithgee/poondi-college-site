@@ -1,17 +1,19 @@
 <template>
-  <div class="login">
+<section>
+    <Header />
+    <div class="login">
       <div class="card">
           <div class="card_body">
-              <form >
+              <form>
                   <div class="err_box" style="height:54px">
                     <div class="msg" v-if="error === true">Invalid Credentials</div>
                     <div class="msg" v-if="email_error === true">Invalid Email</div>
                   </div>
                   <div class="input_box" style="margin-top:0;">
-                      <input type="email" placeholder="Email" v-model="email" />
+                      <input type="email" @keyup="KeyUp" placeholder="Email" v-model="email" />
                   </div>
                   <div class="input_box">
-                      <input type="password" placeholder="Password" v-model="password" />
+                      <input type="password" @keyup="KeyUp" placeholder="Password" v-model="password" />
                   </div>
                   <div class="btn_box">
                       <button type="button" @click="Login">Login</button>
@@ -20,10 +22,15 @@
           </div>
       </div>
   </div>
+</section>
 </template>
 
 <script>
+import Header from '../components/header/Header.vue'
 export default {
+    components:{
+        Header
+    },
     data(){
         return{
             error:false,
@@ -58,6 +65,11 @@ export default {
                     this.$router.push('/')
                 }
             }
+        },
+        KeyUp(e){
+            if (e.keyCode === 13) {
+                this.Login()
+            }
         }
     }
 }
@@ -69,13 +81,17 @@ export default {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    background: #0066cc;
 }
 .card{
+    margin-top: 200px!important;
     width: 30%;
     margin:0 auto;
     box-shadow: 0 2px 10px 4px rgb(0 0 0/15%);
     padding:50px 0;
+    background: white;
+    border-radius: 7px;
 }
 form{
     padding: 0px 70px 30px 70px;
@@ -92,6 +108,7 @@ form{
 }
 .btn_box button{
     padding: 10px 30px;
+    margin-top: 15px;
     background: black;
     color: white;
     border: none;
@@ -104,5 +121,22 @@ form{
   font-weight: 600;
   text-align: start;
   padding: 10px 2px;
+}
+@media only screen and (min-width:300px) and (max-width:600px){
+    .card{
+        margin-top: 100px!important;
+        width:100%;
+        margin:0 15px;
+        padding: 35px 0;
+    }
+    form{
+        padding: 0px 30px 30px 30px;
+    }
+    .btn_box button{
+        padding: 7px 20px;
+    }
+    .msg{
+        font-size: 13px;
+    }
 }
 </style>

@@ -1,9 +1,9 @@
 <template>
   <div>
-      <div class="heading"><i class="fas fa-arrow-left" @click="this.$router.go(-1)" ></i> 1.1 Curriculum Design and Development</div>
+      <div class="heading"><i class="fas fa-arrow-left" @click="this.$router.go(-1)" ></i>1.1.1 Revision of Curricula</div>
 
       <div class="list">
-          <div class="item" v-for="item in datas.c_1_1" :key="item.id">
+          <div class="item" v-for="item in datas.c_1_1_1" :key="item.id">
               <router-link :to="item.link"> <i class="fas fa-arrow-right"></i> {{item.name}}</router-link>
           </div>
       </div>
@@ -16,6 +16,6 @@ export default {
         return{
             datas:this.$store.state.data
         }
-    }
+    },
 }
 </script>

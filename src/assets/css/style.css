@@ -42,7 +42,7 @@
 
 @media only screen and (min-width:300px) and (max-width:600px){
     .heading{
-        font-size: 15px;
+        font-size: 14px;
 
     }
     .item a{
@@ -50,5 +50,16 @@
     }
     .list{
         margin-top:20px;
+    }
+    .heading i{
+        padding-right:5px;
+    }
+    .item a{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .item i{
+        padding-right: 9px;
     }
 }

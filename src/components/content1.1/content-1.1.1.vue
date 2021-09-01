@@ -4,7 +4,7 @@
 
       <div class="list">
           <div class="item" v-for="item in datas.c_1_1_1" :key="item.id">
-              <router-link :to="item.link"> <i class="fas fa-arrow-right"></i> {{item.name}}</router-link>
+              <a :href="item.link"> <i class="fas fa-arrow-right"></i> {{item.name}}</a>
           </div>
       </div>
   </div>

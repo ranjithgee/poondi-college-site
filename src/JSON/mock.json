@@ -14,12 +14,41 @@
                         {
                             "id":1,
                             "name":"  1.1.1 Revision of Curricula",
-                            "link":"/c_1.1.1"
+                            "link":"/content/1/1/1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Local, National and Global needs",
+                                    "link":"/pdf/Local_National_and_Global_needs.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Programme_outcomes",
+                                    "link":"/pdf/Programme_outcomes.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Programme_specific_outcomes",
+                                    "link":"/pdf/Programme_specific_outcomes.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,
                             "name":"   1.1.2 Programmes with Syllabus Revision",
-                            "link":"/c_1.1.2"
+                            "link":"/content/1/1/2",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Academic_council_meeting_minutes",
+                                    "link":"pdf/1.1.2_Academic_council_meeting_minutes.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Programme_wise_Percentage_of_syllabus_revision",
+                                    "link":"pdf/1.1.2_Programme_wise_Percentage_of_syllabus_revision.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":3,
@@ -973,35 +1002,6 @@
                     ]
                 }
             ]
-        }
-    ],
-    "c_1_1_1":[
-        {
-            "id":1,
-            "name":"Local, National and Global needs",
-            "link":"pdf/Local_National_and_Global_needs.pdf"
-        },
-        {
-            "id":2,
-            "name":"Programme_outcomes",
-            "link":"pdf/Programme_outcomes.pdf"
-        },
-        {
-            "id":3,
-            "name":"Programme_specific_outcomes",
-            "link":"pdf/Programme_specific_outcomes.pdf"
-        }
-    ],
-    "c_1_1_2":[
-        {
-            "id":1,
-            "name":"Academic_council_meeting_minutes",
-            "link":"pdf/1.1.2_Academic_council_meeting_minutes.pdf"
-        },
-        {
-            "id":2,
-            "name":"Programme_wise_Percentage_of_syllabus_revision",
-            "link":"pdf/1.1.2_Programme_wise_Percentage_of_syllabus_revision.pdf"
         }
     ]
 

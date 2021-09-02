@@ -41,7 +41,7 @@ export default {
     },
     beforeCreate(){
         if(localStorage.getItem('user_token')){
-            this.$router.push('/')
+            this.$router.push('/1')
         }
     },
     methods:{
@@ -62,7 +62,7 @@ export default {
             if(err === 0){
                 if(this.email==='admin@gmail.com' && this.password === 'admin'){
                     localStorage.setItem('user_token','admin@gmail.com')
-                    this.$router.push('/')
+                    this.$router.push('/1')
                 }
             }
         },

@@ -3,7 +3,8 @@ import json from '../JSON/mock.json'
 
 export default createStore({
   state: {
-    data:json
+    data:json,
+    siteUrl:window.location.origin
   },
   mutations: {
   },

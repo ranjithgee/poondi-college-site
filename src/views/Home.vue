@@ -1,8 +1,7 @@
 <template>
   <div class="criteria_sec">
     <Header />
-     <div class="citeria_content">
-           
+     <div class="citeria_content">      
            <div class="tab_box">
               <div class="tab_item" v-for="(data, index) in datas.data" :key="data.id">
                 <router-link class="item_menu" :class="activeTab === index ? 'active':''" :to="data.link"  @click="activeTab = index" ><span><i class="fas" :class="data.icon" ></i>{{data.name}}</span> <span class="chevron"><i class="fas fa-chevron-right"></i></span> </router-link> 
@@ -28,6 +27,8 @@ export default {
   beforeCreate(){
     if(!localStorage.getItem('user_token')){
       this.$router.push('/login')
+    }else{
+      this.$router.push('/1')
     }
   },
   data(){

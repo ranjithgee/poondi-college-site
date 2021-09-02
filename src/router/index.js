@@ -8,7 +8,7 @@ import Login from '../views/Login.vue'
 
 import Content1 from '../components/content-1.vue'
 import SubContent from '../components/sub-content.vue'
-
+import SubContent2 from '../components/sub-content-2.vue'
 
 const routes = [
   {
@@ -32,6 +32,11 @@ const routes = [
         path:'/sub/:id/:subid',
         name:'SubContent',
         component:SubContent,
+      },
+      {
+        path:'/content/:id/:subid/:cntid',
+        name:'SubContent2',
+        component:SubContent2,
       }
     ]
   },

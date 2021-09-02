@@ -8,6 +8,6 @@
 @import './assets/css/style.css';
 body{
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;;
 }
 </style>

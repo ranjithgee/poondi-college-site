@@ -2,7 +2,7 @@
   <div class="header-sec">
       <div class="logo">
           <img src="@/assets/company-logo.jpg" alt="" srcset="">
-          <i class="fas fa-bars" style="display:none" ></i>
+          <i class="fas fa-bars" style="display:none" @click="BarIcon" ></i>
       </div>
       <div class="title_sec">
           <div class="head">A. Veeriya Vandayar Memorial Sri Pushpam College (Autonomous)</div>
@@ -22,7 +22,17 @@
 
 <script>
 export default {
+    data(){
+        return{
 
+        }
+    },
+    methods:{
+        BarIcon(){
+            var target = document.querySelector('.tab_box');
+            target.style.display='block'
+        }
+    }
 }
 </script>
 
@@ -65,6 +75,7 @@ export default {
     cursor: pointer;
     color: white;
 }
+
 @media only screen and (min-width:300px) and (max-width:600px){
     .header-sec{
         display: block;

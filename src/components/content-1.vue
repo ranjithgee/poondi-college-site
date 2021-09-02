@@ -1,10 +1,16 @@
 <template>
   <div>
-      <div class="heading">1.Curricular Aspects</div>
 
       <div class="list">
-          <div class="item" v-for="item in datas.c_1" :key="item.id" >
-              <router-link :to="item.link"> <i class="fas fa-arrow-right"></i> {{item.name}}</router-link>
+          <div class="item" v-for="item in datas.data" :key="item.id" >
+              <div v-if="$route.params.id == item.id">
+                  <div class="heading">{{item.name}}</div>
+                  <div class="sub_items">
+                      <div  v-for="category in item.category" :key="category.id">
+                         <router-link :to="category.link"> <i class="fas fa-arrow-right"></i> {{category.name}}</router-link>
+                      </div>
+                  </div>
+              </div>
           </div>
       </div>
   </div>

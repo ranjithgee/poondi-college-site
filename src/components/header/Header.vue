@@ -4,18 +4,11 @@
           <img src="@/assets/company-logo.jpg" alt="" srcset="">
           <i class="fas fa-bars" style="display:none" @click="BarIcon" ></i>
       </div>
-      <div class="title_sec">
-          <div class="head">A. Veeriya Vandayar Memorial Sri Pushpam College (Autonomous)</div>
-          <div class="detailsec">
-              <div class="phone"><i class="fas fa-phone-alt"></i>04374 - 239523 </div>
-              <div class="mail"><i class="far fa-envelope"></i>avvmspc@hotmail.com </div>
-              <div class="address"><i class="fas fa-map-marker-alt"></i>Poondi - 613 503, Thanjavur Dt, Tamil Nadu </div>
-          </div>
-      </div>
-      <div class="social_media_sec">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-youtube"></i>
-          <i class="fab fa-linkedin"></i>
+      <div class="heading_content">
+          <span class="first">A.V.V.M. Sri Pushpam College (Autonomous)</span><br/>
+             <span class="second"> Poondi– 613 503, Thanjavur-Dt, Tamilnadu</span><br/>
+             <span class="third"> (Affiliated to Bharathidasan University, Tiruchirappalli – 620 024)</span><br/>
+             <span class="fourth"> Self Study Report (SSR) – Cycle IV </span>
       </div>
   </div>
 </template>
@@ -38,59 +31,45 @@ export default {
 
 <style scoped>
 .header-sec{
-    background-color: #0066cc;
+    box-shadow: 0 2px 10px 4px rgb(0 0 0/10%);
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 15px 0;
 }
 .logo{
-    width: 25%;
+    text-align: center;
+    margin: 0 25px;
+}
+.heading_content{
+    margin: 0 25px;
     text-align: center;
 }
-.title_sec{
-    width: 50%;
-    color: white;
+.heading_content span.first{
+    font-size: 35px;
+    font-weight: 600;
+    color: #ff0000;
 }
-.title_sec .head{
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    margin: 20px 0;
-}
-.detailsec{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.detailsec i{
-    margin-right: 7px;
-}
-.social_media_sec{
-    text-align: center;
-    width: 25%;
-}
-.social_media_sec i{
-    margin: 0 10px;
-    cursor: pointer;
-    color: white;
+.heading_content span.second{
+    font-size: 25px;
+    font-weight: 600;
+    color: #0000ff;
 }
 
+.heading_content span.third{
+    font-size: 22px;
+    font-weight: 600;
+    font-style: italic;
+    color: #006600;
+}
+.heading_content span.fourth{
+    font-size: 27px;
+    font-weight: 600;
+    color: #002060;
+}
+
+
 @media only screen and (min-width:300px) and (max-width:600px){
-    .header-sec{
-        display: block;
-        padding: 8px 0 !important;
-    }
-    .social_media_sec{
-        display: none;
-    }
-    .detailsec{
-        display: none;
-    }
-    .title_sec{
-        width: 100%;
-        display: none;
-    }
     .logo{
         width: 100%;
         display: flex;
@@ -98,12 +77,14 @@ export default {
         justify-content: space-between;
     }
     .logo img{
-        width: 41px;
-        margin: 0 15px;
+        width: 35px;
+    }
+    .heading_content{
+        display: none;
     }
     .logo i{
         display: block!important;
-        color: white;
+        color: black;
         font-size: 25px;
         margin: 0 15px;
     }

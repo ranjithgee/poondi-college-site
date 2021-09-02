@@ -66,7 +66,7 @@ export default {
   height: 78.3vh;
   width: 22%;
   padding: 50px 15px;
-  box-shadow: 0 2px 10px 4px rgb(0 0 0/15%);
+  border-right: 2px solid #ced4da;
 }
 .tab_item{
   margin: 18px 0;

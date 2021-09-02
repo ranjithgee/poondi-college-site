@@ -1,5 +1,5 @@
 <template>
-<section>
+<section class="login_sec">
     <Header />
     <div class="login">
       <div class="card">
@@ -76,6 +76,10 @@ export default {
 </script>
 
 <style scoped>
+.login_sec{
+    height: 100vh;
+    overflow: hidden;
+}
 .login{
     height: 100vh;
     width: 100%;
@@ -133,7 +137,8 @@ form{
         padding: 0px 30px 30px 30px;
     }
     .btn_box button{
-        padding: 7px 20px;
+        padding: 10px 20px;
+        width: 103%;
     }
     .msg{
         font-size: 13px;

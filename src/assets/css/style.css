@@ -53,6 +53,7 @@
     }
     .heading i{
         padding-right:5px;
+        padding-top: 2px;
     }
     .item a{
         display: flex;

@@ -63,10 +63,10 @@ export default {
   align-items: flex-start;
 }
 .tab_box{
+  box-shadow: 0 2px 10px 4px rgb(0 0 0/10%);
   height: 78.3vh;
   width: 22%;
   padding: 50px 15px;
-  border-right: 2px solid #ced4da;
 }
 .tab_item{
   margin: 18px 0;

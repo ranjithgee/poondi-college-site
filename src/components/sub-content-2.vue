@@ -8,7 +8,7 @@
                             <div class="heading"  ><i class="fas fa-arrow-left" @click="this.$router.go(-1)" ></i> {{cat.name}}</div> 
                             <div class="sub_items">
                                 <div v-for="cnt in cat.sub" :key="cnt.id" >
-                                    <a :href="$store.state.siteUrl + cnt.link" target="_blank" > <i class="fas fa-arrow-right"></i> {{cnt.name}}</a>
+                                    <a :href="cnt.id == 4 ? cnt.link : $store.state.siteUrl + cnt.link" target="_blank" > <i class="fas fa-arrow-right"></i> {{cnt.name}}</a>
                                 </div>
                             </div>
                       </div>

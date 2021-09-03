@@ -3,6 +3,7 @@
         {
             "id":1,
             "name":"Curricular Aspects",
+            "route_name":"curricular_aspects",
             "link":"/1",
             "icon":"fa-tachometer-alt",
             "category":[
@@ -23,13 +24,18 @@
                                 },
                                 {
                                     "id":2,
-                                    "name":"Programme_outcomes",
+                                    "name":"Programme outcomes",
                                     "link":"/pdf/Programme_outcomes.pdf"
                                 },
                                 {
                                     "id":3,
-                                    "name":"Programme_specific_outcomes",
+                                    "name":"Programme specific outcomes",
                                     "link":"/pdf/Programme_specific_outcomes.pdf"
+                                },
+                                {
+                                    "id":4,
+                                    "name":"Course Outcomes",
+                                    "link":"https://sripushpam.kavisoftek.in/course_outcomes"
                                 }
                             ]
                         },

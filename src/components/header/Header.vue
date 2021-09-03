@@ -31,11 +31,12 @@ export default {
 
 <style scoped>
 .header-sec{
-    box-shadow: 0 2px 10px 4px rgb(0 0 0/10%);
+    background: #0066cc;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 15px 0;
+    color: white;
 }
 .logo{
     text-align: center;
@@ -48,24 +49,20 @@ export default {
 .heading_content span.first{
     font-size: 35px;
     font-weight: 600;
-    color: #ff0000;
 }
 .heading_content span.second{
     font-size: 25px;
     font-weight: 600;
-    color: #0000ff;
 }
 
 .heading_content span.third{
     font-size: 22px;
     font-weight: 600;
     font-style: italic;
-    color: #006600;
 }
 .heading_content span.fourth{
     font-size: 27px;
     font-weight: 600;
-    color: #002060;
 }
 
 
@@ -84,7 +81,7 @@ export default {
     }
     .logo i{
         display: block!important;
-        color: black;
+        color: white;
         font-size: 25px;
         margin: 0 15px;
     }

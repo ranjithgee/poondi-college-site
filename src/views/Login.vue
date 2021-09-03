@@ -1,9 +1,20 @@
 <template>
 <section class="login_sec">
-    <Header />
     <div class="login">
       <div class="card">
           <div class="card_body">
+              <div class="left_sec">
+                   <div class="logo">
+                        <img src="@/assets/company-logo.jpg" alt="" srcset="">
+                        <i class="fas fa-bars" style="display:none" @click="BarIcon" ></i>
+                    </div>
+                    <div class="heading_content">
+                        <span class="first">A.V.V.M. Sri Pushpam College (Autonomous)</span><br/>
+                            <span class="second"> Poondi– 613 503, Thanjavur-Dt, Tamilnadu</span><br/>
+                            <span class="third"> (Affiliated to Bharathidasan University, Tiruchirappalli – 620 024)</span><br/>
+                            <span class="fourth"> Self Study Report (SSR) – Cycle IV </span>
+                    </div>
+              </div>
               <form>
                   <div class="err_box" style="height:54px">
                     <div class="msg" v-if="error === true">Invalid Credentials</div>
@@ -26,11 +37,7 @@
 </template>
 
 <script>
-import Header from '../components/header/Header.vue'
 export default {
-    components:{
-        Header
-    },
     data(){
         return{
             error:false,
@@ -76,21 +83,22 @@ export default {
 </script>
 
 <style scoped>
-.login_sec{
-    height: 100vh;
-    overflow: hidden;
-}
 .login{
     height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     background: #0066cc;
 }
+.card_body{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .card{
-    margin-top: 200px!important;
-    width: 30%;
+    width: 50%;
     margin:0 auto;
     box-shadow: 0 2px 10px 4px rgb(0 0 0/15%);
     padding:50px 0;
@@ -99,6 +107,35 @@ export default {
 }
 form{
     padding: 0px 70px 30px 70px;
+    width: 50%;
+}
+.left_sec{
+    width:50%;
+    text-align: center;
+    padding:40px 20px 40px 30px;
+    border-right: 1px solid #ced4da;
+}
+
+span.first{
+    font-weight: bold;
+    font-size: 18px;
+    color: #ff0000;
+}
+span.second{
+    color: #0000ff;
+    font-weight: 600;
+}
+span.third{
+    font-style: italic;
+    font-weight: 600;
+    color: #006600;
+}
+span.fourth{
+    color: #002060;
+    font-weight: 600;
+}
+.left_sec .logo{
+    margin-bottom: 20px;
 }
 .input_box{
     margin:30px 0;

@@ -3,7 +3,6 @@
         {
             "id":1,
             "name":"Curricular Aspects",
-            "route_name":"curricular_aspects",
             "link":"/1",
             "icon":"fa-tachometer-alt",
             "category":[

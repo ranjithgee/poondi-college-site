@@ -4,6 +4,9 @@
      <div class="citeria_content">      
            <div class="tab_box">
              <div class="close_icon" @click="MenuBar" ><i class="fas fa-arrow-left"></i></div>
+             <div class="logout">
+               <button @click="Logout">Logout <i class="fas fa-sign-out-alt"></i></button>
+             </div>
               <div class="tab_item" v-for="(data, index) in datas.data" :key="data.id">
                 <router-link class="item_menu" :class="activeTab === index ? 'active ':''" :to="data.link"  @click="activeTab = index, this.MenuBar()" ><span><i class="fas" :class="data.icon" ></i>{{data.name}}</span> <span class="chevron"><i class="fas fa-chevron-right"></i></span> </router-link> 
               </div>
@@ -44,13 +47,37 @@ export default {
         var modal = document.querySelector('.tab_box');
         modal.style.display='none';
       }
+    },
+    Logout(){
+      localStorage.clear();
+      this.$router.push('/login');
     }
   }
 }
 </script>
 
 <style scoped>
-
+.logout{
+  margin:30px 0 50px 0;
+}
+.logout button{
+  padding: 8px 30px;
+  border:none;
+  outline:none;
+  display: flex;
+  align-items: center;
+  background: #0066cc;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.logout button i{
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.logout button:hover{
+  opacity: 0.9;
+}
 .breadcrums{
   font-weight: bold;
   font-size: 18px;
@@ -67,7 +94,7 @@ export default {
   box-shadow: 0 2px 10px 4px rgb(0 0 0/10%);
   height: 78.3vh;
   width: 22%;
-  padding: 50px 15px;
+  padding: 0px 15px 50px 15px;
 }
 .tab_item{
   margin: 18px 0;

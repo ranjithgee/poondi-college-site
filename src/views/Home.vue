@@ -29,7 +29,7 @@ export default {
     if(!localStorage.getItem('user_token')){
       this.$router.push('/login')
     }else{
-      this.$router.push('/1')
+      this.$router.push('/curricular_aspects')
     }
   },
   data(){

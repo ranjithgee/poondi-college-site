@@ -48,7 +48,7 @@ export default {
     },
     beforeCreate(){
         if(localStorage.getItem('user_token')){
-            this.$router.push('/1')
+            this.$router.push('/curricular_aspects')
         }
     },
     methods:{
@@ -69,7 +69,7 @@ export default {
             if(err === 0){
                 if(this.email==='admin@gmail.com' && this.password === 'admin'){
                     localStorage.setItem('user_token','admin@gmail.com')
-                    this.$router.push('/1')
+                    this.$router.push('/curricular_aspects')
                 }else{
                     this.error = true
                 }

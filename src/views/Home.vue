@@ -89,7 +89,7 @@ export default {
 }
 .tab_box{
   box-shadow: 0 2px 10px 4px rgb(0 0 0/10%);
-  height: 78.3vh;
+  height: 79.4vh;
   width: 22%;
   padding: 0px 15px 50px 15px;
 }
@@ -122,7 +122,7 @@ export default {
 }
 .content_item{
   width: 78%;
-  height: 85.3vh;
+  height: 79.4vh;
   overflow: hidden;
   overflow-y: scroll ;
 }

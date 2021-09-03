@@ -40,6 +40,16 @@
     padding: 20px 30px;
 }
 
+.table_contents table th, .table_contents table td{
+    border: 1px solid black;
+    padding: 10px;
+}
+.table_contents table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 @media only screen and (min-width:300px) and (max-width:600px){
     .heading{

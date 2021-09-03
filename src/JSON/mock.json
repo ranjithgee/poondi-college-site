@@ -3,18 +3,21 @@
         {
             "id":1,
             "name":"Curricular Aspects",
-            "link":"/1",
+            "link":"/curricular_aspects",
+            "route_name":"curricular_aspects",
             "icon":"fa-tachometer-alt",
             "category":[
                 {
                     "id":1,
                     "name":" 1.1*(U) -Curriculum Design and Development",
-                    "link":"/sub/1/1",
+                    "path":"1.1",
+                    "link":"/curricular_aspects/1.1",
                     "category":[
                         {
                             "id":1,
                             "name":"  1.1.1 Revision of Curricula",
-                            "link":"/content/1/1/1",
+                            "path":"1.1.1",
+                            "link":"/curricular_aspects/1.1/1.1.1",
                             "sub":[
                                 {
                                     "id":1,
@@ -41,7 +44,8 @@
                         {
                             "id":2,
                             "name":"   1.1.2 Programmes with Syllabus Revision",
-                            "link":"/content/1/1/2",
+                            "path":"1.1.2",
+                            "link":"/curricular_aspects/1.1/1.1.2",
                             "sub":[
                                 {
                                     "id":1,
@@ -65,7 +69,8 @@
                 {
                     "id":2,
                     "name":"  1.2 Academic Flexibility",
-                    "link":"/sub/1/2",
+                    "path":"1.2",
+                    "link":"/curricular_aspects/1.2",
                     "category":[
                         {
                             "id":1,
@@ -82,7 +87,8 @@
                 {
                     "id":3,
                     "name":"   1.3 Curriculum Enrichment",
-                    "link":"/sub/1/3",
+                    "path":"1.3",
+                    "link":"/curricular_aspects/1.3",
                     "category":[
                         {
                             "id":1,
@@ -109,7 +115,8 @@
                 {
                     "id":4,
                     "name":"  1.4 Feedback System",
-                    "link":"/sub/1/4",
+                    "path":"1.4",
+                    "link":"/curricular_aspects/1.4",
                     "category":[
                         {
                             "id":1,
@@ -128,13 +135,15 @@
         {
             "id":2,
             "name":"Teaching- Learning and Evaluation",
-            "link":"/2",
+            "route_name":"teaching-learning-evaluation",
+            "link":"/teaching-learning-evaluation",
             "icon":"fa-laptop",
             "category":[
                 {
                     "id":1,
                     "name":"2.1 Student Enrolment and Profile",
-                    "link":"/sub/2/1",
+                    "path":"2.1",
+                    "link":"/teaching-learning-evaluation/2.1",
                     "category":[
                         {
                             "id":1,
@@ -156,7 +165,8 @@
                 {
                     "id":2,
                     "name":"2.2 Catering to Student Diversity",
-                    "link":"/sub/2/2",
+                    "path":"2.2",
+                    "link":"/teaching-learning-evaluation/2.2",
                     "category":[
                         {
                             "id":1,
@@ -178,7 +188,8 @@
                 {
                     "id":3,
                     "name":" 2.3 Teaching-Learning Process",
-                    "link":"/sub/2/3",
+                    "path":"2.3",
+                    "link":"/teaching-learning-evaluation/2.3",
                     "category":[
                         {
                             "id":1,
@@ -205,7 +216,8 @@
                 {
                     "id":4,
                     "name":"2.4 Teacher Profile and Quality",
-                    "link":"/sub/2/4",
+                    "path":"2.4",
+                    "link":"/teaching-learning-evaluation/2.4",
                     "category":[
                         {
                             "id":1,
@@ -237,7 +249,8 @@
                 {
                     "id":5,
                     "name":" 2.5 Evaluation Process and Reforms",
-                    "link":"/sub/2/5",
+                    "path":"2.5",
+                    "link":"/teaching-learning-evaluation/2.5",
                     "category":[
                         {
                             "id":1,
@@ -269,7 +282,8 @@
                 {
                     "id":6,
                     "name":"2.6 Student Performance and Learning Outcomes",
-                    "link":"/sub/2/6",
+                    "path":"2.6",
+                    "link":"/teaching-learning-evaluation/2.6",
                     "category":[
                         {
                             "id":1,
@@ -291,7 +305,8 @@
                 {
                     "id":7,
                     "name":" 2.7 Student Satisfaction Survey",
-                    "link":"/sub/2/7",
+                    "path":"2.7",
+                    "link":"/teaching-learning-evaluation/2.7",
                     "category":[
                         {
                             "id":1,
@@ -305,13 +320,15 @@
         {
             "id":3,
             "name":"Research, Innovations and Extension",
-            "link":"/3",
+            "route_name":"research-innovations-extension",
+            "link":"/research-innovations-extension",
             "icon":"fa-bullseye",
             "category":[
                 {
                     "id":1,
                     "name":"  3.1 Promotion of Research and Facilities",
-                    "link":"/sub/3/1",
+                    "path":"3.1",
+                    "link":"/research-innovations-extension/3.1",
                     "category":[
                         {
                             "id":1,
@@ -338,7 +355,8 @@
                 {
                     "id":2,
                     "name":" 3.2 Resource Mobilization for Research",
-                    "link":"/sub/3/2",
+                    "path":"3.2",
+                    "link":"/research-innovations-extension/3.2",
                     "category":[
                         {
                             "id":1,
@@ -365,7 +383,8 @@
                 {
                     "id":3,
                     "name":" 3.3 Innovation Ecosystem",
-                    "link":"/sub/3/3",
+                    "path":"3.3",
+                    "link":"/research-innovations-extension/3.3",
                     "category":[
                         {
                             "id":1,
@@ -392,7 +411,8 @@
                 {
                     "id":4,
                     "name":" 3.4 Research Publications and Awards",
-                    "link":"/sub/3/4",
+                    "path":"3.4",
+                    "link":"/research-innovations-extension/3.4",
                     "category":[
                         {
                             "id":1,
@@ -439,7 +459,8 @@
                 {
                     "id":5,
                     "name":"  3.5 Consultancy",
-                    "link":"/sub/3/5",
+                    "path":"3.5",
+                    "link":"/research-innovations-extension/3.5",
                     "category":[
                         {
                             "id":1,
@@ -461,7 +482,8 @@
                 {
                     "id":6,
                     "name":"  3.6 Extension Activities",
-                    "link":"/sub/3/6",
+                    "path":"3.6",
+                    "link":"/research-innovations-extension/3.6",
                     "category":[
                         {
                             "id":1,
@@ -488,7 +510,8 @@
                 {
                     "id":7,
                     "name":"  3.7 Collaboration",
-                    "link":"/sub/3/7",
+                    "path":"3.7",
+                    "link":"/research-innovations-extension/3.7",
                     "category":[
                         {
                             "id":1,
@@ -512,13 +535,15 @@
         {
             "id":4,
             "name":"Infrastructure and Learning Resources",
-            "link":"/4",
+            "route_name":"infrastructure-learning-resources",
+            "link":"/infrastructure-learning-resources",
             "icon":"fa-city",
             "category":[
                 {
                     "id":1,
                     "name":" 4.1 Physical Facilities",
-                    "link":"/sub/4/1",
+                    "path":"4.1",
+                    "link":"/infrastructure-learning-resources/4.1",
                     "category":[
                         {
                             "id":1,
@@ -545,7 +570,8 @@
                 {
                     "id":2,
                     "name":"  4.2 Library as a Learning Resource",
-                    "link":"/sub/4/2",
+                    "path":"4.2",
+                    "link":"/infrastructure-learning-resources/4.2",
                     "category":[
                         {
                             "id":1,
@@ -582,7 +608,8 @@
                 {
                     "id":3,
                     "name":"  4.3 IT Infrastructure",
-                    "link":"/sub/4/3",
+                    "path":"4.3",
+                    "link":"/infrastructure-learning-resources/4.3",
                     "category":[
                         {
                             "id":1,
@@ -609,7 +636,8 @@
                 {
                     "id":4,
                     "name":"  4.4 Maintenance of Campus Infrastructure",
-                    "link":"/sub/4/4",
+                    "path":"4.4",
+                    "link":"/infrastructure-learning-resources/4.4",
                     "category":[
                         {
                             "id":1,
@@ -628,13 +656,15 @@
         {
             "id":5,
             "name":"Student Support and Progression",
-            "link":"/5",
+            "route_name":"student-support-progression",
+            "link":"/student-support-progression",
             "icon":"fa-user-friends",
             "category":[
                 {
                     "id":1,
                     "name":"  5.1 Student Support",
-                    "link":"/sub/5/1",
+                    "path":"5.1",
+                    "link":"/student-support-progression/5.1",
                     "category":[
                         {
                             "id":1,
@@ -671,7 +701,8 @@
                 {
                     "id":2,
                     "name":"   5.2 Student Progression",
-                    "link":"/sub/5/2",
+                    "path":"5.2",
+                    "link":"/student-support-progression/5.2",
                     "category":[
                         {
                             "id":1,
@@ -693,7 +724,8 @@
                 {
                     "id":3,
                     "name":"  5.3 Student Participation and Activities",
-                    "link":"/sub/5/3",
+                    "path":"5.3",
+                    "link":"/student-support-progression/5.3",
                     "category":[
                         {
                             "id":1,
@@ -715,7 +747,8 @@
                 {
                     "id":4,
                     "name":"5.4 Alumni Engagement",
-                    "link":"/sub/5/4",
+                    "path":"5.4",
+                    "link":"/student-support-progression/5.4",
                     "category":[
                         {
                             "id":1,
@@ -739,13 +772,15 @@
         {
             "id":6,
             "name":"Governance, Leadership and Management",
-            "link":"/6",
+            "route_name":"governance-leadership-management",
+            "link":"/governance-leadership-management",
             "icon":"fa-bullseye",
             "category":[
                 {
                     "id":1,
                     "name":"  6.1 Institutional Vision and Leadership",
-                    "link":"/sub/6/1",
+                    "path":"6.1",
+                    "link":"/governance-leadership-management/6.1",
                     "category":[
                         {
                             "id":1,
@@ -762,7 +797,8 @@
                 {
                     "id":2,
                     "name":" 6.2 Strategy Development and Deployment",
-                    "link":"/sub/6/2",
+                    "path":"6.2",
+                    "link":"/governance-leadership-management/6.2",
                     "category":[
                         {
                             "id":1,
@@ -789,7 +825,8 @@
                 {
                     "id":3,
                     "name":" 6.3 Faculty Empowerment Strategies",
-                    "link":"/sub/6/3",
+                    "path":"6.3",
+                    "link":"/governance-leadership-management/6.3",
                     "category":[
                         {
                             "id":1,
@@ -821,7 +858,8 @@
                 {
                     "id":4,
                     "name":"  6.4 Financial Management and Resource Mobilization",
-                    "link":"/sub/6/4",
+                    "path":"6.4",
+                    "link":"/governance-leadership-management/6.4",
                     "category":[
                         {
                             "id":1,
@@ -843,7 +881,8 @@
                 {
                     "id":5,
                     "name":"6.5 Internal Quality Assurance System (IQAS)",
-                    "link":"/sub/6/5",
+                    "path":"6.5",
+                    "link":"/governance-leadership-management/6.5",
                     "category":[
                         {
                             "id":1,
@@ -877,13 +916,15 @@
         {
             "id":7,
             "name":"Institutional Values and Best Practices",
-            "link":"/7",
+            "route_name":"institutional-values-best-practices",
+            "link":"/institutional-values-best-practices",
             "icon":"fa-city",
             "category":[
                 {
                     "id":1,
                     "name":"  7.1 Institutional Values and Social Responsibilities",
-                    "link":"/sub/7/1",
+                    "path":"7.1",
+                    "link":"/institutional-values-best-practices/7.1",
                     "category":[
                         {
                             "id":1,
@@ -985,7 +1026,8 @@
                 {
                     "id":2,
                     "name":"  7.2 Best Practices",
-                    "link":"/sub/7/2",
+                    "path":"7.2",
+                    "link":"/institutional-values-best-practices/7.2",
                     "category":[
                         {
                             "id":1,
@@ -997,7 +1039,8 @@
                 {
                     "id":3,
                     "name":"   7.3 Institutional Distinctiveness",
-                    "link":"/sub/7/3",
+                    "path":"7.3",
+                    "link":"/institutional-values-best-practices/7.3",
                     "category":[
                         {
                             "id":1,

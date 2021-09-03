@@ -29,12 +29,12 @@ const routes = [
         component:Content1,
       },
       {
-        path:'/sub/:id/:subid',
+        path:'/:id/:subid',
         name:'SubContent',
         component:SubContent,
       },
       {
-        path:'/content/:id/:subid/:cntid',
+        path:'/:id/:subid/:cntid',
         name:'SubContent2',
         component:SubContent2,
       }

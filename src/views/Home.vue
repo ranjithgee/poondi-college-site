@@ -12,9 +12,6 @@
               </div>
           </div>
           <div class="content_item">
-            <!-- <div class="breadcrums">
-              <span>Home</span> <i class="fas fa-chevron-right" style="font-size:14px; margin:0 7px;" ></i> <span>{{$route.name}}</span>
-            </div> -->
              <router-view/>
           </div>
      </div>

@@ -3,7 +3,7 @@
 
       <div class="list">
           <div class="item" v-for="item in datas.data" :key="item.id" >
-              <div v-if="$route.params.id == item.id">
+              <div v-if="$route.params.id == item.route_name">
                   <div class="heading">{{item.name}}</div>
                   <div class="sub_items">
                       <div  v-for="category in item.category" :key="category.id">

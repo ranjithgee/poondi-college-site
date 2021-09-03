@@ -50,6 +50,7 @@ export default {
 </script>
 
 <style scoped>
+
 .breadcrums{
   font-weight: bold;
   font-size: 18px;

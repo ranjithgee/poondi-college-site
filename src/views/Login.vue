@@ -11,7 +11,7 @@
                     <div class="heading_content">
                         <span class="first">A.V.V.M. Sri Pushpam College (Autonomous)</span><br/>
                             <span class="second"> Poondi– 613 503, Thanjavur-Dt, Tamilnadu</span><br/>
-                            <span class="third"> (Affiliated to Bharathidasan University, Tiruchirappalli – 620 024)</span><br/>
+                            <span class="third"> (Affiliated to Bharathidasan University,<br/> Tiruchirappalli – 620 024)</span><br/>
                             <span class="fourth"> Self Study Report (SSR) – Cycle IV </span>
                     </div>
               </div>
@@ -70,6 +70,8 @@ export default {
                 if(this.email==='admin@gmail.com' && this.password === 'admin'){
                     localStorage.setItem('user_token','admin@gmail.com')
                     this.$router.push('/1')
+                }else{
+                    this.error = true
                 }
             }
         },
@@ -150,7 +152,7 @@ span.fourth{
 .btn_box button{
     padding: 10px 30px;
     margin-top: 15px;
-    background: black;
+    background: #0066cc;
     color: white;
     border: none;
     outline: none;
@@ -165,12 +167,12 @@ span.fourth{
 }
 @media only screen and (min-width:300px) and (max-width:600px){
     .card{
-        margin-top: 100px!important;
         width:100%;
         margin:0 15px;
         padding: 35px 0;
     }
     form{
+        width: 79%;
         padding: 0px 30px 30px 30px;
     }
     .btn_box button{
@@ -179,6 +181,9 @@ span.fourth{
     }
     .msg{
         font-size: 13px;
+    }
+    .left_sec{
+        display: none;
     }
 }
 </style>

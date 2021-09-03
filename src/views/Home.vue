@@ -152,6 +152,12 @@ export default {
     }
 }
 @media only screen and (min-width:300px) and (max-width:600px){
+  .logout{
+    margin:40px 0 40px 0;
+  }
+  .logout button{
+    padding: 6px 20px;
+  }
   .citeria_content{
     display: block;
     margin: 0;

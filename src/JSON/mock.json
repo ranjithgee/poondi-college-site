@@ -1258,7 +1258,7 @@
             "Iug":"",
             "IIug":"",
             "IIIug":"",
-            "Ipg":"/pdf/15_I_M.L.I.S_Project_5.pdf",
+            "Ipg":"",
             "IIpg":"/pdf/14_II_M.Sc_IT_project_7.pdf",
             "IIImca":"",
             "mphil":""
@@ -1302,6 +1302,26 @@
             "IIpg":"",
             "IIImca":"",
             "mphil":""
+        },
+        {
+            "name":"M.L.I.S",
+            "Iug":"",
+            "IIug":"",
+            "IIIug":"",
+            "Ipg":"/pdf/15_I_M.L.I.S_Project_5.pdf",
+            "IIpg":"/pdf/17_II_M.L.I.S_Project_1.pdf",
+            "IIImca":"",
+            "mphil":""
+        },
+        {
+            "name":"Management Project",
+            "Iug":"",
+            "IIug":"",
+            "IIIug":"",
+            "Ipg":"",
+            "IIpg":"",
+            "IIImca":"",
+            "mphil":"/pdf/13_M.Phil_Management_project_1.pdf"
         }
     ],
     "t_1_2_2":[
@@ -1465,6 +1485,13 @@
             "pg":"",
             "mphil":"",
             "phd":""
+        },
+        {
+            "name":"M.L.I.S",
+            "ug":"",
+            "pg":"/pdf/M.L.I.S..pdf",
+            "mphil":"",
+            "phd":"/pdf/Ph.D.L.I.S.pdf"
         }
     ],
     "t_1_2_3":[

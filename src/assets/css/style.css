@@ -27,7 +27,7 @@
     font-weight: 700;
     transition: .3s ease-in-out;
 }
-.item a:hover{
+.item .i_list:hover{
     color:#0066cc;
     transition: .3s ease-in-out;
     padding-left: 20px;
@@ -48,6 +48,10 @@
     border-collapse: collapse;
     width: 80%;
     margin: 0 auto;
+}
+
+.table_contents .pdf_items{
+    text-align: center;
 }
 
 

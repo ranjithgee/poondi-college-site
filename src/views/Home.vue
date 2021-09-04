@@ -28,7 +28,8 @@ export default {
   beforeCreate(){
     if(!localStorage.getItem('user_token')){
       this.$router.push('/login')
-    }else{
+    }
+    if(this.$route.path == '/'){
       this.$router.push('/curricular_aspects')
     }
   },

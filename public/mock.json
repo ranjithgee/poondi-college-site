@@ -81,25 +81,7 @@
                         {
                             "id":2,
                             "name":" 1.2.2 CBCS / Elective Course System",
-                            "path":"1.2.2",
-                            "link":"/curricular_aspects/1.2/1.2.2",
-                            "sub":[
-                                {
-                                    "id":1,
-                                    "name":"Curriculam for CBCS courses",
-                                    "link":"/curricular_aspects/1.2/1.2.2/table-1.2.2"
-                                },
-                                {
-                                    "id":2,
-                                    "name":"Minutes_of_Academic_Council_Meetings",
-                                    "link":"/curricular_aspects/1.2/1.2.2/Minutes_of_Academic_Council_Meetings"
-                                },
-                                {
-                                    "id":3,
-                                    "name":"List of CBCS Elective courses",
-                                    "link":"/pdf/1.2.2/1.2.2.List_of_CBCS_Elective_courses.pdf"
-                                }
-                            ]
+                            "link":""
                         }
                     ]
                 },
@@ -1075,39 +1057,39 @@
     "t_1_3_4":[
         {
             "name":"History",
-            "Iug":"/pdf/1_I_B.A_History_Field_visit_44.pdf",
-            "IIug":"/pdf/1_II_B.A_History_Field_visit_48.pdf",
-            "IIIug":"/pdf/1_III_B.A_History_Field_visit_44.pdf",
-            "Ipg":"/pdf/1_I_M.A_History_Field_visit_3.pdf",
-            "IIpg":"/pdf/1_II_M.A_History_Project_1.pdf",
+            "Iug":"/1_I_B.A_History_Field_visit_44.pdf",
+            "IIug":"/1_II_B.A_History_Field_visit_48.pdf",
+            "IIIug":"/1_III_B.A_History_Field_visit_44.pdf",
+            "Ipg":"/1_I_M.A_History_Field_visit_3.pdf",
+            "IIpg":"/1_II_M.A_History_Project_1.pdf",
             "IIImca":"",
-            "mphil":"/pdf/1_M.Phil_History_Project_10.pdf"
+            "mphil":"/1_M.Phil_History_Project_10.pdf"
         },
         {
             "name":"Economics",
-            "Iug":"/pdf/2_I_B.A_Economics_Field_visit_24.pdf",
-            "IIug":"/pdf/2_II_B.A_Economics_Field_visit_23.pdf",
-            "IIIug":"/pdf/2_III_B.A_Economics_Field_visit_38.pdf",
-            "Ipg":"/pdf/2_I_M.A_Economics_Field_visit-8.pdf",
-            "IIpg":"/pdf/2_II_M.A_Economics_Project_7.pdf",
+            "Iug":"/2_I_B.A_Economics_Field_visit_24.pdf",
+            "IIug":"/2_II_B.A_Economics_Field_visit_23.pdf",
+            "IIIug":"/2_III_B.A_Economics_Field_visit_38.pdf",
+            "Ipg":"/2_I_M.A_Economics_Field_visit-8.pdf",
+            "IIpg":"/2_II_M.A_Economics_Project_7.pdf",
             "IIImca":"",
-            "mphil":"/pdf/2_M.Phil_Economics_Project_11.pdf"
+            "mphil":"/2_M.Phil_Economics_Project_11.pdf"
         },
         {
             "name":"Tamil",
-            "Iug":"/pdf/3_I_B.A_Tamil_Field_visit_41.pdf",
-            "IIug":"/pdf/3_II_B.A_Tamil_Field_visit_41.pdf",
-            "IIIug":"/pdf/3_III_B.A_Tamil_Field_visit-34.pdf",
-            "Ipg":"/pdf/3_I_M.A_Tamil_Field_visit_9.pdf",
-            "IIpg":"/pdf/3_II_M.A_Tamil_project_11.pdf",
+            "Iug":"/3_I_B.A_Tamil_Field_visit_41.pdf",
+            "IIug":"/3_II_B.A_Tamil_Field_visit_41.pdf",
+            "IIIug":"/3_III_B.A_Tamil_Field_visit-34.pdf",
+            "Ipg":"/3_I_M.A_Tamil_Field_visit_9.pdf",
+            "IIpg":"/3_II_M.A_Tamil_project_11.pdf",
             "IIImca":"",
-            "mphil":"/pdf/3_M.Phil_Tamil_Project_15.pdf"
+            "mphil":"/3_M.Phil_Tamil_Project_15.pdf"
         },
         {
             "name":"Indian Culture",
-            "Iug":"/pdf/5_I_B.A_IC_Field_visit_17.pdf",
-            "IIug":"/pdf/5_II_B.A_IndianCulture_Field_visit_15.pdf",
-            "IIIug":"/pdf/5_III_B.A_IC_Field_visit_10.pdf",
+            "Iug":"/5_I_B.A_IC_Field_visit_17.pdf",
+            "IIug":"/5_II_B.A_IndianCulture_Field_visit_15.pdf",
+            "IIIug":"/5_III_B.A_IC_Field_visit_10.pdf",
             "Ipg":"",
             "IIpg":"",
             "IIImca":"",
@@ -1115,9 +1097,9 @@
         },
         {
             "name":"B.Lit. Tamil",
-            "Iug":"/pdf/4_I_B.Lit_Field_visit_20.pdf",
-            "IIug":"/pdf/4_II_B.Lit_Tamil_Field_visit_14.pdf",
-            "IIIug":"/pdf/4_III_B.Lit_Tamil_Field_visit_18.pdf",
+            "Iug":"/4_I_B.Lit_Field_visit_20.pdf",
+            "IIug":"/4_II_B.Lit_Tamil_Field_visit_14.pdf",
+            "IIIug":"/4_III_B.Lit_Tamil_Field_visit_18.pdf",
             "Ipg":"",
             "IIpg":"",
             "IIImca":"",
@@ -1125,29 +1107,29 @@
         },
         {
             "name":"English",
-            "Iug":"/pdf/6_I_B.A_English_Field_visit_98.pdf",
-            "IIug":"/pdf/6_II_B.A_English_Field_visit_110.pdf",
-            "IIIug":"/pdf/6_III_B.A_English_Field_visit_196.pdf",
-            "Ipg":"/pdf/4_I_MA_English_Field_visit_33.pdf",
-            "IIpg":"/pdf/4_ II_M.A_English_Project_25.pdf",
+            "Iug":"/6_I_B.A_English_Field_visit_98.pdf",
+            "IIug":"/6_II_B.A_English_Field_visit_110.pdf",
+            "IIIug":"/6_III_B.A_English_Field_visit_196.pdf",
+            "Ipg":"/4_I_MA_English_Field_visit_33.pdf",
+            "IIpg":"/4_ II_M.A_English_Project_25.pdf",
             "IIImca":"",
-            "mphil":"/pdf/4_M.Phil_English_Project_24.pdf"
+            "mphil":"/4_M.Phil_English_Project_24.pdf"
         },
         {
             "name":"Commerce",
-            "Iug":"/pdf/7_I_B.Com_Field_visit_276.pdf",
-            "IIug":"/pdf/7_II_B.Com_Field_visit_320.pdf",
-            "IIIug":"/pdf/7_III_B.Com_Field_visit_350.pdf",
-            "Ipg":"/pdf/5_I_M.Com_Field_visit_69.pdf",
-            "IIpg":"/pdf/5_II_M.Com_project_40.pdf",
+            "Iug":"/7_I_B.Com_Field_visit_276.pdf",
+            "IIug":"/7_II_B.Com_Field_visit_320.pdf",
+            "IIIug":"/7_III_B.Com_Field_visit_350.pdf",
+            "Ipg":"/5_I_M.Com_Field_visit_69.pdf",
+            "IIpg":"/5_II_M.Com_project_40.pdf",
             "IIImca":"",
-            "mphil":"/pdf/5_M.Phil_Com_Project_7.pdf"
+            "mphil":"/5_M.Phil_Com_Project_7.pdf"
         },
         {
             "name":"B. Com. C.A.",
-            "Iug":"/pdf/9_I_B.Com_CA_Field_visit_54.pdf",
-            "IIug":"/pdf/9_II_B.Com_CA_Field_visit_51.pdf",
-            "IIIug":"/pdf/9_III_B.Com_CA_Field_visit_43.pdf",
+            "Iug":"/9_I_B.Com_CA_Field_visit_54.pdf",
+            "IIug":"/9_II_B.Com_CA_Field_visit_51.pdf",
+            "IIIug":"/9_III_B.Com_CA_Field_visit_43.pdf",
             "Ipg":"",
             "IIpg":"",
             "IIImca":"",
@@ -1155,9 +1137,9 @@
         },
         {
             "name":"B. Com. B. M.",
-            "Iug":"/pdf/8_I_B.Com_BM_Field_visit_47.pdf",
-            "IIug":"/pdf/8_II_B.Com_BM_Field_visit_44.pdf",
-            "IIIug":"/pdf/8_III_B.Com_BM_Field_visit_40.pdf",
+            "Iug":"/8_I_B.Com_BM_Field_visit_47.pdf",
+            "IIug":"/8_II_B.Com_BM_Field_visit_44.pdf",
+            "IIIug":"/8_III_B.Com_BM_Field_visit_40.pdf",
             "Ipg":"",
             "IIpg":"",
             "IIImca":"",
@@ -1165,92 +1147,92 @@
         },
         {
             "name":"Mathematics",
-            "Iug":"/pdf/10_I_B.Sc_Maths_Field_visit_110.pdf",
-            "IIug":"/pdf/10_II_ B.Sc-Maths_Field_visit_204.pdf",
-            "IIIug":"/pdf/10_III_B.SC_Maths_Field_visit_281.pdf",
-            "Ipg":"/pdf/6_I_M.Sc_Maths_Field_visit_107.pdf",
-            "IIpg":"/pdf/6_II _M.Sc_Maths_Project_107.pdf",
+            "Iug":"/10_I_B.Sc_Maths_Field_visit_110.pdf",
+            "IIug":"/10_II_ B.Sc-Maths_Field_visit_204.pdf",
+            "IIIug":"/10_III_B.SC_Maths_Field_visit_281.pdf",
+            "Ipg":"/6_I_M.Sc_Maths_Field_visit_107.pdf",
+            "IIpg":"/6_II _M.Sc_Maths_Project_107.pdf",
             "IIImca":"",
-            "mphil":"/pdf/6_M.Phil_Maths_Project_17.pdf"
+            "mphil":"/6_M.Phil_Maths_Project_17.pdf"
         },
         {
             "name":"Physics",
-            "Iug":"/pdf/11_I _B.Sc_.Physics_Field_ visit_108.pdf",
-            "IIug":"/pdf/11_II_B.Sc_Physics_Field_visit_107.pdf",
-            "IIIug":"/pdf/11_III_ B.Sc_Physics_Field_visit_145.pdf",
-            "Ipg":"/pdf/7_I _M.Sc_Physics_Field_visit_54.pdf",
-            "IIpg":"/pdf/7_II_M.Sc_Physics_Project_45.pdf",
+            "Iug":"/11_I _B.Sc_.Physics_Field_ visit_108.pdf",
+            "IIug":"/11_II_B.Sc_Physics_Field_visit_107.pdf",
+            "IIIug":"/11_III_ B.Sc_Physics_Field_visit_145.pdf",
+            "Ipg":"/7_I _M.Sc_Physics_Field_visit_54.pdf",
+            "IIpg":"/7_II_M.Sc_Physics_Project_45.pdf",
             "IIImca":"",
-            "mphil":"/pdf/7_M.Phil_Physics_project_13.pdf"
+            "mphil":"/7_M.Phil_Physics_project_13.pdf"
         },
         {
             "name":"Chemistry",
-            "Iug":"/pdf/12_I_B.Sc_Chemistry_Field_visit_157.pdf",
-            "IIug":"/pdf/12_II_B.Sc_Chemistry_Field_visit_102.pdf",
-            "IIIug":"/pdf/12_ III_ B.Sc_Chemistry_Field_visit_109.pdf",
-            "Ipg":"/pdf/8_I_M.SC_Chemistry-Field_visit_40.pdf",
-            "IIpg":"/pdf/8_II_M.Sc_Chemistry_Project_37.pdf",
+            "Iug":"/12_I_B.Sc_Chemistry_Field_visit_157.pdf",
+            "IIug":"/12_II_B.Sc_Chemistry_Field_visit_102.pdf",
+            "IIIug":"/12_ III_ B.Sc_Chemistry_Field_visit_109.pdf",
+            "Ipg":"/8_I_M.SC_Chemistry-Field_visit_40.pdf",
+            "IIpg":"/8_II_M.Sc_Chemistry_Project_37.pdf",
             "IIImca":"",
-            "mphil":"/pdf/8_M.Phil_Chemistry_Project_16.pdf"
+            "mphil":"/8_M.Phil_Chemistry_Project_16.pdf"
         },
         {
             "name":"Botany",
-            "Iug":"/pdf/13_I_B.Sc_Botany_Field_visit_69.pdf",
-            "IIug":"/pdf/13_II_B.Sc_Botany_Field_visit_54.pdf",
-            "IIIug":"/pdf/13_III_ B.Sc_Botany_Field_visit_69.pdf",
-            "Ipg":"/pdf/9_I_M.Sc_Botany_Field_visit_24.pdf",
-            "IIpg":"/pdf/9_II_M.SC_Botany_project_12.pdf",
+            "Iug":"/13_I_B.Sc_Botany_Field_visit_69.pdf",
+            "IIug":"/13_II_B.Sc_Botany_Field_visit_54.pdf",
+            "IIIug":"/13_III_ B.Sc_Botany_Field_visit_69.pdf",
+            "Ipg":"/9_I_M.Sc_Botany_Field_visit_24.pdf",
+            "IIpg":"/9_II_M.SC_Botany_project_12.pdf",
             "IIImca":"",
-            "mphil":"/pdf/9_M.Phil_Botany_project_5.pdf"
+            "mphil":"/9_M.Phil_Botany_project_5.pdf"
         },
         {
             "name":"Microbiology",
             "Iug":"",
             "IIug":"",
             "IIIug":"",
-            "Ipg":"/pdf/10_I_M.Sc_Micribiology_Field_visit_3.pdf",
-            "IIpg":"/pdf/10_II_M.SC_Microbiology_Project_9.pdf",
+            "Ipg":"/10_I_M.Sc_Micribiology_Field_visit_3.pdf",
+            "IIpg":"/10_II_M.SC_Microbiology_Project_9.pdf",
             "IIImca":"",
-            "mphil":"/pdf/10_M.Phil_Microbiology_project_4.pdf"
+            "mphil":"/10_M.Phil_Microbiology_project_4.pdf"
         },
         {
             "name":"Zoology",
-            "Iug":"/pdf/14_I_B.Sc_Zoology_Field_visit_75.pdf",
-            "IIug":"/pdf/14_II_B.Sc_Zoology_Field_visit_60.pdf",
-            "IIIug":"/pdf/14_III_B.Sc_Zoology_Field_visit_81.pdf",
-            "Ipg":"/pdf/11_I _M.Sc_Zoology_Field_visit_9.pdf",
-            "IIpg":"/pdf/11_II _M.Sc_Zoology-Project_12.pdf",
+            "Iug":"/14_I_B.Sc_Zoology_Field_visit_75.pdf",
+            "IIug":"/14_II_B.Sc_Zoology_Field_visit_60.pdf",
+            "IIIug":"/14_III_B.Sc_Zoology_Field_visit_81.pdf",
+            "Ipg":"/11_I _M.Sc_Zoology_Field_visit_9.pdf",
+            "IIpg":"/11_II _M.Sc_Zoology-Project_12.pdf",
             "IIImca":"",
-            "mphil":"/pdf/11_M.Phil_Zoology_project_7.pdf"
+            "mphil":"/11_M.Phil_Zoology_project_7.pdf"
         },
         {
             "name":"Biotechnology",
             "Iug":"",
             "IIug":"",
             "IIIug":"",
-            "Ipg":"/pdf/12_I_M.Sc_Biotechnology_Field_visit_10.pdf",
-            "IIpg":"/pdf/12_II_M.Sc_Biotechnology_Project_7.pdf",
+            "Ipg":"/12_I_M.Sc_Biotechnology_Field_visit_10.pdf",
+            "IIpg":"/12_II_M.Sc_Biotechnology_Project_7.pdf",
             "IIImca":"",
             "mphil":""
         },
         {
             "name":"Computer Science",
-            "Iug":"/pdf/15_I_B.Sc_CS_Field_visit_187.pdf",
-            "IIug":"/pdf/15_II_B.SC_CS_Field_visit_145.pdf",
-            "IIIug":"/pdf/15_III_B.Sc_CS_Field_visit_194.pdf",
-            "Ipg":"/pdf/13_I_M.Sc_CS_Field_visit_50.pdf",
-            "IIpg":"/pdf/13_II_M.Sc_CS_Project_27.pdf",
+            "Iug":"/15_I_B.Sc_CS_Field_visit_187.pdf",
+            "IIug":"/15_II_B.SC_CS_Field_visit_145.pdf",
+            "IIIug":"/15_III_B.Sc_CS_Field_visit_194.pdf",
+            "Ipg":"/13_I_M.Sc_CS_Field_visit_50.pdf",
+            "IIpg":"/13_II_M.Sc_CS_Project_27.pdf",
             "IIImca":"",
-            "mphil":"/pdf/12_M.Phil_CS_Project_10.pdf"
+            "mphil":"/12_M.Phil_CS_Project_10.pdf"
         },
         {
             "name":"Computer Applications",
-            "Iug":"/pdf/16_I_B.C.A_Field_ visit_165.pdf",
-            "IIug":"/pdf/16_II_B.C.A_Field_visit_204.pdf",
-            "IIIug":"/pdf/16_III_B.C.A_Field_visit_244.pdf",
+            "Iug":"/16_I_B.C.A_Field_ visit_165.pdf",
+            "IIug":"/16_II_B.C.A_Field_visit_204.pdf",
+            "IIIug":"/16_III_B.C.A_Field_visit_244.pdf",
             "Ipg":"",
-            "IIpg":"/pdf/15_II_M.C.A_Field_visit_22.pdf",
-            "IIImca":"/pdf/III_M.C.A_Project_43.pdf",
+            "IIpg":"/15_II_M.C.A_Field_visit_22.pdf",
+            "IIImca":"/III_M.C.A_Project_43.pdf",
             "mphil":""
         },
         {
@@ -1258,16 +1240,16 @@
             "Iug":"",
             "IIug":"",
             "IIIug":"",
-            "Ipg":"/pdf/15_I_M.L.I.S_Project_5.pdf",
-            "IIpg":"/pdf/14_II_M.Sc_IT_project_7.pdf",
+            "Ipg":"/15_I_M.L.I.S_Project_5.pdf",
+            "IIpg":"/14_II_M.Sc_IT_project_7.pdf",
             "IIImca":"",
             "mphil":""
         },
         {
             "name":"Physical Education, Health Education and Sports",
-            "Iug":"/pdf/17_I_B.Sc_Phy_Edn_Field_visit_54.pdf",
-            "IIug":"/pdf/17_II_B.Sc_Phy_Edn_Field_visit_45.pdf",
-            "IIIug":"/pdf/17_III_B.Sc_Phy_Education_Field_visit_47.pdf",
+            "Iug":"/17_I_B.Sc_Phy_Edn_Field_visit_54.pdf",
+            "IIug":"/17_II_B.Sc_Phy_Edn_Field_visit_45.pdf",
+            "IIIug":"/17_III_B.Sc_Phy_Education_Field_visit_47.pdf",
             "Ipg":"",
             "IIpg":"",
             "IIImca":"",
@@ -1275,19 +1257,19 @@
         },
         {
             "name":"Business Administration",
-            "Iug":"/pdf/18_I_B.B.A_Field_visit_125.pdf",
-            "IIug":"/pdf/18_II_B.B.A_Field_visit_128.pdf",
-            "IIIug":"/pdf/18_ III_B.B.A_ Field_visit_137.pdf",
-            "Ipg":"/pdf/14_I_M.B.A_Field_visit_project-37pdf",
-            "IIpg":"/pdf/16_II_M.B.A_Field_visit_29.pdf",
+            "Iug":"/18_I_B.B.A_Field_visit_125.pdf",
+            "IIug":"/18_II_B.B.A_Field_visit_128.pdf",
+            "IIIug":"/18_ III_B.B.A_ Field_visit_137.pdf",
+            "Ipg":"/14_I_M.B.A_Field_visit_project-37pdf",
+            "IIpg":"/16_II_M.B.A_Field_visit_29.pdf",
             "IIImca":"",
             "mphil":""
         },
         {
             "name":"Statistics",
-            "Iug":"/pdf/19_I_B.Sc_Statistics _ Field_ visit_3.pdf",
-            "IIug":"/pdf/19_II_B.Sc_Statistics_Field_visit_3.pdf",
-            "IIIug":"/pdf/19_III_B.Sc_Statistics_Field_visit_9.pdf",
+            "Iug":"/19_I_B.Sc_Statistics _ Field_ visit_3.pdf",
+            "IIug":"/19_II_B.Sc_Statistics_Field_visit_3.pdf",
+            "IIIug":"/19_III_B.Sc_Statistics_Field_visit_9.pdf",
             "Ipg":"",
             "IIpg":"",
             "IIImca":"",
@@ -1295,193 +1277,13 @@
         },
         {
             "name":"Geography",
-            "Iug":"/pdf/20_I_B.Sc_Geography_Field_visit_14.pdf",
-            "IIug":"/pdf/20_II_B.Sc_Geography_Field_visit_13.pdf",
-            "IIIug":"/pdf/20_III_B.Sc_Geography_Field_visit_15.pdf",
+            "Iug":"/20_I_B.Sc_Geography_Field_visit_14.pdf",
+            "IIug":"/20_II_B.Sc_Geography_Field_visit_13.pdf",
+            "IIIug":"/20_III_B.Sc_Geography_Field_visit_15.pdf",
             "Ipg":"",
             "IIpg":"",
             "IIImca":"",
             "mphil":""
-        }
-    ],
-    "t_1_2_2":[
-        {
-            "name":"History",
-            "ug":"/pdf/B.A.History.pdf",
-            "pg":"/pdf/M.A.History.pdf",
-            "mphil":"/pdf/M.Phil.History.pdf",
-            "phd":"/pdf/Ph.D.History.pdf"
-        },
-        {
-            "name":"Economics",
-            "ug":"/pdf/B.A.Economics.pdf",
-            "pg":"/pdf/M.A.Economics.pdf",
-            "mphil":"/pdf/M.Phil.Economics.pdf",
-            "phd":"/pdf/Ph.D.Economics.pdf"
-        },
-        {
-            "name":"Tamil",
-            "ug":"/pdf/B.A.Tamil.pdf",
-            "pg":"/pdf/M.A.Tamil.pdf",
-            "mphil":"/pdf/M.Phil.Tamil.pdf",
-            "phd":"/pdf/Ph.D.Tamil.pdf"
-        },
-        {
-            "name":"Indian Culture",
-            "ug":"/pdf/B.A.Indian_Culture.pdf",
-            "pg":"",
-            "mphil":"",
-            "phd":""
-        },
-        {
-            "name":"B.Lit. Tamil",
-            "ug":"/pdf/B.Lit.pdf",
-            "pg":"",
-            "mphil":"",
-            "phd":""
-        },
-        {
-            "name":"English",
-            "ug":"/pdf/B.A.English.pdf",
-            "pg":"/pdf/M.A.English.pdf",
-            "mphil":"/pdf/M.Phil.English.pdf",
-            "phd":"/pdf/Ph.D.English.pdf"
-        },
-        {
-            "name":"Commerce",
-            "ug":"/pdf/B.Com..pdf",
-            "pg":"/pdf/M.Com..pdf",
-            "mphil":"/pdf/M.Phil.Commerce.pdf",
-            "phd":"/pdf/Ph.D.Commerce.pdf"
-        },
-        {
-            "name":"B. Com. C.A.",
-            "ug":"/pdf/B.Com_Computer_Application.pdf",
-            "pg":"",
-            "mphil":"",
-            "phd":""
-        },
-        {
-            "name":"B. Com. B. M.",
-            "ug":"/pdf/B.Com_Bank_Management.pdf",
-            "pg":"",
-            "mphil":"",
-            "phd":""
-        },
-        {
-            "name":"Mathematics",
-            "ug":"/pdf/B.Sc.Mathematics.pdf",
-            "pg":"/pdf/M.Sc.Mathematics.pdf",
-            "mphil":"/pdf/M.Phil.Mathematics.pdf",
-            "phd":"/pdf/Ph.D.Mathematics.pdf"
-        },
-        {
-            "name":"Physics",
-            "ug":"/pdf/B.Sc.Physics.pdf",
-            "pg":"/pdf/M.Sc.Physics.pdf",
-            "mphil":"/pdf/M.Phil.Physics.pdf",
-            "phd":"/pdf/Ph.D.Physics.pdf"
-        },
-        {
-            "name":"Chemistry",
-            "ug":"/pdf/B.Sc.Chemistry.pdf",
-            "pg":"/pdf/M.Sc.Chemistry.pdf",
-            "mphil":"/pdf/M.Phil.Chemistry.pdf",
-            "phd":"/pdf/Ph.D.Chemistry.pdf"
-        },
-        {
-            "name":"Botany",
-            "ug":"/pdf/B.Sc.Botany.pdf",
-            "pg":"/pdf/M.Sc.Botany.pdf",
-            "mphil":"/pdf/M.Phil.Botany.pdf",
-            "phd":"/pdf/Ph.D.Botany.pdf"
-        },
-        {
-            "name":"Microbiology",
-            "ug":"",
-            "pg":"/pdf/M.Sc.Microbiology.pdf",
-            "mphil":"/pdf/M.Phil.Microbiology.pdf",
-            "phd":"/pdf/Ph.D.Microbiology.pdf"
-        },
-        {
-            "name":"Zoology",
-            "ug":"/pdf/B.Sc.Zoology.pdf",
-            "pg":"/pdf/M.Sc.Zoology.pdf",
-            "mphil":"/pdf/M.phil.zoology.pdf",
-            "phd":"/pdf/Ph.D.Zoology.pdf"
-        },
-        {
-            "name":"Biotechnology",
-            "ug":"",
-            "pg":"/pdf/M.Sc.Biotechnology.pdf",
-            "mphil":"",
-            "phd":""
-        },
-        {
-            "name":"Computer Science",
-            "ug":"/pdf/B.Sc.Computer_Science.pdf",
-            "pg":"/pdf/M.Sc.Computer_Science.pdf",
-            "mphil":"/pdf/M.Phil.Computer_Science.pdf",
-            "phd":"/pdf/Ph.D.Computer_Science.pdf"
-        },
-        {
-            "name":"Computer Applications",
-            "ug":"/pdf/B.C.A.pdf",
-            "pg":"/pdf/M.C.A.pdf",
-            "mphil":"",
-            "phd":""
-        },
-        {
-            "name":"Information Technology",
-            "ug":"",
-            "pg":"/pdf/M.Sc.Information_Technology.pdf",
-            "mphil":"",
-            "phd":""
-        },
-        {
-            "name":"Physical Education, Health Education and Sports",
-            "ug":"/pdf/B.Sc.Physical Education.pdf",
-            "pg":"",
-            "mphil":"",
-            "phd":"/pdf/Ph.D.Physical Education.pdf"
-        },
-        {
-            "name":"Business Administration",
-            "ug":"/pdf/B.B.A.pdf",
-            "pg":"/pdf/M.B.A.pdf",
-            "mphil":"/pdf/M,Phil.Management.pdf",
-            "phd":"/pdf/Ph.D.Management.pdf"
-        },
-        {
-            "name":"Statistics",
-            "ug":"/pdf/B.Sc.Statistics.pdf",
-            "pg":"",
-            "mphil":"",
-            "phd":""
-        },
-        {
-            "name":"Geography",
-            "ug":"/pdf/B.Sc.Geography.pdf",
-            "pg":"",
-            "mphil":"",
-            "phd":""
-        }
-    ],
-    "t_1_2_3":[
-        {
-            "id":1,
-            "name":"Academic Council Meeting for the Academic year 2007 - 2008",
-            "link":"/pdf/1.2.2/2007-2008.pdf"
-        },
-        {
-            "id":2,
-            "name":"Academic Council Meeting for the Academic year 2008 - 2009",
-            "link":"/pdf/1.2.2/2008-2009.pdf"
-        },
-        {
-            "id":3,
-            "name":"Structure of the program",
-            "link":"/pdf/1.2.2/structure.pdf"
         }
     ]
 

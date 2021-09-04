@@ -11,7 +11,7 @@
                                     <a class="i_list" v-if="cnt.name !== 'Curriculam for CBCS courses' && cnt.name !== 'Minutes_of_Academic_Council_Meetings'" :href="cnt.id == 4  ? cnt.link : $store.state.siteUrl + cnt.link" target="_blank" > <i class="fas fa-arrow-right"></i> {{cnt.name}}</a>
                                     <router-link v-if="cnt.name == 'Curriculam for CBCS courses' || cnt.name == 'Minutes_of_Academic_Council_Meetings'" class="i_list" :to="cnt.link" ><i class="fas fa-arrow-right"></i>{{cnt.name}} </router-link>
                                 </div>
-                                <div class="table_contents" v-if="cat.path == '1.3.4'">
+                                <div class="table_contents" style="overflow-x:auto;" v-if="cat.path == '1.3.4'">
                                     <table>
                                         <thead>
                                             <tr>

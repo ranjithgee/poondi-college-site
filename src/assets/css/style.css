@@ -76,6 +76,24 @@
     transition: .3s ease-in-out;
 }
 
+@media only screen and (min-width: 1270px) and (max-width: 1366px){
+    .heading{
+        font-size: 13px;
+    }
+    .item a{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1600px){
+    .heading{
+        font-size: 15px;
+    }
+    .item a{
+        font-size: 13px;
+    }
+}
+
 @media only screen and (min-width:300px) and (max-width:600px){
     .heading{
         font-size: 14px;

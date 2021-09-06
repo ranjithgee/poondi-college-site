@@ -149,6 +149,34 @@ export default {
         transform: none;
     }
 }
+@media only screen and (min-width: 1270px) and (max-width: 1366px){
+  .tab_item{
+    font-size: 10px;
+  }
+  .logout button{
+    font-size: 10px;
+    padding: 6px 18px;
+  }
+  .logout button i{
+    margin-left: 5px;
+    margin-top: 1px;
+  }
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1600px){
+  .tab_item{
+    font-size: 13px;
+  }
+  .logout button{
+    font-size: 13px;
+    padding: 6px 18px;
+  }
+  .logout button i{
+    margin-left: 5px;
+    margin-top: 2px;
+  }
+}
+
 @media only screen and (min-width:300px) and (max-width:600px){
   .logout{
     margin:40px 0 40px 0;

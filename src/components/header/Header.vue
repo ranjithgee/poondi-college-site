@@ -66,6 +66,44 @@ export default {
 }
 
 
+
+@media only screen and (min-width: 1270px) and (max-width: 1366px) {
+  .heading_content span.first{
+    font-size: 20px;
+  }
+  .heading_content span.second{
+    font-size: 16px;
+  }
+  .heading_content span.third{
+    font-size: 14px;
+  }
+  .heading_content span.fourth{
+    font-size: 18px;
+  } 
+  .logo img{
+      width:80%;
+  }   
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1600px){
+    .heading_content span.first{
+    font-size: 24px;
+  }
+  .heading_content span.second{
+    font-size: 20px;
+  }
+  .heading_content span.third{
+    font-size: 18px;
+  }
+  .heading_content span.fourth{
+    font-size: 22px;
+  } 
+  .logo img{
+      width:80%;
+  }
+} 
+
+
 @media only screen and (min-width:300px) and (max-width:600px){
     .logo{
         width: 100%;

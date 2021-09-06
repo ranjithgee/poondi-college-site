@@ -600,12 +600,13 @@
                         },
                         {
                             "id":2,
-                            "name":" 3.7.2 Linkages",
-                            "link":""
+                            "name":" 3.7.2 Functional MoUs",
+                            "path":"3.7.2",
+                            "link":"/research-innovations-extension/3.7/3.7.2"
                         },
                         {
                             "id":3,
-                            "name":"  3.7.3 Functional MoUs",
+                            "name":"  3.7.3 Linkages",
                             "link":""
                         }
                     ]
@@ -1569,6 +1570,146 @@
             "id":3,
             "name":"Structure of the program",
             "link":"/pdf/structure.pdf"
+        }
+    ],
+    "t_3_7_2":[
+        {
+            "id":1,
+            "name":"ANGEL FISH FARM (pvt.Ltd), No. 709,HIG, New Housing unit, Near New Bus Stand, Thanjavur-6135005, Tamil Nadu, India.",
+            "date":"12.02.2020",
+            "link":"/pdf/1_ANGEL_FISH_FARM.pdf"
+        },
+        {
+            "id":2,
+            "name":"Tanbio R&D Solution, Periyar Technology Business Incubator, Periyar Maniammai Institute of Science and Technology, Vallam-613403, Thanjavur, Tamil Nadu, India.",
+            "date":"23.01.2020",
+            "link":"/pdf/2_TANBIO_R_and_D.pdf"
+        },
+        {
+            "id":3,
+            "name":"Nesamony Memorial Christian College, Marthandam - 629 165, Kanyakumari Dt",
+            "date":"04.01.2020",
+            "link":"/pdf/3_NESAMONY_MEMORIAL_CHRISTAIN_CLG.pdf"
+        },
+        {
+            "id":4,
+            "name":"A.V.C College (Autonomous), Mannampandal-609305, Mayiladuthurai, Tamil Nadu, India.",
+            "date":"13.12.2019",
+            "link":"/pdf/4_ AVC_CLG.pdf"
+        },
+        {
+            "id":5,
+            "name":"K.R. Hitech Freshwater Fish Farm, Bio Floc Technology of Freshwater fish culture, Serumangalam,Mannargudi, Thiruvarur (Dt), Tamil Nadu, India.",
+            "date":"09.12.2019",
+            "link":"/pdf/5_K_R_HITECH.pdf"
+        },
+        {
+            "id":6,
+            "name":"Bon Secours College For Women, Vilar Bypass, Tanjavur-613006, TamilNadu, India.",
+            "date":"27.09.2019",
+            "link":"/pdf/6_BON_SECOURS_CLG.pdf"
+        },
+        {
+            "id":7,
+            "name":"Government Arts College for Men(Autonomous),Kumbakonam-612002",
+            "date":"17.07.2019",
+            "link":"/pdf/7_GOVERNMENT_ARTS_CLG_FOR_MEN.pdf"
+        },
+        {
+            "id":8,
+            "name":"Maruthu Pandiayar Institutions, Vallam-613403, Tanjavur, Tamil Nadu, India.",
+            "date":"16.07.2019",
+            "link":"/pdf/8_MARUTHUPANDIYAR_CLG.pdf"
+        },
+        {
+            "id":9,
+            "name":"SCIGEN Research and Innovation, Periyar Technology Business Incubator, Periyar Maniammai Institute of Science and Technology, Vallam-613 403, Thanjavur, Tamil Nadu, India.",
+            "date":"11.07.2019",
+            "link":"/pdf/9_SCIGEN.pdf"
+        },
+        {
+            "id":10,
+            "name":"Indian Biotrack Research Institute , Karpagam  Nagar, Thanjavur Dt",
+            "date":"03.07.2019",
+            "link":"/pdf/10_INDIAN_BIO_TRAC.pdf"
+        },
+        {
+            "id":11,
+            "name":"Rajah Serfoji Govt.College (Autonomous), Thanjavur-613005, Tamil Nadu, India.",
+            "date":"15.07.2018",
+            "link":"/pdf/11_RAJAH_SERFOJI_CLG.pdf"
+        },
+        {
+            "id":12,
+            "name":"Popular Process, S.F. No. 599/1B, Near VIP Garden, Veerapandi Village, Veerapandi(Po), Tirupur-641 605",
+            "date":"13.07.2018",
+            "link":"/pdf/12_POPULAR_PROCESS.pdf"
+        },
+        {
+            "id":13,
+            "name":"Rajah Serfoji Government College(Autonomous),Thanjavur-613005,Tamil Nadu, India.",
+            "date":"10.07.2018",
+            "link":"/pdf/13_ RAJAH_SERFOJI_CLG.pdf"
+        },
+        {
+            "id":14,
+            "name":"Maruthu Pandiayar College, Vallam-613403, Tanjavur, Tamil Nadu, India.",
+            "date":"06.07.2018",
+            "link":"/pdf/14_MARUTHUPANDIYAR_CLG.pdf"
+        },
+        {
+            "id":15,
+            "name":"Sri Amman Biocare, Pudukkottai Main Road, Thirukkanurpatti, Thanjavur Dt",
+            "date":"29.06.2018",
+            "link":"/pdf/15_SRI_AMMAN_BIOCARE.pdf"
+        },
+        {
+            "id":16,
+            "name":"Maruthu Pandiayar Institutions, Vallam-613403, Tanjavur, Tamil Nadu, India.",
+            "date":"24.06.2018",
+            "link":"/pdf/16_MARUTHUPANDIYAR_CLG.pdf"
+        },
+        {
+            "id":17,
+            "name":"Indian Biotrack Research Institute,  Thanjavur-613001,Tamil Nadu, India.",
+            "date":"13.02.2018",
+            "link":"/pdf/17_INDIAN_BIOTRAC_RESEARCH_INSTITUTE.pdf"
+        },
+        {
+            "id":18,
+            "name":"Bio Research Centre,Natarajapuram, MC Road,Tanajavur-613007, Tamil Nadu,India.",
+            "date":"09.02.2018",
+            "link":"/pdf/18_DRS_BIO_RESEARCH_CENTRE.pdf"
+        },
+        {
+            "id":19,
+            "name":"MM Spawn Lab, GSP Mushroom, Karanthai - 613 002, Thanjavur ",
+            "date":"27.06.2017",
+            "link":"/pdf/19_MM_SPAWN_LAB.pdf"
+        },
+        {
+            "id":20,
+            "name":"Thanthai Hans Roever College(Autonomous), Perambalur-621220,Tamil Nadu, India.",
+            "date":"15.07.2016",
+            "link":"/pdf/20_THANTHAI_HANS_ROVER_CLG.pdf"
+        },
+        {
+            "id":21,
+            "name":"Noorul Islam University, Kumaracoil, Thuckalai, Kanyakumari-629180, TamilNadu, India.",
+            "date":"12.09.2015",
+            "link":"/pdf/21_NOORUL_ISLAM.pdf"
+        },
+        {
+            "id":22,
+            "name":"Dr. N. G. P Arts and Science College, Coimbatore",
+            "date":"18.02.2015",
+            "link":"/pdf/22_NGP_CLG.pdf"
+        },
+        {
+            "id":23,
+            "name":"M.S. Swaminathan Research Foundation, Third Cross,Institutional Area, Taramani,Chennai-600113,TamilNadu, India.",
+            "date":"21.10.2013",
+            "link":"/pdf/23_ M_S_SWAMINATHAN.pdf"
         }
     ]
 

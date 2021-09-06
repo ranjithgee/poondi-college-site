@@ -173,12 +173,43 @@
                         {
                             "id":1,
                             "name":"  2.1.1 Student Diversity",
-                            "link":""
+                            "path":"2.1.1",
+                            "link":"/teaching-learning-evaluation/2.1/2.1.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Applications recieved for each program",
+                                    "link":"/pdf/Applications_recieved_for_each_program.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Sanctioned intake of students",
+                                    "link":"/pdf/Sanctioned_intake_of_students.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Temporarily closed section",
+                                    "link":"/pdf/Temporarily_closed_section.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,
                             "name":"  2.1.2 Demand Ratio",
-                            "link":""
+                            "path":"2.1.2",
+                            "link":"/teaching-learning-evaluation/2.1/2.1.2",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Category wise admission list",
+                                    "link":"/pdf/Category_wise_admission_list.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"State Govt admission guidelines for reserved categories",
+                                    "link":"/pdf/State_govt_admission_guidelines_for_reserved_categories.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":3,
@@ -247,17 +278,41 @@
                         {
                             "id":1,
                             "name":"  2.4.1 Teachers against Sanctioned Posts",
-                            "link":""
+                            "path":"2.4.1",
+                            "link":"/teaching-learning-evaluation/2.4/2.4.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"List of Full time teachers",
+                                    "link":"/pdf/List_of_full_time_teachers.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,
                             "name":" 2.4.2 Teachers with Ph. D.",
-                            "link":""
+                            "path":"2.4.2",
+                            "link":"/teaching-learning-evaluation/2.4/2.4.2",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Ph.D degree of Full time teachers",
+                                    "link":"/pdf/Ph.D_degree_of_Full_time_teachers.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":3,
                             "name":"  2.4.3 Experience of Full Time Teachers",
-                            "link":""
+                            "path":"2.4.3",
+                            "link":"/teaching-learning-evaluation/2.4/2.4.3",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Appointment order, Experience certificate of Faculty members",
+                                    "link":"/pdf/Appointment_order_Experience_certificate_of_faculty_members.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":4,

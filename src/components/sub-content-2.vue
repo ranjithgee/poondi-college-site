@@ -59,6 +59,18 @@
                                         </tbody>
                                     </table>
                                 </div>
+                                <div class="year_category" v-if="cat.path == '3.4.4'" >
+                                        <div class="year_head"><i class="fas fa-arrow-right"></i>Books and chapters Published</div>
+                                        <div class="year_items">
+                                            <a v-for="item in datas.t_3_4_4" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                        </div>
+                                </div>
+                                <div class="year_category" v-if="cat.path == '3.2.1'" >
+                                        <div class="year_head"><i class="fas fa-arrow-right"></i>Project Grants Recieved</div>
+                                        <div class="year_items">
+                                            <a v-for="item in datas.t_3_2_1" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                        </div>
+                                </div>
                            </div>
                       </div>
                   </div>

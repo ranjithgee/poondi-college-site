@@ -7,8 +7,8 @@
              <div class="logout">
                <button @click="Logout">Logout <i class="fas fa-sign-out-alt"></i></button>
              </div>
-              <div class="tab_item" v-for="(data, index) in datas.data" :key="data.id">
-                <router-link class="item_menu" :class="activeTab === index ? 'active ':''" :to="data.link"  @click="activeTab = index, this.MenuBar()" ><span><i class="fas" :class="data.icon" ></i>{{data.name}}</span> <span class="chevron"><i class="fas fa-chevron-right"></i></span> </router-link> 
+              <div class="tab_item" v-for="(data) in datas.data" :key="data.id">
+                <router-link class="item_menu" :class="$route.params.id == data.route_name ? 'active ':''" :to="data.link"  @click="this.MenuBar()" ><span><i class="fas" :class="data.icon" ></i>{{data.name}}</span> <span class="chevron"><i class="fas fa-chevron-right"></i></span> </router-link> 
               </div>
           </div>
           <div class="content_item">

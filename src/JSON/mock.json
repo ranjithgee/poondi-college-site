@@ -232,7 +232,15 @@
                         {
                             "id":2,
                             "name":" 2.2.2 Student - Full time Teacher Ratio",
-                            "link":""
+                            "path":"2.2.2",
+                            "link":"/teaching-learning-evaluation/2.2/2.2.2",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"No of students and Full time teachers",
+                                    "link":"/pdf/No_of_students_and_Full_time_teachers.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":3,
@@ -335,7 +343,15 @@
                         {
                             "id":1,
                             "name":"   2.5.1 Declaration of Results",
-                            "link":""
+                            "path":"2.5.1",
+                            "link":"/teaching-learning-evaluation/2.5/2.5.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Number of days taken for announcement of results",
+                                    "link":"/pdf/Number_of_days_taken_ for_ announcement_of_results.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,
@@ -378,7 +394,20 @@
                         {
                             "id":3,
                             "name":" 2.6.3 Average pass percentage of students",
-                            "link":""
+                            "path":"2.6.3",
+                            "link":"/teaching-learning-evaluation/2.6/2.6.3",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Results meetings",
+                                    "link":"/pdf/Result_meetings.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Students pass percentage",
+                                    "link":"/pdf/Students_pass_percentage.pdf"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -598,7 +627,8 @@
                         {
                             "id":1,
                             "name":"   3.7.1 Collaborations",
-                            "link":""
+                            "path":"3.7.1",
+                            "link":"/research-innovations-extension/3.7/3.7.1"
                         },
                         {
                             "id":2,
@@ -1766,6 +1796,386 @@
             "id":5,
             "name":"2019-2020",
             "link":"/pdf/2019_2020_Project_Grants_received.pdf"
+        }
+    ],
+    "t_3_7_1":[
+        {
+            "id":1,
+            "name":"Dr. K. Jeyaprakash, Assistant Professor Dept. of Zoology Rajah Serfoji Govt. College (Autonomous), Thanjavur",
+            "year":"2020",
+            "link":"/pdf/colabarative_activities/1.pdf"
+        },
+        {
+            "id":2,
+            "name":"Dr. A. Palanisamy Professor & Secretary (Sports), Department of Physical Education Bharathidasan University, Tiruchirapalli",
+            "year":"2019",
+            "link":"/pdf/colabarative_activities/2.pdf"
+        },
+        {
+            "id":3,
+            "name":"Prof. Anis Ahamed Prince Sultan Research Chair for Environment and Wildlife, Department of Botany, College of Sciences King Saud University, Saudi Arabia",
+            "year":"2019",
+            "link":"/pdf/colabarative_activities/3.pdf"
+        },
+        {
+            "id":4,
+            "name":"Mrs. N. Anuradha Head, Dept. of Physics, Bon Secours College for Women, Thanjavur",
+            "year":"2019",
+            "link":"/pdf/colabarative_activities/4.pdf"
+        },
+        {
+            "id":5,
+            "name":"Prof. Anis Ahamed Prince Sultan Research Chair for Environment and Wildlife, Department of Botany, College of Sciences King Saud University, Saudi Arabia",
+            "year":"2019",
+            "link":"/pdf/colabarative_activities/5.pdf"
+        },
+        {
+            "id":6,
+            "name":"Dr. A. Palanisamy Professor & Secretary (Sports), Department of Physical Education Bharathidasan University, Tiruchirapalli",
+            "year":"2019",
+            "link":"/pdf/colabarative_activities/6.pdf"
+        },
+        {
+            "id":7,
+            "name":"Dr. Selvanathan Latha Associate Professor Dept. of Microbiology, School of Life Sciences, Bharathidasan University, Tiruchi",
+            "year":"2019",
+            "link":"/pdf/colabarative_activities/7.pdf"
+        },
+        {
+            "id":8,
+            "name":"Dr. K. R. Balasubramanian Assistant Professor Department of Mathematics, H.H. Rajah's College, Pudukottai",
+            "year":"2019",
+            "link":"/pdf/colabarative_activities/8.pdf"
+        },
+        {
+            "id":9,
+            "name":"Dr. M. Sridharan Associate Dean Centre for Nanotechnology & Advanced Biomaterials and School of Electrical & Electronics Engineering SASTRA University, Thanjavur",
+            "year":"2019",
+            "link":"/pdf/colabarative_activities/9.pdf"
+        },
+        {
+            "id":10,
+            "name":"Dr. M. Boominathan Assistant Professor K.N Govt. Arts College for Women (Autonomous), Thanjavur",
+            "year":"2019",
+            "link":"/pdf/colabarative_activities/10.pdf"
+        },
+        {
+            "id":11,
+            "name":"Dr. R. Kalaivani Assistant Professor Noorul Islam Centre for Higher Education, Kumaracoil, Kanniyakumari",
+            "year":"2019",
+            "link":"/pdf/colabarative_activities/11.pdf"
+        },
+        {
+            "id":12,
+            "name":"Dr. P. K. Praseetha Head, Department of Nanotechnology Noorul Islam Centre for Higher Education Kumaracoil, Kanyakumari",
+            "year":"2019",
+            "link":"/pdf/colabarative_activities/12.pdf"
+        },
+        {
+            "id":13,
+            "name":"Dr. P. K. Praseetha, Head, Department of Nanotechnology, Noorul Islam Centre for Higher Education, Kumaracoil, Kanyakumari",
+            "year":"2019",
+            "link":"/pdf/colabarative_activities/13.pdf"
+        },
+        {
+            "id":14,
+            "name":"Mrs. N. Anuradha Head, Dept. Of Physics, Bon Secours College for Women, Thanjavur",
+            "year":"2018",
+            "link":"/pdf/colabarative_activities/14.pdf"
+        },
+        {
+            "id":15,
+            "name":"Dr. A. Maajitha Begum Associate Professor, Dept. of Botany, Jamal Mohammed College, Tiruchirapalli",
+            "year":"2018",
+            "link":"/pdf/colabarative_activities/15.pdf"
+        },
+        {
+            "id":16,
+            "name":"Mrs. N. Siva Jyothi Head, Dept. Of Physics, Auxilium College of Arts & Science for Women, Regunathapuram, Pudukottai",
+            "year":"2018",
+            "link":"/pdf/colabarative_activities/16.pdf"
+        },
+        {
+            "id":17,
+            "name":"Dr. A. Palanisamy Professor & Secretary Bharathidasan University, Tiruchirapalli",
+            "year":"2018",
+            "link":"/pdf/colabarative_activities/17.pdf"
+        },
+        {
+            "id":18,
+            "name":"Dr. R. Rathi Head & Assistant Professor, PG Dept. of Physics, Sengalamala Thayaar Educational Thrust Womens College, Sundarakottai, Mannargudi",
+            "year":"2018",
+            "link":"/pdf/colabarative_activities/18.pdf"
+        },
+        {
+            "id":19,
+            "name":"Mr. A. Britto Manoj Assistant Professor Department of Mathematics, Anjalai Ammal Engg. College, Kovilvenni",
+            "year":"2018",
+            "link":"/pdf/colabarative_activities/19.pdf"
+        },
+        {
+            "id":20,
+            "name":"Dr. N. Thajuddin, Associate Professor and Head, Department of Microbiology, Bharathidasan University, Tiruchirappalli, Tamil Nadu",
+            "year":"2018",
+            "link":"/pdf/colabarative_activities/20.pdf"
+        },
+        {
+            "id":21,
+            "name":"Dr. S. Vijayalakshimi, Research Assistant Professor, Department of Microbiology, Kyung Pook National University, South Korea",
+            "year":"2018",
+            "link":"/pdf/colabarative_activities/21.pdf"
+        },
+        {
+            "id":22,
+            "name":"Dr. V.S. Narmatha, Associate Professor, Department of Biotechnology, St.Michael College of Engineering and Technology, Kalayarkoil, Sivagangai, Tamil Nadu",
+            "year":"2018",
+            "link":"/pdf/colabarative_activities/22.pdf"
+        },
+        {
+            "id":23,
+            "name":"Dr. A. Palanisamy Professor & Secretary Bharathidasan University, Tiruchirapalli",
+            "year":"2018",
+            "link":"/pdf/colabarative_activities/23.pdf"
+        },
+        {
+            "id":24,
+            "name":"Dr. P. Muruganantham Associate Professor Dept. of Botany Jamal Mohammed College, Tiruchirapalli",
+            "year":"2018",
+            "link":"/pdf/colabarative_activities/24.pdf"
+        },
+        {
+            "id":25,
+            "name":"Dr. A. Palanisamy Professor & Secretary Bharathidasan University, Tiruchirapalli",
+            "year":"2017",
+            "link":"/pdf/colabarative_activities/25.pdf"
+        },
+        {
+            "id":26,
+            "name":"Mrs. N. Siva Jyothi Head, Dept. Of Physics, Auxilium College of Arts & Science for Women, Regunathapuram, Pudukottai.",
+            "year":"2017",
+            "link":"/pdf/colabarative_activities/26.pdf"
+        },
+        {
+            "id":27,
+            "name":"Dr. R. Rathi Assistant Professor, Department of Physics, Sengamala Thayaar Educational Thrust for Women, Sundarakottai, Mannargudi",
+            "year":"2017",
+            "link":"/pdf/colabarative_activities/27.pdf"
+        },
+        {
+            "id":28,
+            "name":"Dr. G. Nadamurugaraj Senior Lecturer Faculty of industrial sciences and technology, University Malaysia Pahang, Kuantan, Pahang",
+            "year":"2017",
+            "link":"/pdf/colabarative_activities/28.pdf"
+        },
+        {
+            "id":29,
+            "name":"Dr. M. Poornima Assistant Professor Dept. of Microbioogy, J.J. College of Arts & Science, Pudukottai",
+            "year":"2017",
+            "link":"/pdf/colabarative_activities/29.pdf"
+        },
+        {
+            "id":30,
+            "name":"Dr. A. T. Ravichandran Associate Professor National College(Autonomous) Tiruchirapalli",
+            "year":"2017",
+            "link":"/pdf/colabarative_activities/30.pdf"
+        },
+        {
+            "id":31,
+            "name":"Dr. S. Dheivamalar Assistant Professor Periyar E.V.R College, Tiruchirapalli",
+            "year":"2017",
+            "link":"/pdf/colabarative_activities/31.pdf"
+        },
+        {
+            "id":32,
+            "name":"Dr. A. Palanisamy Professor & Secretary Bharathidasan University, Tiruchirapalli",
+            "year":"2017",
+            "link":"/pdf/colabarative_activities/32.pdf"
+        },
+        {
+            "id":33,
+            "name":"Dr. V. Balachandar Bharathiyar University, Coimbatore",
+            "year":"2017",
+            "link":"/pdf/colabarative_activities/33.pdf"
+        },
+        {
+            "id":34,
+            "name":"Dr. M. Indradevi Associate Professor Dept. of Microbiology, Marudhupandiar College, Vallam",
+            "year":"2016",
+            "link":"/pdf/colabarative_activities/34.pdf"
+        },
+        {
+            "id":35,
+            "name":"Dr. A. Palanisamy Professor & Secretary Bharathidasan University, Tiruchirapalli",
+            "year":"2016",
+            "link":"/pdf/colabarative_activities/35.pdf"
+        },
+        {
+            "id":36,
+            "name":"Dr. R. Krishnan Assistant Professor, Dept. of Microbiology, St. Josephs' College of Arts & Science, Cuddalore.",
+            "year":"2016",
+            "link":"/pdf/colabarative_activities/36.pdf"
+        },
+        {
+            "id":37,
+            "name":"Dr. A. Palanisamy Professor & Secretary Bharathidasan University, Tiruchirapalli",
+            "year":"2016",
+            "link":"/pdf/colabarative_activities/37.pdf"
+        },
+        {
+            "id":38,
+            "name":"Dr. R. Rathish Associate Professor Dept. of Microbiology Marudhupandiar College, Vallam",
+            "year":"2016",
+            "link":"/pdf/colabarative_activities/38.pdf"
+        },
+        {
+            "id":39,
+            "name":"S. Malini Assistant Professor PG Dept. of Physics Sengamala Thayaar Educational Thrust Womens College Sundarakottai, Mannargudi",
+            "year":"2016",
+            "link":"/pdf/colabarative_activities/39.pdf"
+        },
+        {
+            "id":40,
+            "name":"Dr. A. T. Ravichandran Associate Professor Department of Physics National College(Autonomous) Tiruchirapalli",
+            "year":"2016",
+            "link":"/pdf/colabarative_activities/40.pdf"
+        },
+        {
+            "id":41,
+            "name":"Dr. P. Prabakaran Assistant Professor Dept. of Botany, M.R Arts College, Mannargudi.",
+            "year":"2016",
+            "link":"/pdf/colabarative_activities/41.pdf"
+        },
+        {
+            "id":42,
+            "name":"Dr. G. Ramesh Assistant Professor of Mathematics, Government Arts College, Kumbakonam",
+            "year":"2016",
+            "link":"/pdf/colabarative_activities/42.pdf"
+        },
+        {
+            "id":43,
+            "name":"Dr. C. Ravidhas Head, Department of Physics Bishop Heber College (Autonomous), Tiruchirapalli",
+            "year":"2016",
+            "link":"/pdf/colabarative_activities/43.pdf"
+        },
+        {
+            "id":44,
+            "name":"Dr. S. Raveendran Khadir Mohideen College, Adhirampattinam",
+            "year":"2016",
+            "link":"/pdf/colabarative_activities/44.pdf"
+        },
+        {
+            "id":45,
+            "name":"Dr. R. Senthil Kumar Associate Professor Dept. of Microbiology PG Extension Centre, Bharathidasan University, Tiruchirapalli",
+            "year":"2016",
+            "link":"/pdf/colabarative_activities/45.pdf"
+        },
+        {
+            "id":46,
+            "name":"Mr. S. Elango Assistant Professor of Mathematics, AAMEC, Kovilvenni",
+            "year":"2016",
+            "link":"/pdf/colabarative_activities/46.pdf"
+        },
+        {
+            "id":47,
+            "name":"Mr. S. Mohan Kumar Assistant Professor of Mathematics, Kongunadu College of Engg. & Technology, Thottiyam, Trichy",
+            "year":"2016",
+            "link":"/pdf/colabarative_activities/47.pdf"
+        },
+        {
+            "id":48,
+            "name":"Mr. R. Manikandan Assistant Professor of Mathematics, TRP Engg. College (SRM Group), Irungalur, Trichy",
+            "year":"2016",
+            "link":"/pdf/colabarative_activities/48.pdf"
+        },
+        {
+            "id":49,
+            "name":"Mr. P. Senthilkumar Assistant Professor of Mathematics Dhanalakshmi Srinivasan College of Engg. Perambalur",
+            "year":"2016",
+            "link":"/pdf/colabarative_activities/49.pdf"
+        },
+        {
+            "id":50,
+            "name":"Dr. Nakulam Valsala Rajesh Associate Professor, Dept. of Wildlife Science, Veterinary Training & Research Centre, TANUVAS, Ramanathapuram",
+            "year":"2016",
+            "link":"/pdf/colabarative_activities/50.pdf"
+        },
+        {
+            "id":51,
+            "name":"Dr. R. Senthil Kumar Associate Professor Dept. of Microbiology PG Extension Centre, Bharathidasan University, Tiruchirapalli",
+            "year":"2016",
+            "link":"/pdf/colabarative_activities/51.pdf"
+        },
+        {
+            "id":52,
+            "name":"Dr. S. Ramu M.R Govt. Arts College, Mannargudi",
+            "year":"2016",
+            "link":"/pdf/colabarative_activities/52.pdf"
+        },
+        {
+            "id":53,
+            "name":"Dr. A. Palanisamy Professor & Secretary Bharathidasan University, Tiruchirapalli",
+            "year":"2015",
+            "link":"/pdf/colabarative_activities/53.pdf"
+        },
+        {
+            "id":54,
+            "name":"Dr. V. Balachandar Bharathiyar University, Coimbatore",
+            "year":"2015",
+            "link":"/pdf/colabarative_activities/54.pdf"
+        },
+        {
+            "id":55,
+            "name":"Dr. A. Palanisamy Professor & Secretary Bharathidasan University, Tiruchirapalli",
+            "year":"2015",
+            "link":"/pdf/colabarative_activities/55.pdf"
+        },
+        {
+            "id":56,
+            "name":"Dr. A. Palanisamy Professor & Secretary Bharathidasan University, Tiruchirapalli",
+            "year":"2015",
+            "link":"/pdf/colabarative_activities/56.pdf"
+        },
+        {
+            "id":57,
+            "name":"Dr. C. Maragatham Alagesan Associate Professor, Dept. of Biotechnology, Rajah Serfoji Govt. College, Thanjavur",
+            "year":"2015",
+            "link":"/pdf/colabarative_activities/57.pdf"
+        },
+        {
+            "id":58,
+            "name":"Dr. A. Palanisamy Professor & Secretary Bharathidasan University, Tiruchirapalli",
+            "year":"2015",
+            "link":"/pdf/colabarative_activities/58.pdf"
+        },
+        {
+            "id":59,
+            "name":"Dr. A. Palanisamy Professor & Secretary Bharathidasan University, Tiruchirapalli",
+            "year":"2015",
+            "link":"/pdf/colabarative_activities/59.pdf"
+        },
+        {
+            "id":60,
+            "name":"Dr. D. Dhanasekaran Associate Professor Dept. of Microbiology, Bharathidasan University, Tiruchirapalli",
+            "year":"2015",
+            "link":"/pdf/colabarative_activities/60.pdf"
+        },
+        {
+            "id":61,
+            "name":"Dr. N. Jeyathilakan Associate Professor, Dept. of Veterinary Parasitology, Veterinary College and Research Institute, Orathanadu",
+            "year":"2015",
+            "link":"/pdf/colabarative_activities/61.pdf"
+        },
+        {
+            "id":62,
+            "name":"Dr. A. T. Ravichandran National College(Autonomous) Tiruchirapalli",
+            "year":"2015",
+            "link":"/pdf/colabarative_activities/62.pdf"
+        },
+        {
+            "id":63,
+            "name":"S. Malini Assistant Professor PG Dept. of Physics Sengamala Thayaar Educational Thrust for Womens, Sundarakottai, Mannargudi",
+            "year":"2015",
+            "link":"/pdf/colabarative_activities/63.pdf"
         }
     ]
 

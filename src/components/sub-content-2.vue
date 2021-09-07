@@ -59,6 +59,26 @@
                                         </tbody>
                                     </table>
                                 </div>
+                                <div class="table_contents" style="overflow-x:auto;" v-if="cat.path == '3.7.1'">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>S.No</th>
+                                                <th>Name of the collaborating agency</th>
+                                                <th>Year</th>
+                                                <th>Link</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr v-for="item in datas.t_3_7_1" :key="item.id">
+                                                <td>{{item.id}}</td>
+                                                <td>{{item.name}}</td>
+                                                <td>{{item.year}}</td>
+                                                <td class="pdf_items" ><a :href="$store.state.siteUrl + item.link"  target="_blank" ><img src="../assets/pdf_icon2.png" style="width:30px;" /></a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                                 <div class="year_category" v-if="cat.path == '3.4.4'" >
                                         <div class="year_head"><i class="fas fa-arrow-right"></i>Books and chapters Published</div>
                                         <div class="year_items">

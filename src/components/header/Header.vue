@@ -11,7 +11,7 @@
              <span class="fourth"> Self Study Report (SSR) – Cycle IV </span>
       </div>
       <div class="right_logo">
-          <img src="@/assets/NAAC_LOGO.png" alt="" srcset="">
+          <img src="@/assets/naac_logo.png" alt="" srcset="">
       </div>
   </div>
 </template>
@@ -128,6 +128,9 @@ export default {
         color: white;
         font-size: 25px;
         margin: 0 15px;
+    }
+    .right_logo{
+        display: none;
     }
 }
 </style>

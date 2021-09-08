@@ -188,6 +188,9 @@ export default {
   .logout button{
     padding: 6px 20px;
   }
+  .logout button i{
+    margin-top: 2px;
+  }
   .citeria_content{
     display: block;
     margin: 0;

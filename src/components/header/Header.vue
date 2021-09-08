@@ -47,21 +47,21 @@ export default {
     text-align: center;
 }
 .heading_content span.first{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
 }
 .heading_content span.second{
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 600;
 }
 
 .heading_content span.third{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     font-style: italic;
 }
 .heading_content span.fourth{
-    font-size: 27px;
+    font-size: 25px;
     font-weight: 600;
 }
 

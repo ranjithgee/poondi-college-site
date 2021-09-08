@@ -36,7 +36,7 @@
               <div class="heading"  ><i class="fas fa-arrow-left" style="display:none;" @click="this.$router.go(-1)" ></i>Minutes_of_Academic_Council_Meetings</div> 
               <div class="sub_items">
                   <div v-for="item in datas.t_1_2_3" :key="item.id">
-                      <a class="i_list" :href=" $store.state.siteUrl + item.link" target="_blank" > <i class="fas fa-arrow-right"></i> {{item.name}}</a>
+                      <a class="i_list" :href=" $store.state.siteUrl + item.link" target="_blank" > <i class="fas fa-chevron-circle-right"></i> {{item.name}}</a>
                   </div>
               </div>
           </div>

@@ -18,7 +18,7 @@
     font-size: 20px;
 }
 
-.item a{
+/* .item a{
     color: black;
     text-decoration: none;
     font-size: 16px;
@@ -31,27 +31,29 @@
     color:#0066cc;
     transition: .3s ease-in-out;
     padding-left: 20px;
-}
-/* .item a{
+} */
+.item .i_list{
     color: black;
     text-decoration: none;
     font-size: 16px;
     padding: 12px;
-    display: inline-block;
     font-weight: 700;
     transition: .3s ease-in-out;
     background-color: #72ACE5;
     margin:13px 0;
     width:95%;
     border-radius: 7px;
+    display: flex;
+    align-items: center;
 }
 .item .i_list:hover{
     background-color: #0066cc;
     color: white;
     transition: .3s ease-in-out;
-} */
+}
 .item i{
-    padding-right: 6px;
+    padding-right: 10px;
+    font-size: 19px;
 }
 
 .sub_items{
@@ -117,8 +119,12 @@
     .heading{
         font-size: 13px;
     }
-    .item a{
+    .item .i_list{
         font-size: 10px;
+        padding: 10px;
+    }
+    .item i{
+        font-size: 11px;
     }
 }
 
@@ -126,8 +132,12 @@
     .heading{
         font-size: 15px;
     }
-    .item a{
+    .item .i_list{
         font-size: 13px;
+        padding: 10px;
+    }
+    .item i{
+        font-size: 16px;
     }
 }
 
@@ -136,7 +146,7 @@
         font-size: 14px;
         padding: 14px;
     }
-    .item a{
+    .item .i_list{
         font-size: 12px;
     }
     .list{
@@ -154,7 +164,8 @@
         align-items: center;
     }
     .item i{
-        padding-right: 9px;
+        padding-right: 10px;
+        font-size: 16px;
     }
     .sub_items{
         padding:10px;

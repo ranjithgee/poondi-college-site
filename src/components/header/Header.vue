@@ -10,6 +10,9 @@
              <span class="third"> (Affiliated to Bharathidasan University, Tiruchirappalli – 620 024)</span><br/>
              <span class="fourth"> Self Study Report (SSR) – Cycle IV </span>
       </div>
+      <div class="right_logo">
+          <img src="@/assets/NAAC_LOGO.png" alt="" srcset="">
+      </div>
   </div>
 </template>
 
@@ -30,6 +33,9 @@ export default {
 </script>
 
 <style scoped>
+.right_logo{
+    margin: 0 25px;
+}
 .header-sec{
     background: #0066cc;
     display: flex;
@@ -47,21 +53,21 @@ export default {
     text-align: center;
 }
 .heading_content span.first{
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 600;
 }
 .heading_content span.second{
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
 }
 
 .heading_content span.third{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     font-style: italic;
 }
 .heading_content span.fourth{
-    font-size: 25px;
+    font-size: 21px;
     font-weight: 600;
 }
 

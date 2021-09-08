@@ -107,7 +107,10 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #0066cc;
   transition: .3s ease-in-out;
+  background: linear-gradient(to left, white 50%, #0066cc 50%) right;
+  background-size: 201%;
 }
 .tab_item a i{
   margin-right: 10px;
@@ -117,9 +120,8 @@ export default {
   color: white;
 }
 .tab_item a:hover{
-  background: #0066cc;
-  color: white;
-  transition: .3s ease-in-out;
+   background-position: left;
+   color: white;
 }
 .content_item{
   width: 78%;

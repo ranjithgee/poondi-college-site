@@ -4,7 +4,7 @@
           <div class="item">
               <div class="heading"  ><i class="fas fa-arrow-left" style="display:none;" @click="this.$router.go(-1)" ></i>1.2.2 Curriculum for CBCS Courses</div> 
              <div class="sub_items">
-                 <div class="table_contents" style="overflow-x:auto;" >
+                 <div class="table_contents courses" style="overflow-x:auto;" >
                     <table>
                         <thead>
                             <tr>

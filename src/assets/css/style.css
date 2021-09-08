@@ -96,18 +96,34 @@
 .year_category .year_head{
     font-weight: bold;
     padding-left: 15px;
+    display: flex;
+    align-items: center;
+    transition: .3s ease-in-out;
+    background-color: #72ACE5;
+    color: black;
+    width:95%;
+    font-size: 17px;
+    padding: 12px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
 }
+
 .year_category .year_items{
     text-align: center;
-    margin-top: 35px;
+    padding: 35px 0;
+    width: 96.7%;
+    background-color: #f1f1f1;
 }
 .year_category a{
     padding: 8px 20px;
     background-color: #0066cc;
+    display: inline-block;
     border-radius: 5px;
+    font-size: 17px;
     margin:20px;
     color: white;
     transition: .3s ease-in-out;
+    text-decoration: none;
 }
 
 .year_category a:hover{
@@ -126,6 +142,16 @@
     .item i{
         font-size: 11px;
     }
+    .year_category .year_items{
+        width: 97.7%;
+    }
+    .year_category .year_head{
+        font-size: 12px;
+    }
+    .year_category a{
+        padding: 6px 14px;
+        font-size: 12px;
+    }
 }
 
 @media only screen and (min-width: 1367px) and (max-width: 1600px){
@@ -138,6 +164,12 @@
     }
     .item i{
         font-size: 16px;
+    }
+    .year_category .year_items{
+        width: 97.15%;
+    }
+    .year_category .year_head{
+        font-size: 14px;
     }
 }
 
@@ -180,4 +212,8 @@
     .table_contents table th{
         padding: 10px;
     }
+    .year_category .year_items{
+        width: 101.5%;
+    }
+
 }

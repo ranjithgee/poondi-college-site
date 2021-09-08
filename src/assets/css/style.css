@@ -39,16 +39,14 @@
     padding: 12px;
     font-weight: 700;
     transition: .3s ease-in-out;
-    background-color: #72ACE5;
-    margin:13px 0;
     width:95%;
     border-radius: 7px;
     display: flex;
     align-items: center;
 }
 .item .i_list:hover{
-    background-color: #0066cc;
-    color: white;
+    color: #0066cc;
+    padding-left: 20px;
     transition: .3s ease-in-out;
 }
 .item i{

@@ -7,7 +7,7 @@
                   <div class="heading">{{item.name}}</div>
                   <div class="sub_items">
                       <div  v-for="category in item.category" :key="category.id">
-                         <router-link class="i_list" :to="category.link"><i class="fas fa-chevron-right"></i> {{category.name}}</router-link>
+                         <router-link class="i_list" :to="category.link"> <img class="send_icon" src="@/assets/send.svg" alt=""> {{category.name}}</router-link>
                       </div>
                   </div>
               </div>

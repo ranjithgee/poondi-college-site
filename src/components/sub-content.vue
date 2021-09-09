@@ -7,7 +7,7 @@
                           <div class="heading"  ><i class="fas fa-arrow-left" style="display:none;" @click="this.$router.go(-1)" ></i> {{category.name}}</div>
                           <div class="sub_items">
                               <div  v-for="cat in category.category" :key="cat.id">
-                                 <router-link class="i_list" :to="cat.link"><i class="fas fa-chevron-right"></i> {{cat.name}}</router-link>
+                                 <router-link class="i_list" :to="cat.link"><img class="send_icon" src="@/assets/send.svg" alt=""> {{cat.name}}</router-link>
                               </div>
                           </div>
                       </div>

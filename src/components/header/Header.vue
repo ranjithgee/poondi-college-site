@@ -11,10 +11,10 @@
              <span class="third"> (Affiliated to Bharathidasan University, Tiruchirappalli – 620 024)</span>
       </div>
       <div class="right_logo">
-          <img src="@/assets/naac_logo.png" alt="" srcset="">
+          <img src="@/assets/NAAC_LOGO.png" alt="" srcset="">
       </div>
   </div>
-  <div class="cycle_heading" ><i class="fas fa-bars" style="cursor:pointer;" @click="MenuClose" ></i> <span> Self Study Report (SSR) – Cycle IV</span></div>
+  <div class="cycle_heading" > Self Study Report (SSR) – Cycle IV</div>
 </section>  
 </template>
 
@@ -26,18 +26,6 @@ export default {
         }
     },
     methods:{
-        MenuClose(){
-            var target = document.querySelector('.tab_box');
-            target.classList.toggle('menu_close');
-            var cnt = document.querySelector('.content_item');
-            if(target.classList.contains('menu_close')){
-                target.style.cssText=`opacity:0;transform:translateX(-100%);width:0%;padding:0;`;
-                cnt.style.width='100%';
-            }else{
-                target.style.cssText=`opacity:1;transform:translateX(0%);width:22%;padding: 0px 15px 50px 15px;`;
-                cnt.style.width='78%';
-            }
-        },
         BarIcon(){
             var target = document.querySelector('.tab_box');
             target.style.display='block'
@@ -53,20 +41,14 @@ export default {
 .header{
   background: #0066cc;
 }
-.cycle_heading i{
-    float: left;
-    margin-left:20px;
-    color: white;
-}
-.cycle_heading span{
-    margin-left: -40px;
-}
+
 .cycle_heading{
     color: white;
-    font-size: 21px;
-    font-weight: 600;
+    font-size: 25px;
+    font-weight: 900;
     text-align: center;
     padding-bottom: 20px;
+    text-transform: uppercase;
 }
 .header-sec{
     display: flex;

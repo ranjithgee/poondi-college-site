@@ -1,21 +1,27 @@
 <template>
+<section class="dashboard">
   <div class="criteria_sec">
     <Header />
      <div class="citeria_content">      
            <div class="tab_box">
              <div class="close_icon" @click="MenuBar" ><i class="fas fa-arrow-left"></i></div>
-             <div class="logout">
+              <div class="tab_heading">
+                CRITERION WISE REPORT
+                <hr/>
+              </div>
+              <div class="tab_item" v-for="(data) in datas.data" :key="data.id">
+                <router-link class="item_menu" :class="$route.params.id == data.route_name ? 'active ':''" :to="data.link"  @click="this.MenuBar()" ><span><i class="fas" :class="data.icon" style="min-width:17.5px;" ></i> <span class="hash">{{data.hash}}</span> {{data.name}}</span> <span class="chevron"><i class="fas fa-chevron-right chev"></i></span> </router-link> 
+              </div>
+              <div class="logout">
                <button @click="Logout">Logout <i class="fas fa-sign-out-alt"></i></button>
              </div>
-              <div class="tab_item" v-for="(data) in datas.data" :key="data.id">
-                <router-link class="item_menu" :class="$route.params.id == data.route_name ? 'active ':''" :to="data.link"  @click="this.MenuBar()" ><span><i class="fas" :class="data.icon" ></i>{{data.name}}</span> <span class="chevron"><i class="fas fa-chevron-right"></i></span> </router-link> 
-              </div>
           </div>
           <div class="content_item">
              <router-view/>
           </div>
      </div>
   </div>
+</section>
 </template>
 
 <script>
@@ -55,10 +61,19 @@ export default {
 </script>
 
 <style scoped>
+.dashboard{
+  height: 100vh;
+  overflow: hidden;
+}
+.tab_heading{
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
 .logout{
-  margin:20px 0 30px 0;
-  display: flex;
-  justify-content: flex-end;
+  margin:50px 0 50px 0;
 }
 .logout button{
   padding: 8px 30px;
@@ -66,8 +81,9 @@ export default {
   outline:none;
   display: flex;
   align-items: center;
-  background: #0066cc;
-  color: white;
+  background: white;
+  font-weight: bold;
+  color: black;
   cursor: pointer;
   border-radius: 3px;
 }
@@ -92,9 +108,10 @@ export default {
 }
 .tab_box{
   box-shadow: 0 2px 10px 4px rgb(0 0 0/10%);
+  background-color:#00478f;
   height: 79.4vh;
-  width: 22%;
-  padding: 0px 15px 50px 15px;
+  width: 24%;
+  padding: 50px 15px 0px 15px;
   transition: .3s ease-in-out;
 }
 .tab_box.menu_close{
@@ -103,36 +120,43 @@ export default {
 }
 
 .tab_item{
-  margin: 18px 0;
+  margin: 15px 0;
   font-size: 16px;
   font-weight: 700;
   color: white;
 }
 .tab_item a{
   padding: 12px 15px;
-  color: black;
+  color: white;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: #0066cc;
   transition: .3s ease-in-out;
-  background: linear-gradient(to left, white 50%, #0066cc 50%) right;
+  border-radius: 30px;
+  background: linear-gradient(to left, #00478f 50%, white 50%) right;
   background-size: 201%;
+}
+.tab_item .hash{
+  margin-right: 10px;
 }
 .tab_item a i{
   margin-right: 10px;
 }
+.tab_item a .chev{
+  color: #00478f;
+}
 .tab_item a.active{
-  background: #0066cc;
-  color: white;
+  background: white;
+  color: black;
 }
 .tab_item a:hover{
    background-position: left;
-   color: white;
+   color: black;
 }
 .content_item{
-  width: 78%;
+  width: 76%;
   height: 79.4vh;
   overflow: hidden;
   overflow-y: scroll ;
@@ -161,7 +185,7 @@ export default {
 }
 @media only screen and (min-width: 1270px) and (max-width: 1366px){
   .tab_item{
-    font-size: 10px;
+    font-size: 9px;
   }
   .logout button{
     font-size: 10px;
@@ -175,7 +199,7 @@ export default {
 
 @media only screen and (min-width: 1367px) and (max-width: 1600px){
   .tab_item{
-    font-size: 13px;
+    font-size: 11px;
   }
   .logout button{
     font-size: 13px;
@@ -207,7 +231,6 @@ export default {
     position: fixed;
     top: 0;
     left: 0;
-    background: white;
     padding: 20px 15px;
     display: none;
     animation: fadeDown .5s;
@@ -223,6 +246,7 @@ export default {
   }
   .close_icon{
     display: block;
+    color: white;
   }
 }
 </style>

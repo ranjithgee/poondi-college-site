@@ -3,6 +3,7 @@
         {
             "id":1,
             "name":"Curricular Aspects",
+            "hash":"#1",
             "link":"/curricular_aspects",
             "route_name":"curricular_aspects",
             "icon":"fa-tachometer-alt",
@@ -61,7 +62,7 @@
                                 {
                                     "id":3,
                                     "name":"Details of program syllabus revision",
-                                    "link":"https://www.sripushpamcollege.co.in/syllabus_revision"
+                                    "link":"/curricular_aspects/1.1/1.1.2/syllabus-revision"
                                 }
                             ]
                         },
@@ -160,6 +161,7 @@
         {
             "id":2,
             "name":"Teaching- Learning and Evaluation",
+            "hash":"#2",
             "route_name":"teaching-learning-evaluation",
             "link":"/teaching-learning-evaluation",
             "icon":"fa-laptop",
@@ -429,6 +431,7 @@
         {
             "id":3,
             "name":"Research, Innovations and Extension",
+            "hash":"#3",
             "route_name":"research-innovations-extension",
             "link":"/research-innovations-extension",
             "icon":"fa-bullseye",
@@ -648,6 +651,7 @@
         {
             "id":4,
             "name":"Infrastructure and Learning Resources",
+            "hash":"#4",
             "route_name":"infrastructure-learning-resources",
             "link":"/infrastructure-learning-resources",
             "icon":"fa-city",
@@ -769,6 +773,7 @@
         {
             "id":5,
             "name":"Student Support and Progression",
+            "hash":"#5",
             "route_name":"student-support-progression",
             "link":"/student-support-progression",
             "icon":"fa-user-friends",
@@ -885,6 +890,7 @@
         {
             "id":6,
             "name":"Governance, Leadership and Management",
+            "hash":"#6",
             "route_name":"governance-leadership-management",
             "link":"/governance-leadership-management",
             "icon":"fa-bullseye",
@@ -1029,6 +1035,7 @@
         {
             "id":7,
             "name":"Institutional Values and Best Practices",
+            "hash":"#7",
             "route_name":"institutional-values-best-practices",
             "link":"/institutional-values-best-practices",
             "icon":"fa-city",
@@ -2176,6 +2183,183 @@
             "name":"S. Malini Assistant Professor PG Dept. of Physics Sengamala Thayaar Educational Thrust for Womens, Sundarakottai, Mannargudi",
             "year":"2015",
             "link":"/pdf/colabarative_activities/63.pdf"
+        }
+    ],
+    "t_1_1_2":[
+        {
+            "name":"History",
+            "ug":"/pdf/syllabus/B.A_History_Syllabus_Revision.pdf",
+            "pg":"",
+            "mphil":"/pdf/syllabus/M.Phil_History_Syllabus_revision.pdf",
+            "phd":"/pdf/syllabus/Ph.D_History_Coursework.pdf"
+        },
+        {
+            "name":"Economics",
+            "ug":"/pdf/syllabus/B.A_Economics_Syllabus_Revision.pdf",
+            "pg":"",
+            "mphil":"/pdf/syllabus/M.Phil_Economics_Syllabus_revision.pdf",
+            "phd":"/pdf/syllabus/Ph.D_Econmics_Coursework.pdf"
+        },
+        {
+            "name":"Tamil",
+            "ug":"/pdf/syllabus/B.A_Tamil_Syllabus_Revision.pdf",
+            "pg":"/pdf/syllabus/M.A_Tamil_Syllabus_revision.pdf",
+            "mphil":"/pdf/syllabus/M.Phil_Tamil_syllabus_revision.pdf",
+            "phd":"/pdf/syllabus/Ph.D_Tamil_Coursework.pdf"
+        },
+        {
+            "name":"Indian Culture",
+            "ug":"/pdf/syllabus/B.A_Indianculture_Syllabus_Revision.pdf",
+            "pg":"",
+            "mphil":"",
+            "phd":""
+        },
+        {
+            "name":"B.Lit. Tamil",
+            "ug":"/pdf/syllabus/B.Lit_Tamil_Syllabus_Revision.pdf",
+            "pg":"",
+            "mphil":"",
+            "phd":""
+        },
+        {
+            "name":"English",
+            "ug":"/pdf/syllabus/B.A_English_Syllabus_Revision.pdf",
+            "pg":"/pdf/syllabus/M.A_English_Syllabus_revision.pdf",
+            "mphil":"/pdf/syllabus/M.Phil_English_Syllabus_revision.pdf",
+            "phd":"/pdf/syllabus/Ph.D_English_Coursework.pdf"
+        },
+        {
+            "name":"Commerce",
+            "ug":"/pdf/syllabus/B.Com_Syllabus_Revision.pdf",
+            "pg":"/pdf/syllabus/M.Com_Syllabus_revision.pdf",
+            "mphil":"/pdf/syllabus/M.Phil_Commerce_Syllabus_revision.pdf",
+            "phd":"/pdf/syllabus/Ph.D_Commerce_Coursework.pdf"
+        },
+        {
+            "name":"B. Com. C.A.",
+            "ug":"/pdf/syllabus/B.Com_Computerapplication_Syllabus_Revision.pdf",
+            "pg":"",
+            "mphil":"",
+            "phd":""
+        },
+        {
+            "name":"B. Com. B. M.",
+            "ug":"/pdf/syllabus/B.Com_Bankmanagement_Syllabus_Revision.pdf",
+            "pg":"",
+            "mphil":"",
+            "phd":""
+        },
+        {
+            "name":"Mathematics",
+            "ug":"/pdf/syllabus/B.Sc_Mathematics_Syllabus_Revision.pdf",
+            "pg":"/pdf/syllabus/M.Sc_Mathematics_Syllabus_revision.pdf",
+            "mphil":"/pdf/syllabus/M.Phil_Maths_Syllabus_revision.pdf",
+            "phd":"/pdf/syllabus/Ph.D_Mathematics_Coursework.pdf"
+        },
+        {
+            "name":"Physics",
+            "ug":"/pdf/syllabus/B.Sc_Physics_Syllabus_Revision",
+            "pg":"/pdf/syllabus/M.Sc_Physics_Syllabus_revision.pdf",
+            "mphil":"/pdf/syllabus/M.Phil_Physics_Syllabus_revision.pdf",
+            "phd":"/pdf/syllabus/Ph.D_Physics_Coursework.pdf"
+        },
+        {
+            "name":"Chemistry",
+            "ug":"/pdf/syllabus/B.Sc_Chemistry_Syllabus_Revision.pdf",
+            "pg":"/pdf/syllabus/M.Sc_Chemistry_Syllabus_revision.pdf",
+            "mphil":"/pdf/syllabus/M.Phil_Chemistry_Syllabus_revision.pdf",
+            "phd":"/pdf/syllabus/Ph.D_Chemistry_Coursework.pdf"
+        },
+        {
+            "name":"Botany",
+            "ug":"/pdf/syllabus/B.Sc_Botany_Syllabus_Revision.pdf",
+            "pg":"/pdf/syllabus/M.Sc_Botany_Syllabus_revision.pdf",
+            "mphil":"/pdf/syllabus/M.Phil_Botany_Syllabus_revision.pdf",
+            "phd":"/pdf/syllabus/Ph.D_Botany_Coursework.pdf"
+        },
+        {
+            "name":"Microbiology",
+            "ug":"",
+            "pg":"/pdf/syllabus/M.Sc_Microbiology_Syllabus_revision.pdf",
+            "mphil":"/pdf/syllabus/M.Phil_Microbiology_Syllabus_revision.pdf",
+            "phd":""
+        },
+        {
+            "name":"Zoology",
+            "ug":"/pdf/syllabus/B.Sc_Zoology_Syllabus_Revision.pdf",
+            "pg":"/pdf/syllabus/M.Sc_Zoology_Syllabus_revision.pdf",
+            "mphil":"/pdf/syllabus/M.Phil_Zoology_Syllabus_revision.pdf",
+            "phd":"/pdf/syllabus/Ph.D_Zoology_Coursework.pdf"
+        },
+        {
+            "name":"Biotechnology",
+            "ug":"",
+            "pg":"/pdf/syllabus/M.Sc_Biotechnology_Syllabus_revision.pdf",
+            "mphil":"",
+            "phd":""
+        },
+        {
+            "name":"Computer Science",
+            "ug":"/pdf/syllabus/B.Sc_Computerscience_Syllabus_Revision.pdf",
+            "pg":"/pdf/syllabus/M.Sc_Computerscience_Syllabus_revision.pdf",
+            "mphil":"/pdf/syllabus/M.Phil_Computerscience_Syllabus_revision.pdf",
+            "phd":"/pdf/syllabus/Ph.D_Computerscience_Coursework.pdf"
+        },
+        {
+            "name":"Computer Applications",
+            "ug":"/pdf/syllabus/B.C.A_Syllabus_Revision.pdf",
+            "pg":"/pdf/syllabus/M.C.A_Syllabus_revision.pdf",
+            "mphil":"",
+            "phd":""
+        },
+        {
+            "name":"Information Technology",
+            "ug":"",
+            "pg":"/pdf/syllabus/M.Sc_Informationtechnology_Syllabus_revision.pdf",
+            "mphil":"",
+            "phd":""
+        },
+        {
+            "name":"Physical Education, Health Education and Sports",
+            "ug":"/pdf/syllabus/B.Sc_Physicaleducation_Syllabus_Revision.pdf",
+            "pg":"",
+            "mphil":"",
+            "phd":"/pdf/syllabus/Ph.D_Phyicaleducation_Coursework.pdf"
+        },
+        {
+            "name":"Business Administration",
+            "ug":"/pdf/syllabus/B.B.A_Syllabus_Revision.pdf",
+            "pg":"/pdf/syllabus/M.B.A_Syllabus_revision.pdf",
+            "mphil":"",
+            "phd":""
+        },
+        {
+            "name":"Statistics",
+            "ug":"/pdf/syllabus/B.Sc_Statistics_Syllabus_Revision.pdf",
+            "pg":"",
+            "mphil":"",
+            "phd":""
+        },
+        {
+            "name":"Geography",
+            "ug":"/pdf/syllabus/B.Sc_Geography_Syllabus_Revision.pdf",
+            "pg":"",
+            "mphil":"",
+            "phd":""
+        },
+        {
+            "name":"M.L.I.S",
+            "ug":"",
+            "pg":"/pdf/syllabus/M.L.I.S_Syllabus_revision.pdf",
+            "mphil":"",
+            "phd":"/pdf/syllabus/Ph.D_Library and Information Science_Coursework.pdf"
+        },
+        {
+            "name":"Management Studies",
+            "ug":"",
+            "pg":"",
+            "mphil":"/pdf/syllabus/M.Phil_Managementstudies_Syllabus_Revision.pdf",
+            "phd":"/pdf/syllabus/Ph.D_Management_Coursework.pdf"
         }
     ]
 

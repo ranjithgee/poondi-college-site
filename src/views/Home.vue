@@ -83,9 +83,11 @@ export default {
   align-items: center;
   background: white;
   font-weight: bold;
+  font-size: 16px;
   color: black;
   cursor: pointer;
   border-radius: 3px;
+  font-family: 'Urbanist', sans-serif;
 }
 .logout button i{
   margin-left: 5px;

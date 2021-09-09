@@ -95,7 +95,13 @@ export default {
   height: 79.4vh;
   width: 22%;
   padding: 0px 15px 50px 15px;
+  transition: .3s ease-in-out;
 }
+.tab_box.menu_close{
+  transition: .3s ease-in-out;
+
+}
+
 .tab_item{
   margin: 18px 0;
   font-size: 16px;

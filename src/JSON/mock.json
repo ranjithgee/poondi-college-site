@@ -850,7 +850,15 @@
                         {
                             "id":2,
                             "name":"5.2.2 Progression to Higher Education",
-                            "link":""
+                            "path":"5.2.2",
+                            "link":"/student-support-progression/5.2/5.2.2",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Students Progression Proofs",
+                                    "link":"/pdf/Students_progression_Proofs.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":3,
@@ -868,12 +876,33 @@
                         {
                             "id":1,
                             "name":"  5.3.1 Sports/Cultutral Awards",
-                            "link":""
+                            "path":"5.3.1",
+                            "link":"/student-support-progression/5.3/5.3.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Participation of NCC student in Republic day Parade",
+                                    "link":"/pdf/Participation_of_NCC_student_in_Republic_day_Parade.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,
                             "name":" 5.3.2 Presence of Student Council",
-                            "link":""
+                            "path":"5.3.2",
+                            "link":"/student-support-progression/5.3/5.3.2",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Student Representatives in Academic Council",
+                                    "link":"/pdf/Student_Representatives_in_Academic_Council.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Students representation in various committees",
+                                    "link":"/pdf/Students_representation_in_various_committees.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":3,
@@ -924,12 +953,58 @@
                         {
                             "id":1,
                             "name":" 6.1.1 Governance of Institution",
-                            "link":""
+                            "path":"6.1.1",
+                            "link":"/governance-leadership-management/6.1/6.1.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Composition of Various Committees",
+                                    "link":"/pdf/6.1.1_Composition_of_Various_Committees.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Vision and Mission",
+                                    "link":"/pdf/6.1.1_VISION_AND_MISSION.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,
                             "name":" 6.1.2 Decentralization & Participative Management",
-                            "link":""
+                            "path":"6.1.2",
+                            "link":"/governance-leadership-management/6.1/6.1.2",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Annual Sports Committee",
+                                    "link":"/pdf/6.1.2_Annual_Sports_committee.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Discipline Committee",
+                                    "link":"/pdf/6.1.2_Discipline_Committee.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Mentor Allotment",
+                                    "link":"/pdf/6.1.2_Mentor_Allotment.pdf"
+                                },
+                                {
+                                    "id":4,
+                                    "name":"Non-Stautory Committee",
+                                    "link":"/pdf/6.1.2_Non_Statutory_Committee.pdf"
+                                },
+                                {
+                                    "id":5,
+                                    "name":"Pushpamala Discipline Committee",
+                                    "link":"/pdf/6.1.2_Pushpamala_Discipline_Committee.pdf"
+                                },
+                                {
+                                    "id":6,
+                                    "name":"Stautory Committees",
+                                    "link":"/pdf/6.1.2 _Stautory_Committees.pdf"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -942,12 +1017,43 @@
                         {
                             "id":1,
                             "name":" 6.2.1 Strategic Plan & Deployment Documents",
-                            "link":""
+                            "path":"6.2.1",
+                            "link":"/governance-leadership-management/6.2/6.2.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Perspective Plan",
+                                    "link":"/pdf/6.2.1_Perspective_Plan.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Strategic Plan",
+                                    "link":"/pdf/6.2.1_Strategic_Plan.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Upliftment of down trodden students for Higher education",
+                                    "link":"/pdf/6.2.1_Upliftment_of_down_trodden_students_for_Higher_education.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,
                             "name":" 6.2.2 Organizational Structure",
-                            "link":""
+                            "path":"6.2.2",
+                            "link":"/governance-leadership-management/6.2/6.2.2",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Tamilnadu Private Colleges (Regulations) Rules, 1976",
+                                    "link":"/pdf/6.2.2_TAMIL_NADU_PRIVATE_COLLEGES_REGULATION_RULES.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"UGC Regulation on Minimum Qualification, July 2018",
+                                    "link":"/pdf/6.2.2_UGC_Regulation_on_min_Qualification_Jul2018.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":3,
@@ -970,7 +1076,40 @@
                         {
                             "id":1,
                             "name":"  6.3.1 Welfare measures - Teaching & Non-Teaching",
-                            "link":""
+                            "path":"6.3.1",
+                            "link":"/governance-leadership-management/6.3/6.3.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Medical leave for staff",
+                                    "link":"/pdf/6.3.1_MedicalLLeave_for_staff.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"OD Applications",
+                                    "link":"/pdf/6.3.1_OD_Applications.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Parental care for the welfare of staff members",
+                                    "link":"/pdf/6.3.1_Parental_care_for_the_welfare_of_staff_members.pdf"
+                                },
+                                {
+                                    "id":4,
+                                    "name":"PF Loan for staff",
+                                    "link":"/pdf/6.3.1_PF_Loan_for_staff.pdf"
+                                },
+                                {
+                                    "id":5,
+                                    "name":"Staff appointment in health care centre",
+                                    "link":"/pdf/6.3.1_Staff_appointment_in_Health_Care_centre.pdf"
+                                },
+                                {
+                                    "id":6,
+                                    "name":"Staffs served as resourse persons",
+                                    "link":"/pdf/6.3.1_Staffs_served_as_resourse_persons.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,

@@ -5,7 +5,10 @@
               <div v-for="category in item.category" :key="category.id">
                   <div  v-for="cat in category.category" :key="cat.id">
                       <div  v-if="$route.params.id == item.route_name && $route.params.subid == category.path && $route.params.cntid == cat.path" >
-                            <div class="heading"  ><i class="fas fa-arrow-left" style="display:none;" @click="this.$router.go(-1)" ></i> <span v-if="$route.params.cntid !== '1.1.1' && $route.params.cntid !== '1.3.3'">{{cat.name}}</span> <span v-if="$route.params.cntid == '1.1.1' || $route.params.cntid == '1.3.3'">{{cat.alter_name}}</span></div> 
+                            <div class="heading"  >
+                                <div class="breadcrumbs"><span>Home <i class="fas fa-chevron-right" ></i> {{item.name}} <i class="fas fa-chevron-right" ></i> {{category.name}} <i class="fas fa-chevron-right" ></i> {{cat.name}}</span></div>
+                                 <span v-if="$route.params.cntid !== '1.1.1' && $route.params.cntid !== '1.3.3'">{{cat.name}}</span> <span class="alter_heading" v-if="$route.params.cntid == '1.1.1' || $route.params.cntid == '1.3.3'">{{cat.alter_name}}</span> <button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button>
+                            </div> 
                             <div class="sub_items">
                                 <div v-for="cnt in cat.sub" :key="cnt.id" >
                                     <a class="i_list" v-if="cnt.name !== 'Curriculam for CBCS courses' && cnt.name !== 'Minutes_of_Academic_Council_Meetings' && cnt.name !== 'Details of program syllabus revision' && cnt.name !== 'Course Outcomes'" :href="cnt.id == 4 ? cnt.link : $store.state.siteUrl + cnt.link" target="_blank" ><img class="send_icon" src="@/assets/send.svg" alt=""> {{cnt.name}}</a>

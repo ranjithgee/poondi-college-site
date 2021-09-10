@@ -61,6 +61,27 @@
           </div>
       </div>
   </div>
+  <div v-else-if="$route.params.tableid == 'course-outcomes'">
+      <div class="list">
+          <div class="item">
+              <div class="heading"  ><i class="fas fa-arrow-left" style="display:none;" @click="this.$router.go(-1)" ></i>Course Outcomes</div> 
+             <div class="sub_items">
+                 <div class="year_category2" >
+                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">UG Courses</div>
+                    <div class="year_items2">
+                        <a v-for="item in datas.ug_courses" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                    </div>
+                </div>
+                <div class="year_category2" >
+                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">PG Courses</div>
+                    <div class="year_items2">
+                        <a v-for="item in datas.pg_courses" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                    </div>
+                </div>
+             </div>
+          </div>
+      </div>
+  </div>
   <div v-else>
       <div class="list">
           <div class="item">

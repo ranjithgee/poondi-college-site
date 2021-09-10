@@ -8,8 +8,8 @@
                             <div class="heading"  ><i class="fas fa-arrow-left" style="display:none;" @click="this.$router.go(-1)" ></i> <span v-if="$route.params.cntid !== '1.1.1'">{{cat.name}}</span> <span v-if="$route.params.cntid == '1.1.1'">{{cat.alter_name}}</span></div> 
                             <div class="sub_items">
                                 <div v-for="cnt in cat.sub" :key="cnt.id" >
-                                    <a class="i_list" v-if="cnt.name !== 'Curriculam for CBCS courses' && cnt.name !== 'Minutes_of_Academic_Council_Meetings' && cnt.name !== 'Details of program syllabus revision'" :href="cnt.id == 4 ? cnt.link : $store.state.siteUrl + cnt.link" target="_blank" ><img class="send_icon" src="@/assets/send.svg" alt=""> {{cnt.name}}</a>
-                                    <router-link v-if="cnt.name == 'Curriculam for CBCS courses' || cnt.name == 'Minutes_of_Academic_Council_Meetings' || cnt.name == 'Details of program syllabus revision'" class="i_list" :to="cnt.link" ><img class="send_icon" src="@/assets/send.svg" alt="">{{cnt.name}} </router-link>
+                                    <a class="i_list" v-if="cnt.name !== 'Curriculam for CBCS courses' && cnt.name !== 'Minutes_of_Academic_Council_Meetings' && cnt.name !== 'Details of program syllabus revision' && cnt.name !== 'Course Outcomes'" :href="cnt.id == 4 ? cnt.link : $store.state.siteUrl + cnt.link" target="_blank" ><img class="send_icon" src="@/assets/send.svg" alt=""> {{cnt.name}}</a>
+                                    <router-link v-if="cnt.name == 'Curriculam for CBCS courses' || cnt.name == 'Minutes_of_Academic_Council_Meetings' || cnt.name == 'Details of program syllabus revision' || cnt.name == 'Course Outcomes'" class="i_list" :to="cnt.link" ><img class="send_icon" src="@/assets/send.svg" alt="">{{cnt.name}} </router-link>
                                 </div>
                                 <div class="table_contents courses" style="overflow-x:auto;" v-if="cat.path == '1.3.4'">
                                     <table>

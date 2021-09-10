@@ -39,7 +39,7 @@
                                 {
                                     "id":4,
                                     "name":"Course Outcomes",
-                                    "link":"https://www.sripushpamcollege.co.in/course_outcomes"
+                                    "link":"/curricular_aspects/1.1/1.1.1/course-outcomes"
                                 }
                             ]
                         },
@@ -2360,6 +2360,195 @@
             "pg":"",
             "mphil":"/pdf/syllabus/M.Phil_Managementstudies_Syllabus_Revision.pdf",
             "phd":"/pdf/syllabus/Ph.D_Management_Coursework.pdf"
+        }
+    ],
+    "ug_courses":[
+        {
+            "id":1,
+            "name":"B.A. History",
+            "link":"/pdf/courses/B.A_History_course_outcome.pdf"
+        },
+        {
+            "id":2,
+            "name":"B.A. Economics",
+            "link":"/pdf/courses/B.A_Economics_course_outcome.pdf"
+        },
+        {
+            "id":3,
+            "name":"B.A. Tamil",
+            "link":"/pdf/courses/B.A_Tamil_course_outcome.pdf"
+        },
+        {
+            "id":4,
+            "name":"B.A. Indian Culture",
+            "link":"/pdf/courses/B.A_Indianculture_course_outcome.pdf"
+        },
+        {
+            "id":5,
+            "name":"B.Lit. Tamil",
+            "link":"/pdf/courses/B.Lit_Tamil_course_outcome.pdf"
+        },
+        {
+            "id":6,
+            "name":"B.A. English",
+            "link":"/pdf/courses/B.A_English_course_outcome.pdf"
+        },
+        {
+            "id":7,
+            "name":"B.Com.",
+            "link":"/pdf/courses/B.Com_course_outcome.pdf"
+        },
+        {
+            "id":8,
+            "name":"B.Com. Computer Applications",
+            "link":"/pdf/courses/B.Com_Computerapplication_course_outcome.pdf"
+        },
+        {
+            "id":9,
+            "name":"B.Com. Banking Management",
+            "link":"/pdf/courses/B.Com_Bankmanagement_course_outcome.pdf"
+        },
+        {
+            "id":10,
+            "name":" B.Sc. Mathematics",
+            "link":"/pdf/courses/B.Sc_Mathematics_course_outcome.pdf"
+        },
+        {
+            "id":11,
+            "name":"B.Sc. Physics",
+            "link":"/pdf/courses/B.Sc_Physics_course_outcome.pdf"
+        },
+        {
+            "id":12,
+            "name":"B.Sc. Chemistry",
+            "link":"/pdf/courses/B.Sc_Chemistry_course_outcome.pdf"
+        },
+        {
+            "id":13,
+            "name":"B.Sc. Botany",
+            "link":"/pdf/courses/B.Sc_Botany_course_outcome.pdf"
+        },
+        {
+            "id":14,
+            "name":" B.Sc. Zoology",
+            "link":"/pdf/courses/B.Sc_Zoology_course_outcome.pdf"
+        },
+        {
+            "id":15,
+            "name":"B.Sc. Computer Science",
+            "link":"/pdf/courses/B.Sc_Computerscience_course_outcome.pdf"
+        },
+        {
+            "id":16,
+            "name":"B.C.A. Computer Applications",
+            "link":"/pdf/courses/B.C.A_course_outcome.pdf"
+        },
+        {
+            "id":17,
+            "name":"B.Sc. Physical Education, Health Education and Sports",
+            "link":"/pdf/courses/B.Sc_Physicaleducation_course_outcome.pdf"
+        },
+        {
+            "id":18,
+            "name":" B.B.A. Business Administration",
+            "link":"/pdf/courses/B.B.A_course_outcome.pdf"
+        },
+        {
+            "id":19,
+            "name":"B.Sc. Statistics",
+            "link":"/pdf/courses/B.Sc_Statistics_course_outcome.pdf"
+        },
+        {
+            "id":20,
+            "name":"B.Sc. Geography",
+            "link":"/pdf/courses/B.Sc_Geography_course_outcome.pdf"
+        }
+    ],
+    "pg_courses":[
+        {
+            "id":1,
+            "name":"M.A. History",
+            "link":"/pdf/courses/M.A_History_course_outcome.pdf"
+        },
+        {
+            "id":2,
+            "name":"M.A. Economics",
+            "link":"/pdf/courses/M.A_Economics_course_outcome.pdf"
+        },
+        {
+            "id":3,
+            "name":"M.A. Tamil",
+            "link":"/pdf/courses/M.A_Tamil_course_outcome.pdf"
+        },
+        {
+            "id":4,
+            "name":"M.A. English",
+            "link":"/pdf/courses/M.A_English_course_outcome.pdf"
+        },
+        {
+            "id":5,
+            "name":"M.Com.",
+            "link":"/pdf/courses/M.Com_course_outcome.pdf"
+        },
+        {
+            "id":6,
+            "name":"M.Sc. Mathematics",
+            "link":"/pdf/courses/M.Sc_Mathematics_course_outcome.pdf"
+        },
+        {
+            "id":7,
+            "name":"M.Sc. Physics",
+            "link":"/pdf/courses/M.Sc_Physics_course_outcome.pdf"
+        },
+        {
+            "id":8,
+            "name":"M.Sc. Chemistry",
+            "link":"/pdf/courses/M.Sc_Chemistry_course_outcome.pdf"
+        },
+        {
+            "id":9,
+            "name":"M.Sc. Botany",
+            "link":"/pdf/courses/M.Sc_Botany_course_outcome.pdf"
+        },
+        {
+            "id":10,
+            "name":"M.Sc. Microbiology",
+            "link":"/pdf/courses/M.Sc_Microbiology_course_outcome.pdf"
+        },
+        {
+            "id":11,
+            "name":"M.Sc. Zoology",
+            "link":"/pdf/courses/M.Sc_Zoology_course_outcome.pdf"
+        },
+        {
+            "id":12,
+            "name":"M.Sc. Biotechnology",
+            "link":"/pdf/courses/M.Sc_Biotechnology_course_outcome.pdf"
+        },
+        {
+            "id":13,
+            "name":"M.Sc. Computer Science",
+            "link":"/pdf/courses/M.Sc_Computerscience_course_outcome.pdf"
+        },
+        {
+            "id":14,
+            "name":"M.C.A. Computer Applications",
+            "link":"/pdf/courses/M.C.A_course_outcome.pdf"
+        },
+        {
+            "id":15,
+            "name":"M.Sc. Information Technology",
+            "link":"/pdf/courses/M.Sc_Informationtechnology_course_outcome.pdf"
+        },
+        {
+            "id":16,
+            "name":"M.L.I.S",
+            "link":"/pdf/courses/M.L.I.S_course_outcome.pdf"
+        },
+        {
+            "id":17,
+            "name":"M.B.A. Business Administration",
+            "link":"/pdf/courses/M.B.A_course_outcome.pdf"
         }
     ]
 

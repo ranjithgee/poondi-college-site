@@ -1,5 +1,8 @@
 
 .heading{
+    position: fixed;
+    width: 100%;
+    background-color: white;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 30px;
@@ -59,6 +62,7 @@
 
 .sub_items{
     padding: 20px 30px;
+    padding-top: 120px;
 }
 
 .table_contents table th, .table_contents table td{
@@ -132,6 +136,7 @@
 .year_category2 .year_items2{
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
     padding: 35px 0;
     width: 96.7%;
     background-color: #cfd8e1;
@@ -245,6 +250,8 @@
     .heading{
         font-size: 14px;
         padding: 14px;
+        position: static;
+        width: unset;
     }
     .item .i_list{
         font-size: 12px;
@@ -269,6 +276,7 @@
     }
     .sub_items{
         padding:10px;
+        padding-top: 10px;
     }
     .year_category .year_head{
         font-size: 13px;

@@ -6,7 +6,7 @@
            <div class="tab_box">
              <div class="close_icon" @click="MenuBar" ><i class="fas fa-arrow-left"></i></div>
               <div class="tab_heading">
-                CRITERION WISE REPORT
+                <span> CRITERION WISE REPORT</span>
                 <hr/>
               </div>
               <div class="tab_item" v-for="(data) in datas.data" :key="data.id">
@@ -66,14 +66,21 @@ export default {
   overflow: hidden;
 }
 .tab_heading{
-  text-align: center;
   font-size: 20px;
   color: white;
   font-weight: bold;
   margin-bottom: 40px;
 }
+.tab_heading span{
+  padding: 0 10px;
+}
+.tab_heading hr{
+  margin-top: 6px;
+}
 .logout{
   margin:50px 0 50px 0;
+  /* display: flex;
+  justify-content: flex-end; */
 }
 .logout button{
   padding: 8px 30px;
@@ -113,7 +120,7 @@ export default {
   background-color:#00478f;
   height: 79.4vh;
   width: 24%;
-  padding: 50px 15px 0px 15px;
+  padding: 40px 15px 0px 15px;
   transition: .3s ease-in-out;
 }
 .tab_box.menu_close{

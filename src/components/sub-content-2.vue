@@ -5,7 +5,7 @@
               <div v-for="category in item.category" :key="category.id">
                   <div  v-for="cat in category.category" :key="cat.id">
                       <div  v-if="$route.params.id == item.route_name && $route.params.subid == category.path && $route.params.cntid == cat.path" >
-                            <div class="heading"  ><i class="fas fa-arrow-left" style="display:none;" @click="this.$router.go(-1)" ></i> <span v-if="$route.params.cntid !== '1.1.1'">{{cat.name}}</span> <span v-if="$route.params.cntid == '1.1.1'">{{cat.alter_name}}</span></div> 
+                            <div class="heading"  ><i class="fas fa-arrow-left" style="display:none;" @click="this.$router.go(-1)" ></i> <span v-if="$route.params.cntid !== '1.1.1' && $route.params.cntid !== '1.3.3'">{{cat.name}}</span> <span v-if="$route.params.cntid == '1.1.1' || $route.params.cntid == '1.3.3'">{{cat.alter_name}}</span></div> 
                             <div class="sub_items">
                                 <div v-for="cnt in cat.sub" :key="cnt.id" >
                                     <a class="i_list" v-if="cnt.name !== 'Curriculam for CBCS courses' && cnt.name !== 'Minutes_of_Academic_Council_Meetings' && cnt.name !== 'Details of program syllabus revision' && cnt.name !== 'Course Outcomes'" :href="cnt.id == 4 ? cnt.link : $store.state.siteUrl + cnt.link" target="_blank" ><img class="send_icon" src="@/assets/send.svg" alt=""> {{cnt.name}}</a>
@@ -149,6 +149,36 @@
                                     <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2019-2020</div>
                                     <div class="year_items2">
                                         <a v-for="item in datas.five_5_1_4" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                    </div>
+                                </div>
+                                <div class="year_category2" v-if="cat.path == '1.3.3'">
+                                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2015-2016</div>
+                                    <div class="year_items2">
+                                        <a v-for="item in datas.one_1_3_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                    </div>
+                                </div>
+                                <div class="year_category2" v-if="cat.path == '1.3.3'">
+                                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2016-2017</div>
+                                    <div class="year_items2">
+                                        <a v-for="item in datas.two_1_3_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                    </div>
+                                </div>
+                                <div class="year_category2" v-if="cat.path == '1.3.3'">
+                                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2017-2018</div>
+                                    <div class="year_items2">
+                                        <a v-for="item in datas.three_1_3_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                    </div>
+                                </div>
+                                <div class="year_category2" v-if="cat.path == '1.3.3'">
+                                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2018-2019</div>
+                                    <div class="year_items2">
+                                        <a v-for="item in datas.four_1_3_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                    </div>
+                                </div>
+                                <div class="year_category2" v-if="cat.path == '1.3.3'">
+                                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2019-2020</div>
+                                    <div class="year_items2">
+                                        <a v-for="item in datas.five_1_3_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
                                     </div>
                                 </div>
                            </div>

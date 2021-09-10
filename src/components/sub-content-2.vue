@@ -91,6 +91,66 @@
                                             <a v-for="item in datas.t_3_2_1" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
                                         </div>
                                 </div>
+                                <div class="year_category" v-if="cat.path == '5.2.1'" >
+                                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Placement of outgoing students</div>
+                                        <div class="year_items">
+                                            <a v-for="item in datas.t_5_2_1" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                        </div>
+                                </div>
+                                <div class="year_category ssd" v-if="cat.path == '5.1.3'" >
+                                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt=""> Soft Skill Development</div>
+                                        <div class="year_items">
+                                            <a v-for="item in datas.i_5_1_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                        </div>
+                                </div>
+                                <div class="year_category ssd" v-if="cat.path == '5.1.3'" >
+                                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt=""> Language and Communication Skills (UG course)</div>
+                                        <div class="year_items">
+                                            <a v-for="item in datas.iiug_5_1_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                        </div>
+                                </div>
+                                <div class="year_category ssd" v-if="cat.path == '5.1.3'" >
+                                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt=""> Language and Communication Skills (PG course)</div>
+                                        <div class="year_items">
+                                            <a v-for="item in datas.iipg_5_1_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                        </div>
+                                </div>
+                                <div class="year_category" v-if="cat.path == '5.1.3'" >
+                                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt=""> Awareness of Trends and Technology</div>
+                                        <div class="year_items">
+                                            <a v-for="item in datas.iii_5_1_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                        </div>
+                                </div>
+                                <div class="year_category2" v-if="cat.path == '5.1.4'">
+                                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2015-2016</div>
+                                    <div class="year_items2">
+                                        <a v-for="item in datas.one_5_1_4" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                    </div>
+                                </div>
+                                <div class="year_category2" v-if="cat.path == '5.1.4'">
+                                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2016-2017</div>
+                                    <div class="year_items2">
+                                        <a v-for="item in datas.two_5_1_4" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                    </div>
+                                </div>
+                                <div class="year_category2" v-if="cat.path == '5.1.4'">
+                                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2017-2018</div>
+                                    <div class="year_items2">
+                                        <a v-for="item in datas.three_5_1_4" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                    </div>
+                                </div>
+                                <div class="year_category2" v-if="cat.path == '5.1.4'">
+                                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2018-2019</div>
+                                    <div class="year_items2">
+                                        <a v-for="item in datas.four_5_1_4" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                    </div>
+                                </div>
+                                <div class="year_category2" v-if="cat.path == '5.1.4'">
+                                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2019-2020</div>
+                                    <div class="year_items2">
+                                        <a v-for="item in datas.five_5_1_4" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                    </div>
+                                </div>
                            </div>
                       </div>
                   </div>

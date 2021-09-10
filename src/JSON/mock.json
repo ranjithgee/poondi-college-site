@@ -797,12 +797,31 @@
                         {
                             "id":3,
                             "name":" 5.1.3 Capability Enhancement Schemes",
-                            "link":""
+                            "path":"5.1.3",
+                            "link":"/student-support-progression/5.1/5.1.3",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Health and Hygiene",
+                                    "link":"/pdf/HEALTH_AND_HYGIENE.pdf"
+                                },
+                                {
+                                    "id":1,
+                                    "name":"Physical Fitness",
+                                    "link":"/pdf/PHYSICAL_FITNESS.pdf"
+                                },
+                                {
+                                    "id":1,
+                                    "name":"Yoga",
+                                    "link":"/pdf/YOGA.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":4,
                             "name":"5.1.4 Students Benefited by Guidance for Competitive Examination and Career Counselling",
-                            "link":""
+                            "path":"5.1.4",
+                            "link":"/student-support-progression/5.1/5.1.4"
                         },
                         {
                             "id":5,
@@ -825,7 +844,8 @@
                         {
                             "id":1,
                             "name":"  5.2.1 Placements",
-                            "link":""
+                            "path":"5.2.1",
+                            "link":"/student-support-progression/5.2/5.2.1"
                         },
                         {
                             "id":2,
@@ -2549,6 +2569,511 @@
             "id":17,
             "name":"M.B.A. Business Administration",
             "link":"/pdf/courses/M.B.A_course_outcome.pdf"
+        }
+    ],
+    "i_5_1_3":[
+        {
+            "id":1,
+            "name":"2015-2016",
+            "link":"/pdf/SSD_2015_2016.pdf"
+        },
+        {
+            "id":2,
+            "name":"2016-2017",
+            "link":"/pdf/SSD_2016_2017.pdf"
+        },
+        {
+            "id":3,
+            "name":"2017-2018",
+            "link":"/pdf/SSD_2017_2018.pdf"
+        },
+        {
+            "id":4,
+            "name":"2018-2019",
+            "link":"/pdf/SSD_2018_2019.pdf"
+        },
+        {
+            "id":5,
+            "name":"2019-2020",
+            "link":"/pdf/SSD_2019_2020.pdf"
+        }
+    ],
+    "iiug_5_1_3":[
+        {
+            "id":1,
+            "name":"2015-2016",
+            "link":"/pdf/2015_2016_UG.pdf"
+        },
+        {
+            "id":2,
+            "name":"2016-2017",
+            "link":"/pdf/2016_2017_UG.pdf"
+        },
+        {
+            "id":3,
+            "name":"2017-2018",
+            "link":"/pdf/2017_2018_UG.pdf"
+        },
+        {
+            "id":4,
+            "name":"2018-2019",
+            "link":"/pdf/2018_2019_UG.pdf"
+        },
+        {
+            "id":5,
+            "name":"2019-2020",
+            "link":"/pdf/2019_2020_UG.pdf"
+        }
+    ],
+    "iipg_5_1_3":[
+        {
+            "id":1,
+            "name":"2015-2016",
+            "link":"/pdf/2015_2016_PG.pdf"
+        },
+        {
+            "id":2,
+            "name":"2016-2017",
+            "link":"/pdf/2016_2017_PG.pdf"
+        },
+        {
+            "id":3,
+            "name":"2017-2018",
+            "link":"/pdf/2017_2018_PG.pdf"
+        },
+        {
+            "id":4,
+            "name":"2018-2019",
+            "link":"/pdf/2018_2019_PG.pdf"
+        },
+        {
+            "id":5,
+            "name":"2019-2020",
+            "link":"/pdf/2019_2020_PG.pdf"
+        }
+    ],
+    "iii_5_1_3":[
+        {
+            "id":1,
+            "name":"2015-2016",
+            "link":"/pdf/2015_2016_Awareness_of_trends_in_technology.pdf"
+        },
+        {
+            "id":2,
+            "name":"2016-2017",
+            "link":"/pdf/2016_2017_Awareness_of_trends_in_technology.pdf"
+        },
+        {
+            "id":3,
+            "name":"2017-2018",
+            "link":"/pdf/2017_2018_Awareness_of_trends_in_technology.pdf"
+        },
+        {
+            "id":4,
+            "name":"2018-2019",
+            "link":"/pdf/2018_2019_Awareness_of_trends_in_technology.pdf"
+        },
+        {
+            "id":5,
+            "name":"2019-2020",
+            "link":"/pdf/2019_2020_Awareness_of_trends_in_technology.pdf"
+        }
+    ],
+    "one_5_1_4":[
+        {
+            "id":1,
+            "name":"Career counselling exam",
+            "link":"/pdf/60_Career_councelling_exam.pdf"
+        },
+        {
+            "id":2,
+            "name":"Preparing competitive exam",
+            "link":"/pdf/61_Preparing_competitive_exam.pdf"
+        },
+        {
+            "id":3,
+            "name":"Coaching class competitive exam",
+            "link":"/pdf/62_Coaching_class_competitive_exam.pdf"
+        },
+        {
+            "id":4,
+            "name":"Guidelins competitive exam commerce",
+            "link":"/pdf/63_Guidelins_competitive_exam_commerce.pdf"
+        },
+        {
+            "id":5,
+            "name":"How to get full marks",
+            "link":"/pdf/64_How_to_get_full_Marks.pdf"
+        },
+        {
+            "id":6,
+            "name":"Carrer councelling exam",
+            "link":"/pdf/65_Carrer_councelling_exam.pdf"
+        },
+        {
+            "id":7,
+            "name":"Career councelling NET SET TRB",
+            "link":"/pdf/66_Career_councelling_NET_SET_TRB.pdf"
+        },
+        {
+            "id":8,
+            "name":"Career councelling competitive exam",
+            "link":"/pdf/67_Career_councelling_competitive_exam.pdf"
+        },
+        {
+            "id":9,
+            "name":"Career councelling NET SET TNPSC",
+            "link":"/pdf/68_Career_councelling_NET_SET_TNPSC.pdf"
+        },
+        {
+            "id":10,
+            "name":"Career councelling NET SET TRB",
+            "link":"/pdf/69_Career_councelling_NET_SET_TRB.pdf"
+        },
+        {
+            "id":11,
+            "name":"Career councelling competitive exam",
+            "link":"/pdf/70_Career_councelling_competitive_exam.pdf"
+        },
+        {
+            "id":12,
+            "name":"Guideline competitive exam",
+            "link":"/pdf/71_Guideline_competitive_exam.pdf"
+        },
+        {
+            "id":13,
+            "name":"Training Programme on pre induction class",
+            "link":"/pdf/72_Training_Programme_on_pre_induction_class.pdf"
+        }
+    ],
+    "two_5_1_4":[
+        {
+            "id":1,
+            "name":"General Knowledge",
+            "link":"/pdf/46_General_Knowledge.pdf"
+        },
+        {
+            "id":2,
+            "name":"47 Carrer councelling competitive exam",
+            "link":"/pdf/47_Carrer_councelling_competitive_exam.pdf"
+        },
+        {
+            "id":3,
+            "name":"Motivating NET SET",
+            "link":"/pdf/48_Motivating_NET_SET.pdf"
+        },
+        {
+            "id":4,
+            "name":"Competitive exam coaching class",
+            "link":"/pdf/49_Competitive_exam_coaching_class.pdf"
+        },
+        {
+            "id":5,
+            "name":"Competitive bank exam",
+            "link":"/pdf/50_Competitive_bank_exam.pdf"
+        },
+        {
+            "id":6,
+            "name":"Problem solving method",
+            "link":"/pdf/51_Problem_solving_method.pdf"
+        },
+        {
+            "id":7,
+            "name":"52 Carrer councelling competitive exam",
+            "link":"/pdf/52_Carrer_councelling_competitive_exam.pdf"
+        },
+        {
+            "id":8,
+            "name":"Career councelling NET SET",
+            "link":"/pdf/53_Career_councelling_NET_SET.pdf"
+        },
+        {
+            "id":9,
+            "name":"54 Carrer councelling competitive exam",
+            "link":"/pdf/54_Carrer_councelling_competitive_exam.pdf"
+        },
+        {
+            "id":10,
+            "name":"Career councelling NET SET TNPSC",
+            "link":"/pdf/55_Career_councelling_NET_SET_TNPSC.pdf"
+        },
+        {
+            "id":11,
+            "name":"Career councelling NET SET TNPSC TRB",
+            "link":"/pdf/56_Career_councelling_NET_SET_TNPSC_TRB.pdf"
+        },
+        {
+            "id":12,
+            "name":"Career councelling coaching class",
+            "link":"/pdf/57_Career_councelling_coaching_class.pdf"
+        },
+        {
+            "id":13,
+            "name":"Guidence competitive exam",
+            "link":"/pdf/58_Guidence_competitive_exam.pdf"
+        },
+        {
+            "id":14,
+            "name":"coaching classes for competitive examinations",
+            "link":"/pdf/59_coaching_classes_for_competitive_examinations.pdf"
+        }
+    ],
+    "three_5_1_4":[
+        {
+            "id":1,
+            "name":"General Knowledge",
+            "link":"/pdf/31_General_Knowledge.pdf"
+        },
+        {
+            "id":2,
+            "name":"career councelling competitive exam",
+            "link":"/pdf/32_career_councelling_competitive_exam.pdf"
+        },
+        {
+            "id":3,
+            "name":"Sri Pushpam IAS",
+            "link":"/pdf/33_Sri_Pushpam_IAS.pdf"
+        },
+        {
+            "id":4,
+            "name":"Career councelling entrepreneurial development",
+            "link":"/pdf/34_Career_councelling_entrepreneurial_development.pdf"
+        },
+        {
+            "id":5,
+            "name":"competitive exam coaching class",
+            "link":"/pdf/35_competitive_exam_coaching_class.pdf"
+        },
+        {
+            "id":6,
+            "name":"competitive exam Railways",
+            "link":"/pdf/36_competitive_exam_Railways.pdf"
+        },
+        {
+            "id":7,
+            "name":"Winning competitive exam",
+            "link":"/pdf/37_Winning_competitive_exam.pdf"
+        },
+        {
+            "id":8,
+            "name":"career councelling competitive exam",
+            "link":"/pdf/38_career_councelling_competitive_exam.pdf"
+        },
+        {
+            "id":9,
+            "name":"career councelling NET SET",
+            "link":"/pdf/39_career_councelling_NET_SET.pdf"
+        },
+        {
+            "id":10,
+            "name":"career councelling",
+            "link":"/pdf/40_career_councelling.pdf"
+        },
+        {
+            "id":11,
+            "name":"career councelling NET SET",
+            "link":"/pdf/41_career_councelling_NET_SET.pdf"
+        },
+        {
+            "id":12,
+            "name":"career councelling NET SET TNPSC",
+            "link":"/pdf/42_career_councelling_NET_SET_TNPSC.pdf"
+        },
+        {
+            "id":13,
+            "name":"Career counclling exam",
+            "link":"/pdf/43_Career_counclling_exam.pdf"
+        },
+        {
+            "id":14,
+            "name":"Career councelling motivatioanl seminar",
+            "link":"/pdf/44_Career_councelling_motivatioanl_seminar.pdf"
+        },
+        {
+            "id":15,
+            "name":"coaching classes for competitive",
+            "link":"/pdf/45_coaching_classes_for_competitive.pdf"
+        }
+    ],
+    "four_5_1_4":[
+        {
+            "id":1,
+            "name":"General Knowledge",
+            "link":"/pdf/16_General_Knowledge.pdf"
+        },
+        {
+            "id":2,
+            "name":"Career councelling",
+            "link":"/pdf/17_Career_councelling.pdf"
+        },
+        {
+            "id":3,
+            "name":"Sri pushpam IAS",
+            "link":"/pdf/18_Sri_pushpam_IAS.pdf"
+        },
+        {
+            "id":4,
+            "name":"Scope economics future",
+            "link":"/pdf/19_Scope_economics_future.pdf"
+        },
+        {
+            "id":5,
+            "name":"competitive coaching class",
+            "link":"/pdf/20_competitive_coaching_class.pdf"
+        },
+        {
+            "id":6,
+            "name":"How face exam",
+            "link":"/pdf/21_How_face_exam.pdf"
+        },
+        {
+            "id":7,
+            "name":"How clear bank exam",
+            "link":"/pdf/22_How_clear_bank_exam.pdf"
+        },
+        {
+            "id":8,
+            "name":"career councelling competitive",
+            "link":"/pdf/23_career_councelling_competitive.pdf"
+        },
+        {
+            "id":9,
+            "name":"career councelling NET SET",
+            "link":"/pdf/24_career_councelling_NET_SET.pdf"
+        },
+        {
+            "id":10,
+            "name":"career councelling competitive",
+            "link":"/pdf/25_career_councelling_competitive.pdf"
+        },
+        {
+            "id":11,
+            "name":"coaching class NET SET",
+            "link":"/pdf/26_coaching_class_NET_SET.pdf"
+        },
+        {
+            "id":12,
+            "name":"career councelling NET SET",
+            "link":"/pdf/27_career_councelling_NET_SET.pdf"
+        },
+        {
+            "id":13,
+            "name":"competitive exam coaching class",
+            "link":"/pdf/28_competitive_exam_coaching_class.pdf"
+        },
+        {
+            "id":14,
+            "name":"career councelling work shop",
+            "link":"/pdf/29_career_councelling_work_shop.pdf"
+        },
+        {
+            "id":15,
+            "name":"Consensus Building about Career Practice",
+            "link":"/pdf/30_Consensus_Building_about_Career_Practice.pdf"
+        }
+    ],
+    "five_5_1_4":[
+        {
+            "id":1,
+            "name":"General Knowledge",
+            "link":"/pdf/1_General_Knowledge.pdf"
+        },
+        {
+            "id":2,
+            "name":"Career councelling",
+            "link":"/pdf/2_Career_councelling.pdf"
+        },
+        {
+            "id":3,
+            "name":"Sri pushpam IAS",
+            "link":"/pdf/3_Sri_pushpam_IAS.pdf"
+        },
+        {
+            "id":4,
+            "name":"Higher studies Economics",
+            "link":"/pdf/4_Higher_studies_Economics.pdf"
+        },
+        {
+            "id":5,
+            "name":"Coaching class",
+            "link":"/pdf/5_Coaching_class.pdf"
+        },
+        {
+            "id":6,
+            "name":"Awarness TNPSC",
+            "link":"/pdf/6_Awarness_TNPSC.pdf"
+        },
+        {
+            "id":7,
+            "name":"Competitive shortcut solve problem",
+            "link":"/pdf/7_Competitive_shortcut_solve_problem.pdf"
+        },
+        {
+            "id":8,
+            "name":"Career councelling",
+            "link":"/pdf/8_Career_councelling.pdf"
+        },
+        {
+            "id":9,
+            "name":"Career councelling NET SET",
+            "link":"/pdf/9_Career_councelling_NET_SET.pdf"
+        },
+        {
+            "id":10,
+            "name":"Career councelling",
+            "link":"/pdf/10_Career_councelling.pdf"
+        },
+        {
+            "id":11,
+            "name":"coaching class NET SET",
+            "link":"/pdf/11_coacing_class_NET_SET.pdf"
+        },
+        {
+            "id":12,
+            "name":"Career councelling NET SET",
+            "link":"/pdf/12_Career_councelling_NET_SET"
+        },
+        {
+            "id":13,
+            "name":"Competitive coaching class",
+            "link":"/pdf/13_Competitive_coaching_class.pdf"
+        },
+        {
+            "id":14,
+            "name":"career guidence",
+            "link":"/pdf/14_career_guidence.pdf"
+        },
+        {
+            "id":15,
+            "name":"Corporate Learning and Development",
+            "link":"/pdf/15_Corporate_Learning_and_Development.pdf"
+        }
+    ],
+    "t_5_2_1":[
+        {
+            "id":1,
+            "name":"2015-2016",
+            "link":"/pdf/2015_2016_placement_of_outgoing_students.pdf"
+        },
+        {
+            "id":2,
+            "name":"2016-2017",
+            "link":"/pdf/2016_2017_placement_of_outgoing_students.pdf"
+        },
+        {
+            "id":3,
+            "name":"2017-2018",
+            "link":"/pdf/2017_2018_placement_of_outgoing_students.pdf"
+        },
+        {
+            "id":4,
+            "name":"2018-2019",
+            "link":"/pdf/2018_2019_placement_of_outgoing_students.pdf"
+        },
+        {
+            "id":5,
+            "name":"2019-2020",
+            "link":"/pdf/2019_2020_placement_of_outgoing_students.pdf"
         }
     ]
 

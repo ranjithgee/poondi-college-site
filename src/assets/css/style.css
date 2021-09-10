@@ -114,7 +114,7 @@
     display: flex;
     align-items: center;
     transition: .3s ease-in-out;
-    background-color:#b3d1f0;
+    background-color:#e6f0fa;
     color: black;
     width:95%;
     font-size: 17px;
@@ -127,14 +127,20 @@
     text-align: center;
     padding: 35px 0;
     width: 96.7%;
-    background-color:#f1f1f1;
+    background-color:#cfd8e1;
 }
 .year_category2 .year_items2{
     display: flex;
     flex-wrap: wrap;
     padding: 35px 0;
     width: 96.7%;
-    background-color: #e6f0fa;
+    background-color: #cfd8e1;
+}
+.year_category{
+    margin-bottom:60px;
+}
+.year_category.ssd{
+    margin-bottom:13px;
 }
 .year_category2{
     margin-bottom:60px;

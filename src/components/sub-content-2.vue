@@ -154,6 +154,12 @@
                                         <a v-for="item in datas.five_5_1_4" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
                                     </div>
                                 </div>
+                                <div class="year_category" v-if="cat.path == '1.3.3'" >
+                                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt=""> List of Students Enrolled in Value Added Courses</div>
+                                        <div class="year_items">
+                                            <a v-for="item in datas.t_1_3_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                        </div>
+                                </div>
                                 <div class="year_category2" v-if="cat.path == '1.3.3'">
                                     <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2015-2016</div>
                                     <div class="year_items2">

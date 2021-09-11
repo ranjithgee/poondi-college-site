@@ -5,7 +5,7 @@
           <div class="item" v-for="item in datas.data" :key="item.id" >
               <div v-if="$route.params.id == item.route_name">
                   <div class="heading">
-                      <div class="breadcrumbs"><span> Home <i class="fas fa-chevron-right" ></i> {{item.name}}</span></div>
+                      <div class="breadcrumbs"><span> <router-link :to="item.link" > Home </router-link><i class="fas fa-chevron-right" ></i> <router-link :to="item.link">{{item.name}}</router-link></span></div>
                       {{item.name}}
                   </div>
                   <div class="sub_items">

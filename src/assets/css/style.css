@@ -27,6 +27,14 @@
 .heading .breadcrumbs i{
     margin:0 10px;
 }
+.heading .breadcrumbs a{
+    text-decoration: none;
+    color: black;
+}
+.heading .breadcrumbs a:hover{
+    color: #0066cc;
+    transition: .3s ease-in-out;
+}
 .heading .breadcrumbs span{
     padding: 6px 20px;
     background-color: #e6f0fa;
@@ -335,6 +343,7 @@
     }
     .back_btn{
         font-size: 13px;
+        margin-right: 0;
     }
     .back_btn i{
         font-size: 13px;

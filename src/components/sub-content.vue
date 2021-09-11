@@ -5,7 +5,7 @@
                   <div v-for="category in item.category" :key="category.id">
                       <div  v-if="$route.params.id == item.route_name && $route.params.subid == category.path">
                           <div class="heading"  >
-                              <div class="breadcrumbs"><span>Home <i class="fas fa-chevron-right" ></i> {{item.name}} <i class="fas fa-chevron-right" ></i> {{category.name}}</span></div>
+                              <div class="breadcrumbs"><span><router-link :to="item.link">Home</router-link> <i class="fas fa-chevron-right" ></i> <router-link :to="item.link">{{item.name}}</router-link> <i class="fas fa-chevron-right" ></i> <router-link :to="category.link">{{category.name}}</router-link> </span></div>
                                 {{category.name}}<button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button>
                           </div>
                           <div class="sub_items">

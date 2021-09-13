@@ -1221,7 +1221,15 @@
                         {
                             "id":1,
                             "name":"  6.4.1 Financial Audits",
-                            "link":""
+                            "path":"6.4.1",
+                            "link":"/governance-leadership-management/6.4/6.4.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"External and Internal Financial Audits",
+                                    "link":"/pdf/External_and_Internal_Financial_Audits.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,
@@ -1231,7 +1239,15 @@
                         {
                             "id":3,
                             "name":" 6.4.3 Mobilization of Funds",
-                            "link":""
+                            "path":"6.4.3",
+                            "link":"/governance-leadership-management/6.4/6.4.3",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Mobilisation of funds",
+                                    "link":"/pdf/Mobilisation_of_funds.pdf"
+                                }
+                            ]
                         }
                     ]
                 },

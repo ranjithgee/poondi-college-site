@@ -190,6 +190,12 @@
                                         <a v-for="item in datas.five_1_3_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
                                     </div>
                                 </div>
+                                <div class="year_category" v-if="cat.path == '3.6.2'" >
+                                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt=""> Awards and Recognition recieved for extension activities</div>
+                                        <div class="year_items">
+                                            <a v-for="item in datas.t_3_6_2" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                        </div>
+                                </div>
                            </div>
                       </div>
                   </div>

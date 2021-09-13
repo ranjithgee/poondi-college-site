@@ -199,8 +199,21 @@
                         },
                         {
                             "id":2,
-                            "name":"   1.4.2 Feedback Analysis",
-                            "link":""
+                            "name":" 1.4.2 Feedback Analysis",
+                            "path":"1.4.2",
+                            "link":"/curricular_aspects/1.4/1.4.2",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Department wise Action taken report",
+                                    "link":"/pdf/Department_wise_Action_Taken_Report.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Feedback Analysis",
+                                    "link":"/curricular_aspects/1.4/1.4.2/feedback-analysis"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -635,7 +648,15 @@
                         {
                             "id":1,
                             "name":" 3.5.1 Consultancy Policy And Minutes",
-                            "link":""
+                            "path":"3.5.1",
+                            "link":"/research-innovations-extension/3.5/3.5.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Revenue generated through consultancy",
+                                    "link":"/pdf/3.5.1_Revenue_Generated_through_Consultancy.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,
@@ -663,7 +684,8 @@
                         {
                             "id":2,
                             "name":"   3.6.2 Awards and Recognitions for Extension Activities",
-                            "link":""
+                            "path":"3.6.2",
+                            "link":"/research-innovations-extension/3.6/3.6.2"
                         },
                         {
                             "id":3,
@@ -1831,139 +1853,139 @@
             "id":1,
             "name":"ANGEL FISH FARM (pvt.Ltd), No. 709,HIG, New Housing unit, Near New Bus Stand, Thanjavur-6135005, Tamil Nadu, India.",
             "date":"12.02.2020",
-            "link":"/pdf/1_ANGEL_FISH_FARM.pdf"
+            "link":"/pdf/functional_mou/FILE 1 - ANGEL FISH FARM.pdf"
         },
         {
             "id":2,
             "name":"Tanbio R&D Solution, Periyar Technology Business Incubator, Periyar Maniammai Institute of Science and Technology, Vallam-613403, Thanjavur, Tamil Nadu, India.",
             "date":"23.01.2020",
-            "link":"/pdf/2_TANBIO_R_and_D.pdf"
+            "link":"/pdf/functional_mou/FILE 2 - TANBIO R_D.pdf"
         },
         {
             "id":3,
             "name":"Nesamony Memorial Christian College, Marthandam - 629 165, Kanyakumari Dt",
             "date":"04.01.2020",
-            "link":"/pdf/3_NESAMONY_MEMORIAL_CHRISTAIN_CLG.pdf"
+            "link":"/pdf/functional_mou/FILE 3 - NESAMONY MEMORIAL CHRISTAIN CLG.pdf"
         },
         {
             "id":4,
             "name":"A.V.C College (Autonomous), Mannampandal-609305, Mayiladuthurai, Tamil Nadu, India.",
             "date":"13.12.2019",
-            "link":"/pdf/4_ AVC_CLG.pdf"
+            "link":"/pdf/functional_mou/FILE 4 - AVC CLG.pdf"
         },
         {
             "id":5,
             "name":"K.R. Hitech Freshwater Fish Farm, Bio Floc Technology of Freshwater fish culture, Serumangalam,Mannargudi, Thiruvarur (Dt), Tamil Nadu, India.",
             "date":"09.12.2019",
-            "link":"/pdf/5_K_R_HITECH.pdf"
+            "link":"/pdf/functional_mou/FILE 5 - K. R. HITECH.pdf"
         },
         {
             "id":6,
             "name":"Bon Secours College For Women, Vilar Bypass, Tanjavur-613006, TamilNadu, India.",
             "date":"27.09.2019",
-            "link":"/pdf/6_BON_SECOURS_CLG.pdf"
+            "link":"/pdf/functional_mou/FILE 6 - BON SECOURS CLG.pdf"
         },
         {
             "id":7,
             "name":"Government Arts College for Men(Autonomous),Kumbakonam-612002",
             "date":"17.07.2019",
-            "link":"/pdf/7_GOVERNMENT_ARTS_CLG_FOR_MEN.pdf"
+            "link":"/pdf/functional_mou/FILE 7 - GOVERNMENT ARTS CLG FOR MEN.pdf"
         },
         {
             "id":8,
             "name":"Maruthu Pandiayar Institutions, Vallam-613403, Tanjavur, Tamil Nadu, India.",
             "date":"16.07.2019",
-            "link":"/pdf/8_MARUTHUPANDIYAR_CLG.pdf"
+            "link":"/pdf/functional_mou/FILE 8 - MARUTHUPANDIYAR CLG.pdf"
         },
         {
             "id":9,
             "name":"SCIGEN Research and Innovation, Periyar Technology Business Incubator, Periyar Maniammai Institute of Science and Technology, Vallam-613 403, Thanjavur, Tamil Nadu, India.",
             "date":"11.07.2019",
-            "link":"/pdf/9_SCIGEN.pdf"
+            "link":"/pdf/functional_mou/FILE 9 - SCIGEN.pdf"
         },
         {
             "id":10,
             "name":"Indian Biotrack Research Institute , Karpagam  Nagar, Thanjavur Dt",
             "date":"03.07.2019",
-            "link":"/pdf/10_INDIAN_BIO_TRAC.pdf"
+            "link":"/pdf/functional_mou/FILE 10 - INDIAN BIO TRAC.pdf"
         },
         {
             "id":11,
             "name":"Rajah Serfoji Govt.College (Autonomous), Thanjavur-613005, Tamil Nadu, India.",
             "date":"15.07.2018",
-            "link":"/pdf/11_RAJAH_SERFOJI_CLG.pdf"
+            "link":"/pdf/functional_mou/FILE 11 - RAJAH SERFOJI CLG.pdf"
         },
         {
             "id":12,
             "name":"Popular Process, S.F. No. 599/1B, Near VIP Garden, Veerapandi Village, Veerapandi(Po), Tirupur-641 605",
             "date":"13.07.2018",
-            "link":"/pdf/12_POPULAR_PROCESS.pdf"
+            "link":"/pdf/functional_mou/FILE 12 POPULAR PROCESS.pdf"
         },
         {
             "id":13,
             "name":"Rajah Serfoji Government College(Autonomous),Thanjavur-613005,Tamil Nadu, India.",
             "date":"10.07.2018",
-            "link":"/pdf/13_ RAJAH_SERFOJI_CLG.pdf"
+            "link":"/pdf/functional_mou/FILE 13- RAJAH SERFOJI CLG.pdf"
         },
         {
             "id":14,
             "name":"Maruthu Pandiayar College, Vallam-613403, Tanjavur, Tamil Nadu, India.",
             "date":"06.07.2018",
-            "link":"/pdf/14_MARUTHUPANDIYAR_CLG.pdf"
+            "link":"/pdf/functional_mou/FILE 14 - MARUTHUPANDIYAR CLG.pdf"
         },
         {
             "id":15,
             "name":"Sri Amman Biocare, Pudukkottai Main Road, Thirukkanurpatti, Thanjavur Dt",
             "date":"29.06.2018",
-            "link":"/pdf/15_SRI_AMMAN_BIOCARE.pdf"
+            "link":"/pdf/functional_mou/FILE 15 - SRI AMMAN BIOCARE.pdf"
         },
         {
             "id":16,
             "name":"Maruthu Pandiayar Institutions, Vallam-613403, Tanjavur, Tamil Nadu, India.",
             "date":"24.06.2018",
-            "link":"/pdf/16_MARUTHUPANDIYAR_CLG.pdf"
+            "link":"/pdf/functional_mou/FILE 16 - MARUTHUPANDIYAR CLG.pdf"
         },
         {
             "id":17,
             "name":"Indian Biotrack Research Institute,  Thanjavur-613001,Tamil Nadu, India.",
             "date":"13.02.2018",
-            "link":"/pdf/17_INDIAN_BIOTRAC_RESEARCH_INSTITUTE.pdf"
+            "link":"/pdf/functional_mou/FILE 17 - INDIAN BIOTRAC RESEARCH INSTITUTE.pdf"
         },
         {
             "id":18,
             "name":"Bio Research Centre,Natarajapuram, MC Road,Tanajavur-613007, Tamil Nadu,India.",
             "date":"09.02.2018",
-            "link":"/pdf/18_DRS_BIO_RESEARCH_CENTRE.pdf"
+            "link":"/pdf/functional_mou/FILE 18 - DRS BIO RESEARCH CENTRE.pdf"
         },
         {
             "id":19,
             "name":"MM Spawn Lab, GSP Mushroom, Karanthai - 613 002, Thanjavur ",
             "date":"27.06.2017",
-            "link":"/pdf/19_MM_SPAWN_LAB.pdf"
+            "link":"/pdf/functional_mou/FILE 19 - MM SPAWN LAB.pdf"
         },
         {
             "id":20,
             "name":"Thanthai Hans Roever College(Autonomous), Perambalur-621220,Tamil Nadu, India.",
             "date":"15.07.2016",
-            "link":"/pdf/20_THANTHAI_HANS_ROVER_CLG.pdf"
+            "link":"/pdf/functional_mou/FILE 20 - THANTHAI HANS ROVER CLG.pdf"
         },
         {
             "id":21,
             "name":"Noorul Islam University, Kumaracoil, Thuckalai, Kanyakumari-629180, TamilNadu, India.",
             "date":"12.09.2015",
-            "link":"/pdf/21_NOORUL_ISLAM.pdf"
+            "link":"/pdf/functional_mou/FILE 21 - NOORUL ISLAM.pdf"
         },
         {
             "id":22,
             "name":"Dr. N. G. P Arts and Science College, Coimbatore",
             "date":"18.02.2015",
-            "link":"/pdf/22_NGP_CLG.pdf"
+            "link":"/pdf/functional_mou/FILE 22- NGP CLG.pdf"
         },
         {
             "id":23,
             "name":"M.S. Swaminathan Research Foundation, Third Cross,Institutional Area, Taramani,Chennai-600113,TamilNadu, India.",
             "date":"21.10.2013",
-            "link":"/pdf/23_ M_S_SWAMINATHAN.pdf"
+            "link":"/pdf/functional_mou/FILE 23 - M.S SWAMINATHAN.pdf"
         }
     ],
     "t_3_4_4":[
@@ -3776,6 +3798,141 @@
             "id":5,
             "name":"2019-2020",
             "link":"/pdf/value_courses/2019_2020.pdf"
+        }
+    ],
+    "one_1_4_2":[
+        {
+            "id":1,
+            "name":"2015-2016",
+            "link":"/pdf/alumni_feedback_analysis_2015_2016.pdf"
+        },
+        {
+            "id":2,
+            "name":"2016-2017",
+            "link":"/pdf/alumni_feedback_analysis_2016_2017.pdf"
+        },
+        {
+            "id":3,
+            "name":"2017-2018",
+            "link":"/pdf/alumni_feedback_analysis_2017_2018.pdf"
+        },
+        {
+            "id":4,
+            "name":"2018-2019",
+            "link":"/pdf/alumni_feedback_analysis_2018_2019.pdf"
+        },
+        {
+            "id":5,
+            "name":"2019-2020",
+            "link":"/pdf/alumni_feedback_analysis_2019_2020.pdf"
+        }
+    ],
+    "two_1_4_2":[
+        {
+            "id":1,
+            "name":"2015-2016",
+            "link":"/pdf/employer_feedback_analysis_2015_2016.pdf"
+        },
+        {
+            "id":2,
+            "name":"2016-2017",
+            "link":"/pdf/employer_feedback_analysis_2016_2017.pdf"
+        },
+        {
+            "id":3,
+            "name":"2017-2018",
+            "link":"/pdf/employer_feedback_analysis_2017_2018.pdf"
+        },
+        {
+            "id":4,
+            "name":"2018-2019",
+            "link":"/pdf/employer_feedback_analysis_2018_2019.pdf"
+        },
+        {
+            "id":5,
+            "name":"2019-2020",
+            "link":"/pdf/employer_feedback_analysis_2019_2020.pdf"
+        }
+    ],
+    "three_1_4_2":[
+        {
+            "id":1,
+            "name":"2015-2016",
+            "link":"/pdf/Students_feedback_analysis_2015_2016.pdf"
+        },
+        {
+            "id":2,
+            "name":"2016-2017",
+            "link":"/pdf/Students_feedback_analysis_2016_2017.pdf"
+        },
+        {
+            "id":3,
+            "name":"2017-2018",
+            "link":"/pdf/Students_feedback_analysis_2017_2018.pdf"
+        },
+        {
+            "id":4,
+            "name":"2018-2019",
+            "link":"/pdf/Students_feedback_analysis_2018_2019.pdf"
+        },
+        {
+            "id":5,
+            "name":"2019-2020",
+            "link":"/pdf/Students_feedback_analysis_2019_2020.pdf"
+        }
+    ],
+    "four_1_4_2":[
+        {
+            "id":1,
+            "name":"2015-2016",
+            "link":"/pdf/Teachers_feedback_analysis_2015_2016.pdf"
+        },
+        {
+            "id":2,
+            "name":"2016-2017",
+            "link":"/pdf/Teachers_feedback_analysis_2016_2017.pdf"
+        },
+        {
+            "id":3,
+            "name":"2017-2018",
+            "link":"/pdf/Teachers_feedback_analysis_2017_2018.pdf"
+        },
+        {
+            "id":4,
+            "name":"2018-2019",
+            "link":"/pdf/Teachers_feedback_analysis_2018_2019.pdf"
+        },
+        {
+            "id":5,
+            "name":"2019-2020",
+            "link":"/pdf/Teachers_feedback_analysis_2019_2020.pdf"
+        }
+    ],
+    "t_3_6_2":[
+        {
+            "id":1,
+            "name":"2015-2016",
+            "link":"/pdf/2015_2016_Awards_Recognition_for_Extension_activity.pdf"
+        },
+        {
+            "id":2,
+            "name":"2016-2017",
+            "link":"/pdf/2016_2017_Awards_Recognition_for_Extension_activity.pdf"
+        },
+        {
+            "id":3,
+            "name":"2017-2018",
+            "link":"/pdf/2017_2018_Awards_Recognition_for_Extension_activity.pdf"
+        },
+        {
+            "id":4,
+            "name":"2018-2019",
+            "link":"/pdf/2018_2019_Awards_Recognition_for_Extension_activity.pdf"
+        },
+        {
+            "id":5,
+            "name":"2019-2020",
+            "link":"/pdf/2019_2020_Awards_Recognition_for_Extension_activity.pdf"
         }
     ]
 

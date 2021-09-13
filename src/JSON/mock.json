@@ -199,8 +199,21 @@
                         },
                         {
                             "id":2,
-                            "name":"   1.4.2 Feedback Analysis",
-                            "link":""
+                            "name":" 1.4.2 Feedback Analysis",
+                            "path":"1.4.2",
+                            "link":"/curricular_aspects/1.4/1.4.2",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Department wise Action taken report",
+                                    "link":"/pdf/Department_wise_Action_Taken_Report.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Feedback Analysis",
+                                    "link":"/curricular_aspects/1.4/1.4.2/feedback-analysis"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -3776,6 +3789,114 @@
             "id":5,
             "name":"2019-2020",
             "link":"/pdf/value_courses/2019_2020.pdf"
+        }
+    ],
+    "one_1_4_2":[
+        {
+            "id":1,
+            "name":"2015-2016",
+            "link":"/pdf/alumni_feedback_analysis_2015_2016.pdf"
+        },
+        {
+            "id":2,
+            "name":"2016-2017",
+            "link":"/pdf/alumni_feedback_analysis_2016_2017.pdf"
+        },
+        {
+            "id":3,
+            "name":"2017-2018",
+            "link":"/pdf/alumni_feedback_analysis_2017_2018.pdf"
+        },
+        {
+            "id":4,
+            "name":"2018-2019",
+            "link":"/pdf/alumni_feedback_analysis_2018_2019.pdf"
+        },
+        {
+            "id":5,
+            "name":"2019-2020",
+            "link":"/pdf/alumni_feedback_analysis_2019_2020.pdf"
+        }
+    ],
+    "two_1_4_2":[
+        {
+            "id":1,
+            "name":"2015-2016",
+            "link":"/pdf/employer_feedback_analysis_2015_2016.pdf"
+        },
+        {
+            "id":2,
+            "name":"2016-2017",
+            "link":"/pdf/employer_feedback_analysis_2016_2017.pdf"
+        },
+        {
+            "id":3,
+            "name":"2017-2018",
+            "link":"/pdf/employer_feedback_analysis_2017_2018.pdf"
+        },
+        {
+            "id":4,
+            "name":"2018-2019",
+            "link":"/pdf/employer_feedback_analysis_2018_2019.pdf"
+        },
+        {
+            "id":5,
+            "name":"2019-2020",
+            "link":"/pdf/employer_feedback_analysis_2019_2020.pdf"
+        }
+    ],
+    "three_1_4_2":[
+        {
+            "id":1,
+            "name":"2015-2016",
+            "link":"/pdf/Students_feedback_analysis_2015_2016.pdf"
+        },
+        {
+            "id":2,
+            "name":"2016-2017",
+            "link":"/pdf/Students_feedback_analysis_2016_2017.pdf"
+        },
+        {
+            "id":3,
+            "name":"2017-2018",
+            "link":"/pdf/Students_feedback_analysis_2017_2018.pdf"
+        },
+        {
+            "id":4,
+            "name":"2018-2019",
+            "link":"/pdf/Students_feedback_analysis_2018_2019.pdf"
+        },
+        {
+            "id":5,
+            "name":"2019-2020",
+            "link":"/pdf/Students_feedback_analysis_2019_2020.pdf"
+        }
+    ],
+    "four_1_4_2":[
+        {
+            "id":1,
+            "name":"2015-2016",
+            "link":"/pdf/Teachers_feedback_analysis_2015_2016.pdf"
+        },
+        {
+            "id":2,
+            "name":"2016-2017",
+            "link":"/pdf/Teachers_feedback_analysis_2016_2017.pdf"
+        },
+        {
+            "id":3,
+            "name":"2017-2018",
+            "link":"/pdf/Teachers_feedback_analysis_2017_2018.pdf"
+        },
+        {
+            "id":4,
+            "name":"2018-2019",
+            "link":"/pdf/Teachers_feedback_analysis_2018_2019.pdf"
+        },
+        {
+            "id":5,
+            "name":"2019-2020",
+            "link":"/pdf/Teachers_feedback_analysis_2019_2020.pdf"
         }
     ]
 

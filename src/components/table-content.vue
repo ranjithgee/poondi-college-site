@@ -82,6 +82,39 @@
           </div>
       </div>
   </div>
+  <div v-else-if="$route.params.tableid == 'feedback-analysis'">
+      <div class="list">
+          <div class="item">
+              <div class="heading"  >Feedback Analysis<button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button></div> 
+             <div class="sub_items">
+                 <div class="year_category2" >
+                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Alumni Feedback Analysis!!!!!!!!</div>
+                    <div class="year_items2">
+                        <a v-for="item in datas.one_1_4_2" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                    </div>
+                </div>
+                <div class="year_category2" >
+                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Employer Feedback Analysis</div>
+                    <div class="year_items2">
+                        <a v-for="item in datas.two_1_4_2" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                    </div>
+                </div>
+                <div class="year_category2" >
+                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Students Feedback Analysis</div>
+                    <div class="year_items2">
+                        <a v-for="item in datas.three_1_4_2" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                    </div>
+                </div>
+                <div class="year_category2" >
+                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Teachers Feedback Analysis</div>
+                    <div class="year_items2">
+                        <a v-for="item in datas.four_1_4_2" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                    </div>
+                </div>
+             </div>
+          </div>
+      </div>
+  </div>
   <div v-else>
       <div class="list">
           <div class="item">

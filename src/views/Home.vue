@@ -26,7 +26,6 @@
 
 <script>
 import Header from '../components/header/Header.vue'
-import json from '../JSON/mock.json'
 export default {
   components:{
     Header
@@ -41,7 +40,7 @@ export default {
   },
   data(){
     return{
-      datas:json,
+      datas:this.$store.state.data,
       activeTab:0
     }
   },

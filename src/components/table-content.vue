@@ -16,7 +16,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr v-for="item in datas.t_1_2_2" :key="item.id">
+                            <tr v-for="item in tables.t_1_2_2" :key="item.id">
                                 <td style="width:20%;" >{{item.name}}</td>
                                 <td class="pdf_items" ><a :href="$store.state.siteUrl + item.ug" v-if="item.ug !== ''"  target="_blank" ><img src="../assets/pdf_icon2.png" style="width:20px;" /></a> <span v-else> - </span> </td>
                                 <td class="pdf_items"> <a :href="$store.state.siteUrl + item.pg" v-if="item.pg !== ''"  target="_blank" ><img src="../assets/pdf_icon2.png" style="width:20px;" /></a> <span v-else> - </span> </td>
@@ -47,7 +47,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr v-for="item in datas.t_1_1_2" :key="item.id">
+                            <tr v-for="item in tables.t_1_1_2" :key="item.id">
                                 <td style="width:20%;" >{{item.name}}</td>
                                 <td class="pdf_items" ><a :href="$store.state.siteUrl + item.ug" v-if="item.ug !== ''"  target="_blank" ><img src="../assets/pdf_icon2.png" style="width:20px;" /></a> <span v-else> - </span> </td>
                                 <td class="pdf_items"> <a :href="$store.state.siteUrl + item.pg" v-if="item.pg !== ''"  target="_blank" ><img src="../assets/pdf_icon2.png" style="width:20px;" /></a> <span v-else> - </span> </td>
@@ -75,7 +75,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr v-for="item in datas.t_2_3_3" :key="item.id">
+                            <tr v-for="item in tables.t_2_3_3" :key="item.id">
                                 <td class="mentor_td"  >{{item.name}}</td>
                                 <td class="pdf_items" ><a :href="$store.state.siteUrl + item.link"   target="_blank" ><img src="../assets/pdf_icon2.png" style="width:20px;" /></a> </td>
                             </tr>
@@ -94,13 +94,13 @@
                  <div class="year_category2" >
                     <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">UG Courses</div>
                     <div class="year_items2">
-                        <a v-for="item in datas.ug_courses" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                        <a v-for="item in tables.ug_courses" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
                     </div>
                 </div>
                 <div class="year_category2" >
                     <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">PG Courses</div>
                     <div class="year_items2">
-                        <a v-for="item in datas.pg_courses" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                        <a v-for="item in tables.pg_courses" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
                     </div>
                 </div>
              </div>
@@ -115,25 +115,25 @@
                  <div class="year_category" >
                     <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Alumni Feedback Analysis</div>
                     <div class="year_items">
-                        <a v-for="item in datas.one_1_4_2" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                        <a v-for="item in tables.one_1_4_2" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
                     </div>
                 </div>
                 <div class="year_category" >
                     <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Employer Feedback Analysis</div>
                     <div class="year_items">
-                        <a v-for="item in datas.two_1_4_2" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                        <a v-for="item in tables.two_1_4_2" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
                     </div>
                 </div>
                 <div class="year_category" >
                     <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Students Feedback Analysis</div>
                     <div class="year_items">
-                        <a v-for="item in datas.three_1_4_2" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                        <a v-for="item in tables.three_1_4_2" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
                     </div>
                 </div>
                 <div class="year_category" >
                     <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Teachers Feedback Analysis</div>
                     <div class="year_items">
-                        <a v-for="item in datas.four_1_4_2" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                        <a v-for="item in tables.four_1_4_2" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
                     </div>
                 </div>
              </div>
@@ -145,7 +145,7 @@
           <div class="item">
               <div class="heading cnt"  >Minutes_of_Academic_Council_Meetings <button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button></div> 
               <div class="sub_items">
-                  <div v-for="item in datas.t_1_2_3" :key="item.id">
+                  <div v-for="item in tables.t_1_2_3" :key="item.id">
                       <a class="i_list" :href=" $store.state.siteUrl + item.link" target="_blank" ><img class="send_icon" src="@/assets/send.svg" alt="">{{item.name}}</a>
                   </div>
               </div>
@@ -158,7 +158,8 @@
 export default {
     data(){
         return{
-            datas:this.$store.state.data
+            datas:this.$store.state.data,
+            tables:this.$store.state.table
         }
     },
 }

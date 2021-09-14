@@ -61,6 +61,31 @@
           </div>
       </div>
   </div>
+  <div v-else-if="$route.params.tableid == 'mentor-register'">
+      <div class="list">
+          <div class="item">
+              <div class="heading cnt"  >Mentor Register<button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button></div> 
+             <div class="sub_items">
+                 <div class="table_contents courses" style="overflow-x:auto;" >
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Departments</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr v-for="item in datas.t_2_3_3" :key="item.id">
+                                <td  >{{item.name}}</td>
+                                <td class="pdf_items" ><a :href="$store.state.siteUrl + item.ug"   target="_blank" ><img src="../assets/pdf_icon2.png" style="width:20px;" /></a> </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+             </div>
+          </div>
+      </div>
+  </div>
   <div v-else-if="$route.params.tableid == 'course-outcomes'">
       <div class="list">
           <div class="item">

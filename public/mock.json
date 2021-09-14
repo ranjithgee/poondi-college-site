@@ -331,7 +331,30 @@
                         {
                             "id":3,
                             "name":" 2.3.3 Mentor:Mentee",
-                            "link":""
+                            "path":"2.3.3",
+                            "link":"/teaching-learning-evaluation/2.3/2.3.3",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Mentor Allotment",
+                                    "link":"/pdf/Mentor_Allotment.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Mentor Mentee circular",
+                                    "link":"/pdf/Menthor_mentees_circular.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Mentor Mentee Strength",
+                                    "link":"/pdf/Mentor_Mentee_Strength.pdf"
+                                },
+                                {
+                                    "id":4,
+                                    "name":"Mentor Register related to issues",
+                                    "link":"/teaching-learning-evaluation/2.3/2.3.3/mentor-register"
+                                }
+                            ]
                         },
                         {
                             "id":4,
@@ -368,7 +391,7 @@
                                 {
                                     "id":1,
                                     "name":"Ph.D degree of Full time teachers",
-                                    "link":"/pdf/Ph.D_degree_of_Full_time_teachers.pdf"
+                                    "link":"/pdf/2.4.2.Ph.D_Degree_certificates.pdf"
                                 }
                             ]
                         },
@@ -553,7 +576,15 @@
                         {
                             "id":3,
                             "name":" 3.2.3 Research Guides",
-                            "link":""
+                            "path":"3.2.3",
+                            "link":"/research-innovations-extension/3.2/3.2.3",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Ph.D Guideship Recognition letters",
+                                    "link":"/pdf/3.2.3.Ph.D_Guideship_Recognition_letters.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":4,
@@ -603,8 +634,81 @@
                         },
                         {
                             "id":2,
-                            "name":"  3.4.2 Incentives to Teachers",
-                            "link":""
+                            "name":"3.4.2 Ph.D’s registered per teacher",
+                            "path":"3.4.2",
+                            "link":"/research-innovations-extension/3.4/3.4.2",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"History",
+                                    "link":"/pdf/Ph.D_Scholars_in_History.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Economics",
+                                    "link":"/pdf/Ph.D_scholars_in_Economics.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Tamil",
+                                    "link":"/pdf/Ph.D_Scholars_in_Tamil.pdf"
+                                },
+                                {
+                                    "id":4,
+                                    "name":"English",
+                                    "link":"/pdf/Ph.D_Scholars_in_English.pdf"
+                                },
+                                {
+                                    "id":5,
+                                    "name":"Commerce",
+                                    "link":"/pdf/Ph.D_Scholars_in_Commerce.pdf"
+                                },
+                                {
+                                    "id":6,
+                                    "name":"Mathematics",
+                                    "link":"/pdf/Ph.D_Scholars_in_Mathematics.pdf"
+                                },
+                                {
+                                    "id":7,
+                                    "name":"Physics",
+                                    "link":"/pdf/Ph.D_Scholars_in_Physics.pdf"
+                                },
+                                {
+                                    "id":8,
+                                    "name":"Chemistry",
+                                    "link":"/pdf/Ph.D_Scholars_in_Chemistry.pdf"
+                                },
+                                {
+                                    "id":9,
+                                    "name":"Botany",
+                                    "link":"/pdf/Ph.D_Scholars_in_Botany.pdf"
+                                },
+                                {
+                                    "id":10,
+                                    "name":"Microbiology",
+                                    "link":"/pdf/Ph.D_Scholars_in_Microbiology.pdf"
+                                },
+                                {
+                                    "id":11,
+                                    "name":"Zoology",
+                                    "link":"/pdf/Ph.D_Scholars_in_Zoology.pdf"
+                                },
+                                {
+                                    "id":12,
+                                    "name":"Computer Science",
+                                    "link":"/pdf/Ph.D_Scholars_in_Computer_Science.pdf"
+                                },
+                                {
+                                    "id":13,
+                                    "name":"MLIS",
+                                    "link":"/pdf/Ph.D_Scholars_in_MLIS.pdf"
+                                },
+                                {
+                                    "id":14,
+                                    "name":"Management",
+                                    "link":"/pdf/Ph.D_Scholars_in_Management.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":3,
@@ -771,7 +875,15 @@
                         {
                             "id":1,
                             "name":"4.2.1 Library Automation",
-                            "link":""
+                            "path":"4.2.1",
+                            "link":"/infrastructure-learning-resources/4.2/4.2.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Library Facilities",
+                                    "link":"/pdf/4.2.1.Library_Facilities.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,
@@ -1265,7 +1377,25 @@
                         {
                             "id":2,
                             "name":" 6.5.2 Reforms for Quality Enhancement",
-                            "link":""
+                            "path":"6.5.2",
+                            "link":"/governance-leadership-management/6.5/6.5.2",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"CIA Mark List Templates",
+                                    "link":"/pdf/CIA_Mark_List_Templates.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Feedback Form Templates",
+                                    "link":"/pdf/Feedback_Form_Templates.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Result Review Meeting",
+                                    "link":"/pdf/Result_Review_Meeting.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":3,
@@ -4350,6 +4480,93 @@
             "id":16,
             "name":"MBA",
             "link":"/pdf/competitions/2019-2020/15.MBA_2019_2020.pdf"
+        }
+    ],
+    "t_2_3_3":[
+        {
+            "id":1,
+            "name":"History",
+            "link":"/pdf/register/1.History_Mentor_Register.pdf"
+        },
+        {
+            "id":2,
+            "name":"Economics",
+            "link":"/pdf/register/2.Economics_Mentor_Register.pdf"
+        },
+        {
+            "id":3,
+            "name":"Tamil",
+            "link":"/pdf/register/3.Tamil_Mentor_Register.pdf"
+        },
+        {
+            "id":4,
+            "name":"English",
+            "link":"/pdf/register/4.English_Mentor_Register.pdf"
+        },
+        {
+            "id":5,
+            "name":"Commerce",
+            "link":"/pdf/register/5.Commerce_Mentor_Register.pdf"
+        },
+        {
+            "id":6,
+            "name":"Mathematics",
+            "link":"/pdf/register/6. Mathematics_Mentor_Register.pdf"
+        },
+        {
+            "id":7,
+            "name":"Physics",
+            "link":"/pdf/register/7.Physics_Mentor_Register.pdf"
+        },
+        {
+            "id":8,
+            "name":"Chemistry",
+            "link":"/pdf/register/8.Chemistry_Mentor_Register.pdf"
+        },
+        {
+            "id":9,
+            "name":"Botany",
+            "link":"/pdf/register/9. Botany_Mentor_Register.pdf"
+        },
+        {
+            "id":10,
+            "name":"Microbiology",
+            "link":"/pdf/register/10.Microbiology_Mentor_Register.pdf"
+        },
+        {
+            "id":11,
+            "name":"Zoology",
+            "link":"/pdf/register/11.Zoology_Mentor_Register.pdf"
+        },
+        {
+            "id":12,
+            "name":"Computer Science",
+            "link":"/pdf/register/12.Computer_science_Mentor_Register.pdf"
+        },
+        {
+            "id":13,
+            "name":"Physical Education, Health Education and Sports",
+            "link":"/pdf/register/13.Physical_Education_Mentor_Register.pdf"
+        },
+        {
+            "id":14,
+            "name":"Library and Information Science",
+            "link":"/pdf/register/14.Library_Inf_Science_Mentor_Register.pdf"
+        },
+        {
+            "id":15,
+            "name":"Management Studies",
+            "link":"/pdf/register/15.Management_Studies_Mentor_Register.pdf"
+        },
+        {
+            "id":16,
+            "name":"Statistics",
+            "link":"/pdf/register/16.Statistics_Mentor_Register.pdf"
+        },
+        {
+            "id":17,
+            "name":"Geography",
+            "link":"/pdf/register/17.Geography_Mentor_Register.pdf"
         }
     ]
 

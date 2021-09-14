@@ -1,11 +1,10 @@
 import { createStore } from 'vuex'
-import json from '../JSON/datas.json'
-import tables from '../JSON/tables.json'
+
 
 export default createStore({
   state: {
-    data:json,
-    table:tables,
+    data:window.location.origin + '/datas.json',
+    table:window.location.origin + '/tables.json',
     siteUrl:window.location.origin
   },
   mutations: {

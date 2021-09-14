@@ -2,7 +2,7 @@
     "data":[
         {
             "id":1,
-            "name":"Curricular Aspects",
+            "name":"public Curricular Aspects",
             "hash":"#1",
             "link":"/curricular_aspects",
             "route_name":"curricular_aspects",

@@ -24,11 +24,11 @@
 
 .heading .breadcrumbs{
     padding: 10px 18px;
-    border-radius: 5px;
-    font-size: 16px;
+    font-size: 14px;
     background-color: #e6f0fa;
     width: 100%;
     margin-bottom: 15px;
+    font-weight: 500;
     margin-left:-30px;
 }
 .heading .breadcrumbs i{
@@ -44,7 +44,10 @@
 }
 .heading .breadcrumbs span{
     color: black;
-    border-radius: 5px;
+}
+
+.heading .breadcrumbs .crnt_page{
+    font-weight: bold;
 }
 
 /* .item a{
@@ -145,6 +148,16 @@
 .table_contents .pdf_items{
     text-align: center;
 }
+
+.table_contents table.mentor{
+    width:50%;
+}
+.table_contents table.mentor .mentor_td{
+    width:50%;
+}
+
+
+
 
 .year_category .year_head{
     font-weight: bold;
@@ -359,6 +372,13 @@
     }
     .heading.cnt{
         padding: 14px;
+    }
+    .table_contents table.mentor{
+        width:90%;
+    }
+
+    .table_contents table.mentor a{
+        display: block;
     }
 
 }

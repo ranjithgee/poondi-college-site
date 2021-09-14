@@ -21,12 +21,26 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
     data(){
         return{
-            datas:this.$store.state.data
+            datas:[]
         }
     },
+    mounted(){
+        this.GetData()
+    },
+    methods:{
+        GetData(){
+            axios.get(process.env.VUE_APP_API_URI_PREFIX + 'datas.json').then((r)=>{
+                console.log(r)
+                this.datas=r.data
+            }).catch((e)=>{
+                console.log(e)
+            })
+        }
+    }
 }
 </script>
 

@@ -26,6 +26,7 @@
 
 <script>
 import Header from '../components/header/Header.vue'
+import axios from 'axios'
 export default {
   components:{
     Header
@@ -38,9 +39,12 @@ export default {
       this.$router.push('/curricular_aspects')
     }
   },
+  mounted(){
+    this.GetData()
+  },
   data(){
     return{
-      datas:this.$store.state.data,
+      datas:[],
       activeTab:0
     }
   },
@@ -54,6 +58,14 @@ export default {
     Logout(){
       localStorage.clear();
       this.$router.push('/login');
+    },
+    GetData(){
+      axios.get(process.env.VUE_APP_API_URI_PREFIX + 'datas.json').then((r)=>{
+        console.log(r)
+        this.datas=r.data
+      }).catch((e)=>{
+        console.log(e)
+      })
     }
   }
 }

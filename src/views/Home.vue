@@ -25,6 +25,7 @@
 </template>
 
 <script>
+import axios from 'axios'
 import Header from '../components/header/Header.vue'
 export default {
   components:{
@@ -40,9 +41,12 @@ export default {
   },
   data(){
     return{
-      datas:this.$store.state.data,
+      datas:[],
       activeTab:0
     }
+  },
+  mounted(){
+    this.GetData()
   },
   methods:{
     MenuBar(){
@@ -54,6 +58,13 @@ export default {
     Logout(){
       localStorage.clear();
       this.$router.push('/login');
+    },
+    GetData(){
+        axios.get(this.$store.state.baseUrl + 'datas.json').then((r)=>{
+            this.datas = r.data
+        }).catch((e)=>{
+            console.log(e)
+        })
     }
   }
 }

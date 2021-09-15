@@ -21,24 +21,25 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
     data(){
         return{
-            datas:this.$store.state.data
+            datas:[]
         }
     },
-    // mounted(){
-    //     this.Get()
-    // },
-    // methods:{
-    //     Get(){
-    //         axios.get(this.$store.state.baseUrl + 'datas.json').then((r)=>{
-    //             console.log(r)
-    //         }).catch((e)=>{
-    //             console.log(e)
-    //         })
-    //     }
-    // }
+    mounted(){
+        this.GetData()
+    },
+    methods:{
+        GetData(){
+            axios.get(this.$store.state.baseUrl + 'datas.json').then((r)=>{
+                this.datas = r.data
+            }).catch((e)=>{
+                console.log(e)
+            })
+        }
+    }
 }
 </script>
 

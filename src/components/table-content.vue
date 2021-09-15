@@ -86,6 +86,37 @@
           </div>
       </div>
   </div>
+  <div v-else-if="$route.params.tableid == 'seed-money'">
+      <div class="list">
+          <div class="item">
+              <div class="heading cnt"  >Policy documents for Sanction of seed money<button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button></div> 
+             <div class="sub_items">
+                 <div class="table_contents courses" style="overflow-x:auto;" >
+                    <table class="seed_money">
+                        <thead>
+                            <tr>
+                                <th>S.No.</th>
+                                <th>Name of the teacher provided with seed money</th>
+                                <th>The amount of seed money (INR in Lakhs)</th>
+                                <th>Year of receiving</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr v-for="item in tables.t_3_1_2" :key="item.id">
+                                <td>{{item.id}}</td>
+                                <td>{{item.name}}</td>
+                                <td>{{item.amount}}</td>
+                                <td>{{item.year}}</td>
+                                <td class="pdf_items" ><a :href="$store.state.siteUrl + item.link"   target="_blank" ><img src="../assets/pdf_icon2.png" style="width:20px;" /></a> </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+             </div>
+          </div>
+      </div>
+  </div>
   <div v-else-if="$route.params.tableid == 'course-outcomes'">
       <div class="list">
           <div class="item">

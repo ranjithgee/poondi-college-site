@@ -536,13 +536,49 @@
                     "category":[
                         {
                             "id":1,
-                            "name":" 3.1.1 Policies for Research,Consultancy and Extension",
-                            "link":""
+                            "name":"3.1.1 Policies for Research,Consultancy and Extension",
+                            "path":"3.1.1",
+                            "link":"/research-innovations-extension/3.1/3.1.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Research Facilities",
+                                    "link":"/pdf/Research_Facilities.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Research monitoring committees",
+                                    "link":"/pdf/Research_monitoring_committees.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Research Policy",
+                                    "link":"/pdf/Research_Policy.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,
-                            "name":"  3.1.2 Seed Money",
-                            "link":""
+                            "name":"3.1.2 Seed Money",
+                            "path":"3.1.2",
+                            "link":"/research-innovations-extension/3.1/3.1.2",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"List of Faculty awarded seed money",
+                                    "link":"/pdf/List_of_faculty_awarded_seed_money.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Minutes of RAC for Seed Money",
+                                    "link":"/pdf/Minutes_of_RAC_for_Seed_Money.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Policy documents for Sanction of seed money",
+                                    "link":"/research-innovations-extension/3.1/3.1.2/seed-money"
+                                }
+                            ]
                         },
                         {
                             "id":3,
@@ -888,7 +924,15 @@
                         {
                             "id":2,
                             "name":" 4.2.2 Collection of Rare Books",
-                            "link":""
+                            "path":"4.2.2",
+                            "link":"/infrastructure-learning-resources/4.2/4.2.2",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Subscription of e-journals",
+                                    "link":"/pdf/subscribtion_of_e-Journals.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":3,
@@ -1371,8 +1415,31 @@
                     "category":[
                         {
                             "id":1,
-                            "name":"  6.5.1 Institutionalized Quality Assurance Strategies and Processes",
-                            "link":""
+                            "name":"6.5.1 Institutionalized Quality Assurance Strategies and Processes",
+                            "path":"6.5.1",
+                            "link":"/governance-leadership-management/6.5/6.5.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Comprehensive Knowledge Test",
+                                    "link":"/pdf/Comprehensive_Knowledge_Test.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Gender Studies",
+                                    "link":"/pdf/Gender_Studies.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"General Knowledge",
+                                    "link":"/pdf/General_Knowledge.pdf"
+                                },
+                                {
+                                    "id":4,
+                                    "name":"Value based Education",
+                                    "link":"/pdf/Value_based_Education.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,

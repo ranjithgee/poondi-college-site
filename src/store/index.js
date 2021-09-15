@@ -4,7 +4,6 @@ import tables from '../JSON/tables.json'
 
 export default createStore({
   state: {
-    baseUrl:"http://localhost:8080/",
     data:json,
     table:tables,
     siteUrl:window.location.origin

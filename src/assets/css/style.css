@@ -120,6 +120,9 @@
 .table_contents table th, .table_contents table td{
     padding: 15px;
 }
+.table_contents table.seed_money td{
+    padding: 15px 31px;
+}
 .table_contents table th{
     padding: 20px;
 }

@@ -11,8 +11,8 @@
                             </div> 
                             <div class="sub_items">
                                 <div v-for="cnt in cat.sub" :key="cnt.id" >
-                                    <a class="i_list" v-if="cnt.name !== 'Curriculam for CBCS courses' && cnt.name !== 'Minutes_of_Academic_Council_Meetings' && cnt.name !== 'Details of program syllabus revision' && cnt.name !== 'Course Outcomes' && cnt.name !== 'Feedback Analysis' && cnt.name !== 'Mentor Register related to issues'" :href="cnt.id == 4 ? cnt.link : $store.state.siteUrl + cnt.link" target="_blank" ><img class="send_icon" src="@/assets/send.svg" alt=""> {{cnt.name}}</a>
-                                    <router-link v-if="cnt.name == 'Curriculam for CBCS courses' || cnt.name == 'Minutes_of_Academic_Council_Meetings' || cnt.name == 'Details of program syllabus revision' || cnt.name == 'Course Outcomes' || cnt.name == 'Feedback Analysis' || cnt.name == 'Mentor Register related to issues'" class="i_list" :to="cnt.link" ><img class="send_icon" src="@/assets/send.svg" alt="">{{cnt.name}} </router-link>
+                                    <a class="i_list" v-if="cnt.name !== 'Curriculam for CBCS courses' && cnt.name !== 'Minutes_of_Academic_Council_Meetings' && cnt.name !== 'Details of program syllabus revision' && cnt.name !== 'Course Outcomes' && cnt.name !== 'Feedback Analysis' && cnt.name !== 'Mentor Register related to issues' && cnt.name !== 'Policy documents for Sanction of seed money'" :href="cnt.id == 4 ? cnt.link : $store.state.siteUrl + cnt.link" target="_blank" ><img class="send_icon" src="@/assets/send.svg" alt=""> {{cnt.name}}</a>
+                                    <router-link v-if="cnt.name == 'Curriculam for CBCS courses' || cnt.name == 'Minutes_of_Academic_Council_Meetings' || cnt.name == 'Details of program syllabus revision' || cnt.name == 'Course Outcomes' || cnt.name == 'Feedback Analysis' || cnt.name == 'Mentor Register related to issues' || cnt.name == 'Policy documents for Sanction of seed money'" class="i_list" :to="cnt.link" ><img class="send_icon" src="@/assets/send.svg" alt="">{{cnt.name}} </router-link>
                                 </div>
                                 <div class="table_contents courses" style="overflow-x:auto;" v-if="cat.path == '1.3.4'">
                                     <table>
@@ -226,6 +226,12 @@
                                         <a v-for="item in tables.five_5_3_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
                                     </div>
                                 </div>
+                                <div class="year_category" v-if="cat.path == '4.2.2'" >
+                                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Membership of e-journals</div>
+                                        <div class="year_items">
+                                            <a v-for="item in tables.t_4_2_2" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                        </div>
+                                </div>
                            </div>
                       </div>
                   </div>
@@ -236,7 +242,6 @@
 </template>
 
 <script>
-import axios from 'axios'
 export default {
     data(){
         return{
@@ -244,18 +249,18 @@ export default {
             tables:this.$store.state.table
         }
     },
-    mounted(){
-        this.Get()
-    },
-    methods:{
-        Get(){
-            axios.get(this.$store.state.baseUrl + 'datas.json').then((r)=>{
-                console.log(r)
-            }).catch((e)=>{
-                console.log(e)
-            })
-        }
-    }
+    // mounted(){
+    //     this.Get()
+    // },
+    // methods:{
+    //     Get(){
+    //         axios.get(this.$store.state.baseUrl + 'datas.json').then((r)=>{
+    //             console.log(r)
+    //         }).catch((e)=>{
+    //             console.log(e)
+    //         })
+    //     }
+    // }
 }
 </script>
 

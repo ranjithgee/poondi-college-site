@@ -93,16 +93,23 @@ export default {
     font-size: 20px;
   }
   .heading_content span.second{
-    font-size: 16px;
+    font-size: 15px;
   }
   .heading_content span.third{
-    font-size: 14px;
+    font-size: 13px;
   }
   .cycle_heading{
-    font-size: 18px;
+    font-size: 17px;
+    padding-bottom: 14px;
   } 
   .logo img{
       width:80%;
+  }
+  .right_logo img{
+      width: 86%;
+  }
+  .header-sec{
+    padding: 13px 0;
   }   
 }
 

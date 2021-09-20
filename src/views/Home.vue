@@ -214,6 +214,19 @@ export default {
     margin-left: 5px;
     margin-top: 1px;
   }
+  .tab_box{
+    padding: 20px 15px 0 15px;
+  }
+  .tab_heading{
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  .tab_item{
+    margin: 12px 0;
+  }
+  .tab_item a{
+    padding: 8px 13px;
+  }
 }
 
 @media only screen and (min-width: 1367px) and (max-width: 1600px){

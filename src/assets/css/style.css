@@ -159,6 +159,25 @@
     width:50%;
 }
 
+.table_contents tr.year th {
+    background: #e6f0fa;
+    color: black;
+    padding: 15px;
+}
+.table_contents.workshops tbody{
+    border-bottom: 1px solid lightgray;
+}
+
+.table_contents.workshops{
+    margin-bottom: 50px;
+}
+.table_contents.workshops table{
+    width: 65%;
+}
+.table_contents.workshops table .s_no{
+    text-align: center;
+}
+
 
 
 
@@ -382,6 +401,9 @@
 
     .table_contents table.mentor a{
         display: block;
+    }
+    .table_contents table{
+        width: 100%;
     }
 
 }

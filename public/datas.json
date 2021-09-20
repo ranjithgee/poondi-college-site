@@ -10,13 +10,13 @@
             "category":[
                 {
                     "id":1,
-                    "name":" 1.1*(U) -Curriculum Design and Development",
+                    "name":" 1.1 Curriculum Design and Development",
                     "path":"1.1",
                     "link":"/curricular_aspects/1.1",
                     "category":[
                         {
                             "id":1,
-                            "name":"  1.1.1 Revision of Curricula",
+                            "name":"1.1.1 POs, PSOs and COs",
                             "alter_name":"1.1.1 Curricula developed and implemented have relevance to the local, national, regional and global developmental needs which is reflected in Programme outcomes (POs), Programme Specific outcomes (PSOs) and Course Outcomes (COs) of the Programmes offered by the Institution.",
                             "path":"1.1.1",
                             "link":"/curricular_aspects/1.1/1.1.1",
@@ -45,7 +45,7 @@
                         },
                         {
                             "id":2,
-                            "name":"   1.1.2 Programmes with Syllabus Revision",
+                            "name":"1.1.2 Syllabus Revision",
                             "path":"1.1.2",
                             "link":"/curricular_aspects/1.1/1.1.2",
                             "sub":[
@@ -68,25 +68,25 @@
                         },
                         {
                             "id":3,
-                            "name":"  1.1.3 Courses with Employability/Entrepreneurship/Skill Development",
+                            "name":"1.1.3 Employability/ entrepreneurshipskills",
                             "link":""
                         }
                     ]
                 },
                 {
                     "id":2,
-                    "name":"  1.2 Academic Flexibility",
+                    "name":"1.2 Academic Flexibility",
                     "path":"1.2",
                     "link":"/curricular_aspects/1.2",
                     "category":[
                         {
                             "id":1,
-                            "name":" 1.2.1 New Courses Introduced",
+                            "name":" 1.2.1 Courses introduced-program wise",
                             "link":""
                         },
                         {
                             "id":2,
-                            "name":" 1.2.2 CBCS / Elective Course System",
+                            "name":" 1.2.2 CBCS/Elective courses",
                             "path":"1.2.2",
                             "link":"/curricular_aspects/1.2/1.2.2",
                             "sub":[
@@ -111,18 +111,46 @@
                 },
                 {
                     "id":3,
-                    "name":"   1.3 Curriculum Enrichment",
+                    "name":"1.3 Curriculum Enrichment",
                     "path":"1.3",
                     "link":"/curricular_aspects/1.3",
                     "category":[
                         {
                             "id":1,
-                            "name":"  1.3.1 Cross Cutting Issues",
-                            "link":""
+                            "name":"1.3.1 Professional Ethics, Gender& etc.",
+                            "path":"1.3.1",
+                            "link":"/curricular_aspects/1.3/1.3.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"List of Courses",
+                                    "link":"/pdf/1.3.1_List_of_Courses.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Environment and Sustainability",
+                                    "link":"/pdf/1.3.1_Environment_and_Sustainability.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Gender",
+                                    "link":"/pdf/1.3.1_Gender.pdf"
+                                },
+                                {
+                                    "id":4,
+                                    "name":"Human Values",
+                                    "link":"/pdf/1.3.1_Human_Values.pdf"
+                                },
+                                {
+                                    "id":5,
+                                    "name":"Professional Ethics",
+                                    "link":"/pdf/1.3.1_Professional_Ethics.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,
-                            "name":" 1.3.2 Value Added Courses",
+                            "name":" 1.3.2 Value-added and life skills",
                             "path":"1.3.2",
                             "link":"/curricular_aspects/1.3/1.3.2",
                             "sub":[
@@ -150,14 +178,14 @@
                         },
                         {
                             "id":3,
-                            "name":"  1.3.3 Average Percentage of students enrolled in the courses under 1.3.2 above",
+                            "name":"1.3.3  Student enrolled under 1.3.2 ",
                             "alter_name":"1.3.3.1. Number of students enrolled in value added courses (beyond the curriculum) during 2015 - 2020",
                             "path":"1.3.3",
                             "link":"/curricular_aspects/1.3/1.3.3"
                         },
                         {
                             "id":4,
-                            "name":" 1.3.4 Field Projects / Internships",
+                            "name":" 1.3.4 Field projects/ internships/ Project",
                             "path":"1.3.4",
                             "link":"/curricular_aspects/1.3/1.3.4"
                         }
@@ -171,7 +199,7 @@
                     "category":[
                         {
                             "id":1,
-                            "name":"  1.4.1 Feedback Process",
+                            "name":"  1.4.1 Syllabus feedback for design and review",
                             "path":"1.4.1",
                             "link":"/curricular_aspects/1.4/1.4.1",
                             "sub":[
@@ -199,7 +227,7 @@
                         },
                         {
                             "id":2,
-                            "name":" 1.4.2 Feedback Analysis",
+                            "name":" 1.4.2 Feedback system of the institution",
                             "path":"1.4.2",
                             "link":"/curricular_aspects/1.4/1.4.2",
                             "sub":[
@@ -221,7 +249,7 @@
         },
         {
             "id":2,
-            "name":"Teaching- Learning and Evaluation",
+            "name":"Teaching-Learning and Evaluation",
             "hash":"#2",
             "route_name":"teaching-learning-evaluation",
             "link":"/teaching-learning-evaluation",
@@ -235,7 +263,7 @@
                     "category":[
                         {
                             "id":1,
-                            "name":"  2.1.1 Student Diversity",
+                            "name":"2.1.1 Average Enrolment Percentage ",
                             "path":"2.1.1",
                             "link":"/teaching-learning-evaluation/2.1/2.1.1",
                             "sub":[
@@ -258,7 +286,7 @@
                         },
                         {
                             "id":2,
-                            "name":"  2.1.2 Demand Ratio",
+                            "name":"2.1.2 Seats filled against reservations",
                             "path":"2.1.2",
                             "link":"/teaching-learning-evaluation/2.1/2.1.2",
                             "sub":[
@@ -273,28 +301,23 @@
                                     "link":"/pdf/State_govt_admission_guidelines_for_reserved_categories.pdf"
                                 }
                             ]
-                        },
-                        {
-                            "id":3,
-                            "name":"  2.1.3 Reserved Category",
-                            "link":""
                         }
                     ]
                 },
                 {
                     "id":2,
-                    "name":"2.2 Catering to Student Diversity",
+                    "name":"2.2 Catering and Student Diversity",
                     "path":"2.2",
                     "link":"/teaching-learning-evaluation/2.2",
                     "category":[
                         {
                             "id":1,
-                            "name":" 2.2.1 Asses learning Level",
+                            "name":"2.2.1 Programmes for advanced and slow learners",
                             "link":""
                         },
                         {
                             "id":2,
-                            "name":" 2.2.2 Student - Full time Teacher Ratio",
+                            "name":" 2.2.2 Student-teacher ratio",
                             "path":"2.2.2",
                             "link":"/teaching-learning-evaluation/2.2/2.2.2",
                             "sub":[
@@ -304,11 +327,6 @@
                                     "link":"/pdf/No_of_students_and_Full_time_teachers.pdf"
                                 }
                             ]
-                        },
-                        {
-                            "id":3,
-                            "name":" 2.2.3 Divyangjan Students",
-                            "link":""
                         }
                     ]
                 },
@@ -320,17 +338,17 @@
                     "category":[
                         {
                             "id":1,
-                            "name":" 2.3.1 Student Centric Methods",
+                            "name":" 2.3.1 Student-centric methods",
                             "link":""
                         },
                         {
                             "id":2,
-                            "name":"  2.3.2 Teachers using ICT",
+                            "name":"2.3.2 ICT enabled tools",
                             "link":""
                         },
                         {
                             "id":3,
-                            "name":" 2.3.3 Mentor:Mentee",
+                            "name":" 2.3.3 Ratio of Students to mentor",
                             "path":"2.3.3",
                             "link":"/teaching-learning-evaluation/2.3/2.3.3",
                             "sub":[
@@ -358,7 +376,7 @@
                         },
                         {
                             "id":4,
-                            "name":" 2.3.4 Academic Calendar & Teacher Plan",
+                            "name":"2.3.4 Adherence of academic plans",
                             "link":""
                         }
                     ]
@@ -371,7 +389,7 @@
                     "category":[
                         {
                             "id":1,
-                            "name":"  2.4.1 Teachers against Sanctioned Posts",
+                            "name":"  2.4.1 Teachers against sanction posts",
                             "path":"2.4.1",
                             "link":"/teaching-learning-evaluation/2.4/2.4.1",
                             "sub":[
@@ -384,7 +402,7 @@
                         },
                         {
                             "id":2,
-                            "name":" 2.4.2 Teachers with Ph. D.",
+                            "name":" 2.4.2 Full time Teachers with Ph.D./ D.Sc.",
                             "path":"2.4.2",
                             "link":"/teaching-learning-evaluation/2.4/2.4.2",
                             "sub":[
@@ -397,7 +415,7 @@
                         },
                         {
                             "id":3,
-                            "name":"  2.4.3 Experience of Full Time Teachers",
+                            "name":"  2.4.3 Average teaching experience",
                             "path":"2.4.3",
                             "link":"/teaching-learning-evaluation/2.4/2.4.3",
                             "sub":[
@@ -407,16 +425,6 @@
                                     "link":"/pdf/Appointment_order_Experience_certificate_of_faculty_members.pdf"
                                 }
                             ]
-                        },
-                        {
-                            "id":4,
-                            "name":"   2.4.4 Awards and Recognitions",
-                            "link":""
-                        },
-                        {
-                            "id":5,
-                            "name":"   2.4.5 Staff Diversity",
-                            "link":""
                         }
                     ]
                 },
@@ -428,7 +436,7 @@
                     "category":[
                         {
                             "id":1,
-                            "name":"   2.5.1 Declaration of Results",
+                            "name":"2.5.1 Average days taken to declare results",
                             "path":"2.5.1",
                             "link":"/teaching-learning-evaluation/2.5/2.5.1",
                             "sub":[
@@ -441,7 +449,7 @@
                         },
                         {
                             "id":2,
-                            "name":"  2.5.2 Student Complaints / Grievances",
+                            "name":"2.5.2 Complaints about evaluation against appeared",
                             "path":"2.5.2",
                             "link":"/teaching-learning-evaluation/2.5/2.5.2",
                             "sub":[
@@ -454,17 +462,7 @@
                         },
                         {
                             "id":3,
-                            "name":"   2.5.3 Marks Changes after Revaluation",
-                            "link":""
-                        },
-                        {
-                            "id":4,
-                            "name":" 2.5.4 Exam Reforms",
-                            "link":""
-                        },
-                        {
-                            "id":5,
-                            "name":"  2.5.5 Present Status of Automation",
+                            "name":"2.5.3 IT integration and reforms",
                             "link":""
                         }
                     ]
@@ -477,17 +475,17 @@
                     "category":[
                         {
                             "id":1,
-                            "name":" 2.6.1 PO/PSO/CO",
+                            "name":"2.6.1 Pos and COs displayed on website",
                             "link":""
                         },
                         {
                             "id":2,
-                            "name":" 2.6.2 Attainment of POs,PSOs and COs",
+                            "name":"2.6.2 Attainment of POs and COs evaluation",
                             "link":""
                         },
                         {
                             "id":3,
-                            "name":" 2.6.3 Average pass percentage of students",
+                            "name":"2.6.3 Pass percentage of student satisfaction",
                             "path":"2.6.3",
                             "link":"/teaching-learning-evaluation/2.6/2.6.3",
                             "sub":[
@@ -513,7 +511,7 @@
                     "category":[
                         {
                             "id":1,
-                            "name":" 2.7.1 Online student satisfaction survey regarding to teaching learning process.",
+                            "name":" 2.7.1 Online SSS on teaching-learning process ",
                             "link":""
                         }
                     ]
@@ -536,7 +534,7 @@
                     "category":[
                         {
                             "id":1,
-                            "name":"3.1.1 Policies for Research,Consultancy and Extension",
+                            "name":"3.1.1 Online SSS on teaching-learning process",
                             "path":"3.1.1",
                             "link":"/research-innovations-extension/3.1/3.1.1",
                             "sub":[
@@ -559,7 +557,7 @@
                         },
                         {
                             "id":2,
-                            "name":"3.1.2 Seed Money",
+                            "name":"3.1.2 Research seed money to its teachers ",
                             "path":"3.1.2",
                             "link":"/research-innovations-extension/3.1/3.1.2",
                             "sub":[
@@ -582,12 +580,7 @@
                         },
                         {
                             "id":3,
-                            "name":" 3.1.3 International Fellowship",
-                            "link":""
-                        },
-                        {
-                            "id":4,
-                            "name":" 3.1.4 Facilities of the Institution",
+                            "name":" 3.1.3 Teachers-national/international fellowship",
                             "link":""
                         }
                     ]
@@ -600,18 +593,26 @@
                     "category":[
                         {
                             "id":1,
-                            "name":" 3.2.1 Grants for Research Projects",
+                            "name":"3.2.1 Research grants from govt& non-govt agencies",
                             "path":"3.2.1",
                             "link":"/research-innovations-extension/3.2/3.2.1"
                         },
                         {
                             "id":2,
-                            "name":"  3.2.2 Research Centers",
-                            "link":""
+                            "name":"3.2.2 Percentage of teachers having projects ",
+                            "path":"3.2.2",
+                            "link":"/research-innovations-extension/3.2/3.2.2",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"List of teachers having research projects",
+                                    "link":"/pdf/List_of_teachers_having_research_projects.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":3,
-                            "name":" 3.2.3 Research Guides",
+                            "name":" 3.2.3 Percentage of teachers as guides",
                             "path":"3.2.3",
                             "link":"/research-innovations-extension/3.2/3.2.3",
                             "sub":[
@@ -624,8 +625,16 @@
                         },
                         {
                             "id":4,
-                            "name":"3.2.4 Research Projects per Teacher",
-                            "link":""
+                            "name":"3.2.4 Percentage of departments having projects by govt. and non-govt.",
+                            "path":"3.2.4",
+                            "link":"/research-innovations-extension/3.2/3.2.4",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"List of departments having research projects",
+                                    "link":"/pdf/List_of_departments_having_research_projects.pdf"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -637,23 +646,14 @@
                     "category":[
                         {
                             "id":1,
-                            "name":" 3.3.1 Incubation Centres",
+                            "name":" 3.3.1 Dedicated centers for research,entreprenurshipand etc.",
                             "link":""
                         },
                         {
                             "id":2,
-                            "name":" 3.3.2 IPR / Industry Academic Initiatives",
-                            "link":""
-                        },
-                        {
-                            "id":3,
-                            "name":" 3.3.3 Innovation Awards",
-                            "link":""
-                        },
-                        {
-                            "id":4,
-                            "name":" 3.3.4 Start-ups",
-                            "link":""
+                            "name":" 3.3.2 Workshop/seminars on RM,IPR and etc.",
+                            "path":"3.3.2",
+                            "link":"/research-innovations-extension/3.3/3.3.2"
                         }
                     ]
                 },
@@ -665,12 +665,12 @@
                     "category":[
                         {
                             "id":1,
-                            "name":"  3.4.1 Code of Ethics",
+                            "name":"3.4.1 Ensures code of ethics for research",
                             "link":""
                         },
                         {
                             "id":2,
-                            "name":"3.4.2 Ph.D’s registered per teacher",
+                            "name":"3.4.2 Ph.D.s registered/teacher",
                             "path":"3.4.2",
                             "link":"/research-innovations-extension/3.4/3.4.2",
                             "sub":[
@@ -748,34 +748,40 @@
                         },
                         {
                             "id":3,
-                            "name":"3.4.3 Patents",
+                            "name":"3.4.3 Research papers/teacher in journals",
                             "link":""
                         },
                         {
                             "id":4,
-                            "name":" 3.4.4 Ph. D. Awarded",
+                            "name":" 3.4.4 Books and chapters published/teacher",
                             "path":"3.4.4",
                             "link":"/research-innovations-extension/3.4/3.4.4"
                         },
                         {
                             "id":5,
-                            "name":"  3.4.5 Research Papers in UGC Enlisted Journals",
-                            "link":""
+                            "name":"3.4.5 Bibliometrics based on average citation index",
+                            "path":"3.4.5",
+                            "link":"/research-innovations-extension/3.4/3.4.5",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"SCOPUS and Web of Science page Citations",
+                                    "link":"/pdf/3.4.5_SCOPUS_and_Web_of_Science_page_Citations.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":6,
-                            "name":"  3.4.6 Books and Chapters Published",
-                            "link":""
-                        },
-                        {
-                            "id":7,
-                            "name":"3.4.7 Average Citation Index",
-                            "link":""
-                        },
-                        {
-                            "id":8,
-                            "name":"3.4.8 h-Index",
-                            "link":""
+                            "name":"3.4.6 Bibliometrics based on h-index",
+                            "path":"3.4.6",
+                            "link":"/research-innovations-extension/3.4/3.4.6",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"h-index in Web of Science and SCOPUS",
+                                    "link":"/pdf/3.4.6_h_index_in_Web_of_Science_and_SCOPUS.pdf"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -787,7 +793,7 @@
                     "category":[
                         {
                             "id":1,
-                            "name":" 3.5.1 Consultancy Policy And Minutes",
+                            "name":" 3.5.1 Revenue from consultancy and training",
                             "path":"3.5.1",
                             "link":"/research-innovations-extension/3.5/3.5.1",
                             "sub":[
@@ -800,41 +806,36 @@
                         },
                         {
                             "id":2,
-                            "name":" 3.5.2 Revenue Generated through Consultancy",
-                            "link":""
-                        },
-                        {
-                            "id":3,
-                            "name":"  3.5.3 Revenue Generated through Corporate Training",
+                            "name":" 3.5.2 Amount spent on facilities,traningteachers and consultancy",
                             "link":""
                         }
                     ]
                 },
                 {
                     "id":6,
-                    "name":"  3.6 Extension Activities",
+                    "name":"3.6 Extension Activities",
                     "path":"3.6",
                     "link":"/research-innovations-extension/3.6",
                     "category":[
                         {
                             "id":1,
-                            "name":"   3.6.1 Extension Activities",
+                            "name":"3.6.1 Sensitizing to social issues for holistic development",
                             "link":""
                         },
                         {
                             "id":2,
-                            "name":"   3.6.2 Awards and Recognitions for Extension Activities",
+                            "name":"3.6.2 Awards received by the institution from govt. bodies",
                             "path":"3.6.2",
                             "link":"/research-innovations-extension/3.6/3.6.2"
                         },
                         {
                             "id":3,
-                            "name":" 3.6.3 Extension and Outreach Programmes",
+                            "name":"3.6.3 Extension and Outreach program by NSS/NCC etc",
                             "link":""
                         },
                         {
                             "id":4,
-                            "name":"3.6.4 Student's Participation in Extension Activities",
+                            "name":"3.6.4 Average percentage of 3.6.3",
                             "link":""
                         }
                     ]
@@ -847,20 +848,15 @@
                     "category":[
                         {
                             "id":1,
-                            "name":"   3.7.1 Collaborations",
+                            "name":"3.7.1 Collaborative activities/year for research, internship and etc.",
                             "path":"3.7.1",
                             "link":"/research-innovations-extension/3.7/3.7.1"
                         },
                         {
                             "id":2,
-                            "name":" 3.7.2 Functional MoUs",
+                            "name":"3.7.2 MoUs with national and international level",
                             "path":"3.7.2",
                             "link":"/research-innovations-extension/3.7/3.7.2"
-                        },
-                        {
-                            "id":3,
-                            "name":"  3.7.3 Linkages",
-                            "link":""
                         }
                     ]
                 }
@@ -882,22 +878,22 @@
                     "category":[
                         {
                             "id":1,
-                            "name":" 4.1.1 Facilities for Teaching - Learning",
+                            "name":" 4.1.1 Adequate infrastructure and physical facilities",
                             "link":""
                         },
                         {
                             "id":2,
-                            "name":" 4.1.2 Facilities for Sports & Culturals",
+                            "name":" 4.1.2 Cultural activities, yoga, games and sports",
                             "link":""
                         },
                         {
                             "id":3,
-                            "name":"4.1.3 ICT Infrastructure",
+                            "name":"4.1.3 Class rooms and seminar halls with ICT",
                             "link":""
                         },
                         {
                             "id":4,
-                            "name":"4.1.4 Infrastructure Augmentation",
+                            "name":"4.1.4 Average expenditure for infrastructure augmentation",
                             "link":""
                         }
                     ]
@@ -910,7 +906,7 @@
                     "category":[
                         {
                             "id":1,
-                            "name":"4.2.1 Library Automation",
+                            "name":"4.2.1 Library is automated using ILMS ",
                             "path":"4.2.1",
                             "link":"/infrastructure-learning-resources/4.2/4.2.1",
                             "sub":[
@@ -923,7 +919,7 @@
                         },
                         {
                             "id":2,
-                            "name":" 4.2.2 Collection of Rare Books",
+                            "name":" 4.2.2 Access to e-journals, e-books and etc.",
                             "path":"4.2.2",
                             "link":"/infrastructure-learning-resources/4.2/4.2.2",
                             "sub":[
@@ -936,50 +932,53 @@
                         },
                         {
                             "id":3,
-                            "name":" 4.2.3 Subscription of E-Resources",
-                            "link":""
+                            "name":" 4.2.3 Average expenditure for books/e-books/journals/e-journals",
+                            "path":"4.2.3",
+                            "link":"/infrastructure-learning-resources/4.2/4.2.3",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Audited Statement for purchase of books",
+                                    "link":"/pdf/4.2.3.Audited_Statement_for_purchase_of_books.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Consolidated Library Expenditure",
+                                    "link":"/pdf/4.2.3_Consolidated_Library_Expenditure.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":4,
-                            "name":" 4.2.4 Purchase of Books and Journals",
-                            "link":""
-                        },
-                        {
-                            "id":5,
-                            "name":"4.2.5 Remote Access",
-                            "link":""
-                        },
-                        {
-                            "id":6,
-                            "name":" 4.2.6 Usage of Library",
+                            "name":" 4.2.4 Percentage of library usage/day",
                             "link":""
                         }
                     ]
                 },
                 {
                     "id":3,
-                    "name":"  4.3 IT Infrastructure",
+                    "name":"  4.3 Infrastructure",
                     "path":"4.3",
                     "link":"/infrastructure-learning-resources/4.3",
                     "category":[
                         {
                             "id":1,
-                            "name":"  4.3.1 Updation of IT Facilities",
+                            "name":"4.3.1 IT policy covering Wi-Fi, cyber security and etc",
                             "link":""
                         },
                         {
                             "id":2,
-                            "name":"  4.3.2 Student Computer Ratio",
+                            "name":"4.3.2 Student-computer ratio",
                             "link":""
                         },
                         {
                             "id":3,
-                            "name":"  4.3.3 Internet Bandwidth",
+                            "name":"4.3.3 Band width of Internet connection",
                             "link":""
                         },
                         {
                             "id":4,
-                            "name":"  4.3.4 E-Content Facilities",
+                            "name":"4.3.4 Facilities for e-content development",
                             "link":""
                         }
                     ]
@@ -992,12 +991,12 @@
                     "category":[
                         {
                             "id":1,
-                            "name":"  4.4.1 Physical & Academic Support Facilities",
+                            "name":"4.4.1 Expenditure and maintenance of facilities",
                             "link":""
                         },
                         {
                             "id":2,
-                            "name":"4.4.2 Annual Maintenance",
+                            "name":"4.4.2 Procedure for maintaining and utilizing facilities",
                             "link":""
                         }
                     ]
@@ -1020,17 +1019,17 @@
                     "category":[
                         {
                             "id":1,
-                            "name":" 5.1.1 Government Scholarships",
+                            "name":"5.1.1 Scholarship and freeship-govt.",
                             "link":""
                         },
                         {
                             "id":2,
-                            "name":" 5.1.2 Institutional Scholarships",
+                            "name":" 5.1.2 Scholarship and freeship-institutions and non-govt.",
                             "link":""
                         },
                         {
                             "id":3,
-                            "name":" 5.1.3 Capability Enhancement Schemes",
+                            "name":" 5.1.3 For improving students’ skills.",
                             "path":"5.1.3",
                             "link":"/student-support-progression/5.1/5.1.3",
                             "sub":[
@@ -1053,37 +1052,32 @@
                         },
                         {
                             "id":4,
-                            "name":"5.1.4 Students Benefited by Guidance for Competitive Examination and Career Counselling",
+                            "name":"5.1.4 Students benefitted by the guidance for career development",
                             "path":"5.1.4",
                             "link":"/student-support-progression/5.1/5.1.4"
                         },
                         {
                             "id":5,
-                            "name":"5.1.5 Vocational Education and Training offered by the Institution",
-                            "link":""
-                        },
-                        {
-                            "id":6,
-                            "name":" 5.1.6 Redressal of Student Grievances",
+                            "name":"5.1.5 Redressal-sexual harassment and ragging cases",
                             "link":""
                         }
                     ]
                 },
                 {
                     "id":2,
-                    "name":"   5.2 Student Progression",
+                    "name":"5.2 Student Progression",
                     "path":"5.2",
                     "link":"/student-support-progression/5.2",
                     "category":[
                         {
                             "id":1,
-                            "name":"  5.2.1 Placements",
+                            "name":"5.2.1 Average percentage of placement",
                             "path":"5.2.1",
                             "link":"/student-support-progression/5.2/5.2.1"
                         },
                         {
                             "id":2,
-                            "name":"5.2.2 Progression to Higher Education",
+                            "name":"5.2.2 Average percentage of progression",
                             "path":"5.2.2",
                             "link":"/student-support-progression/5.2/5.2.2",
                             "sub":[
@@ -1096,20 +1090,20 @@
                         },
                         {
                             "id":3,
-                            "name":"  5.2.3 Student Qualified for NET/SET/Other Government Exams",
+                            "name":"5.2.3 Qualifing in state/national/international level examinations",
                             "link":""
                         }
                     ]
                 },
                 {
                     "id":3,
-                    "name":"  5.3 Student Participation and Activities",
+                    "name":"5.3 Student Participation and Activities",
                     "path":"5.3",
                     "link":"/student-support-progression/5.3",
                     "category":[
                         {
                             "id":1,
-                            "name":"  5.3.1 Sports/Cultutral Awards",
+                            "name":"5.3.1 Awards/medals for sports/cultural activities",
                             "path":"5.3.1",
                             "link":"/student-support-progression/5.3/5.3.1",
                             "sub":[
@@ -1122,7 +1116,7 @@
                         },
                         {
                             "id":2,
-                            "name":" 5.3.2 Presence of Student Council",
+                            "name":" 5.3.2 Council on academic and administrative bodies",
                             "path":"5.3.2",
                             "link":"/student-support-progression/5.3/5.3.2",
                             "sub":[
@@ -1140,7 +1134,7 @@
                         },
                         {
                             "id":3,
-                            "name":"5.3.3 Sports & Cultural Activities",
+                            "name":"5.3.3 Sports and cultural events/competitions",
                             "path":"5.3.3",
                             "link":"/student-support-progression/5.3/5.3.3"
                         }
@@ -1154,17 +1148,12 @@
                     "category":[
                         {
                             "id":1,
-                            "name":"  5.4.1 Registered Alumni Associations",
+                            "name":"5.4.1 Alumni association to the development of the institution",
                             "link":""
                         },
                         {
                             "id":2,
-                            "name":"  5.4.2 Alumni Contribution",
-                            "link":""
-                        },
-                        {
-                            "id":3,
-                            "name":"  5.4.3 Alumni Meetings",
+                            "name":"5.4.2 Alumni financial contribution",
                             "link":""
                         }
                     ]
@@ -1181,13 +1170,13 @@
             "category":[
                 {
                     "id":1,
-                    "name":"  6.1 Institutional Vision and Leadership",
+                    "name":"6.1 Institutional Vision and Leadership",
                     "path":"6.1",
                     "link":"/governance-leadership-management/6.1",
                     "category":[
                         {
                             "id":1,
-                            "name":" 6.1.1 Governance of Institution",
+                            "name":"6.1.1 Governance in tune with the vision and mission",
                             "path":"6.1.1",
                             "link":"/governance-leadership-management/6.1/6.1.1",
                             "sub":[
@@ -1205,7 +1194,7 @@
                         },
                         {
                             "id":2,
-                            "name":" 6.1.2 Decentralization & Participative Management",
+                            "name":"6.1.2 Decentralization and participative management for leadership",
                             "path":"6.1.2",
                             "link":"/governance-leadership-management/6.1/6.1.2",
                             "sub":[
@@ -1251,7 +1240,7 @@
                     "category":[
                         {
                             "id":1,
-                            "name":" 6.2.1 Strategic Plan & Deployment Documents",
+                            "name":" 6.2.1 The institutional strategic/perspective plan",
                             "path":"6.2.1",
                             "link":"/governance-leadership-management/6.2/6.2.1",
                             "sub":[
@@ -1274,7 +1263,7 @@
                         },
                         {
                             "id":2,
-                            "name":" 6.2.2 Organizational Structure",
+                            "name":" 6.2.2 Institutional bodies function from visible policies and procedure",
                             "path":"6.2.2",
                             "link":"/governance-leadership-management/6.2/6.2.2",
                             "sub":[
@@ -1292,25 +1281,20 @@
                         },
                         {
                             "id":3,
-                            "name":" 6.2.3 e-Governance",
-                            "link":""
-                        },
-                        {
-                            "id":4,
-                            "name":" 6.2.4 Effectiveness of various bodies",
+                            "name":"6.2.3 Implementation of e-governance",
                             "link":""
                         }
                     ]
                 },
                 {
                     "id":3,
-                    "name":" 6.3 Faculty Empowerment Strategies",
+                    "name":"6.3 Faculty Empowerment Strategies",
                     "path":"6.3",
                     "link":"/governance-leadership-management/6.3",
                     "category":[
                         {
                             "id":1,
-                            "name":"  6.3.1 Welfare measures - Teaching & Non-Teaching",
+                            "name":"6.3.1 Welfare measures for teaching and non-teaching staff",
                             "path":"6.3.1",
                             "link":"/governance-leadership-management/6.3/6.3.1",
                             "sub":[
@@ -1348,35 +1332,30 @@
                         },
                         {
                             "id":2,
-                            "name":" 6.3.2 Financial Support",
+                            "name":"6.3.2 Financial supports to conferences/workshops and membership fee",
                             "link":""
                         },
                         {
                             "id":3,
-                            "name":"  6.3.3 Training Programmes",
+                            "name":"6.3.3 Training programs for teaching and non-teaching",
                             "link":""
                         },
                         {
                             "id":4,
-                            "name":"  6.3.4 Professional Enrichment",
-                            "link":""
-                        },
-                        {
-                            "id":5,
-                            "name":"6.3.5 Performance Appraisal System",
+                            "name":"6.3.4  FDP by online/face-to-face",
                             "link":""
                         }
                     ]
                 },
                 {
                     "id":4,
-                    "name":"  6.4 Financial Management and Resource Mobilization",
+                    "name":"6.4 Financial Management and Resource Mobilization",
                     "path":"6.4",
                     "link":"/governance-leadership-management/6.4",
                     "category":[
                         {
                             "id":1,
-                            "name":"  6.4.1 Financial Audits",
+                            "name":"6.4.1 Internal and external financial audits",
                             "path":"6.4.1",
                             "link":"/governance-leadership-management/6.4/6.4.1",
                             "sub":[
@@ -1389,12 +1368,12 @@
                         },
                         {
                             "id":2,
-                            "name":" 6.4.2 Funds/Grants Received",
+                            "name":"6.4.2 Funds from non-govt. bodies",
                             "link":""
                         },
                         {
                             "id":3,
-                            "name":" 6.4.3 Mobilization of Funds",
+                            "name":"6.4.3 Mobilizations for funds and optimal utilization of resources",
                             "path":"6.4.3",
                             "link":"/governance-leadership-management/6.4/6.4.3",
                             "sub":[
@@ -1409,13 +1388,13 @@
                 },
                 {
                     "id":5,
-                    "name":"6.5 Internal Quality Assurance System (IQAS)",
+                    "name":"6.5  Internal Quality Assurance System",
                     "path":"6.5",
                     "link":"/governance-leadership-management/6.5",
                     "category":[
                         {
                             "id":1,
-                            "name":"6.5.1 Institutionalized Quality Assurance Strategies and Processes",
+                            "name":"6.5.1 institutionalizing the quality assurance strategies",
                             "path":"6.5.1",
                             "link":"/governance-leadership-management/6.5/6.5.1",
                             "sub":[
@@ -1443,7 +1422,7 @@
                         },
                         {
                             "id":2,
-                            "name":" 6.5.2 Reforms for Quality Enhancement",
+                            "name":"6.5.2 Reviews of teaching-learning process by IQAC",
                             "path":"6.5.2",
                             "link":"/governance-leadership-management/6.5/6.5.2",
                             "sub":[
@@ -1466,17 +1445,7 @@
                         },
                         {
                             "id":3,
-                            "name":" 6.5.3 Quality Initiatives by IQAC",
-                            "link":""
-                        },
-                        {
-                            "id":4,
-                            "name":" 6.5.4 Quality Initiatives of the Institution",
-                            "link":""
-                        },
-                        {
-                            "id":5,
-                            "name":" 6.5.5 Post Accreditation Initiatives",
+                            "name":" 6.5.3 Quality assurance initiatives",
                             "link":""
                         }
                     ]
@@ -1493,129 +1462,89 @@
             "category":[
                 {
                     "id":1,
-                    "name":"  7.1 Institutional Values and Social Responsibilities",
+                    "name":"7.1 Institutional Values and Social Responsibilities",
                     "path":"7.1",
                     "link":"/institutional-values-best-practices/7.1",
                     "category":[
                         {
                             "id":1,
-                            "name":"  7.1.1 Gender Equity Programmes",
+                            "name":"7.1.1 Measures for gender equity",
                             "link":""
                         },
                         {
                             "id":2,
-                            "name":"  7.1.2 Facilities for Gender Sensitivity",
+                            "name":"7.1.2 Alternative sources and conservation of energy measures",
                             "link":""
                         },
                         {
                             "id":3,
-                            "name":"  7.1.3 Renewable Energy Sources",
+                            "name":"7.1.3 Management of degradable and non-degradable waste",
                             "link":""
                         },
                         {
                             "id":4,
-                            "name":" 7.1.4 Lighting Power Requirements",
+                            "name":"7.1.4 Water conservation facilities",
                             "link":""
                         },
                         {
                             "id":5,
-                            "name":" 7.1.5 Waste Management Steps",
+                            "name":"7.1.5 Green campus initiatives",
                             "link":""
                         },
                         {
                             "id":6,
-                            "name":" 7.1.6 Rain Water Harvesting",
+                            "name":"7.1.6 Audits on environment and energy",
                             "link":""
                         },
                         {
                             "id":7,
-                            "name":"   7.1.7 Green Practices",
+                            "name":"7.1.7 Disabled-friendly and barrier free environment",
                             "link":""
                         },
                         {
                             "id":8,
-                            "name":"7.1.8 Green Initiatives",
+                            "name":"7.1.8 Disabled-friendly and barrier free environment",
                             "link":""
                         },
                         {
                             "id":9,
-                            "name":"  7.1.9 Divyangjan Friendliness",
+                            "name":"7.1.9 Sensitization to the constitutional obligations",
                             "link":""
                         },
                         {
                             "id":10,
-                            "name":" 7.1.10 Locational Initiatives",
+                            "name":"7.1.10 Periodic programs for code of conduct for all",
                             "link":""
                         },
                         {
                             "id":11,
-                            "name":" 7.1.11 Local Community Initiatives",
-                            "link":""
-                        },
-                        {
-                            "id":12,
-                            "name":" 7.1.12 Code of Conduct",
-                            "link":""
-                        },
-                        {
-                            "id":13,
-                            "name":" 7.1.13 Core Values",
-                            "link":""
-                        },
-                        {
-                            "id":14,
-                            "name":" 7.1.14 National Identities and Symbols",
-                            "link":""
-                        },
-                        {
-                            "id":15,
-                            "name":" 7.1.15 Human Values and Professional Ethics",
-                            "link":""
-                        },
-                        {
-                            "id":16,
-                            "name":" 7.1.16 Institutional Functioning",
-                            "link":""
-                        },
-                        {
-                            "id":17,
-                            "name":"  7.1.17 Universal Values",
-                            "link":""
-                        },
-                        {
-                            "id":18,
-                            "name":"  7.1.18 Organization of National Festivals",
-                            "link":""
-                        },
-                        {
-                            "id":19 ,
-                            "name":"7.1.19 Transparency of Institution",
+                            "name":"7.1.11 National/international commemorative days/events and festivals",
                             "link":""
                         }
                     ]
                 },
                 {
                     "id":2,
-                    "name":"  7.2 Best Practices",
+                    "name":"7.2 Best Practices",
                     "path":"7.2",
                     "link":"/institutional-values-best-practices/7.2",
                     "category":[
                         {
                             "id":1,
-                            "name":" 7.2.1 Best Two Institutional Practices",
+                            "name":"7.2.1 Best practices successfully implemented",
                             "link":""
                         }
                     ]
                 },
                 {
                     "id":3,
-                    "name":"   7.3 Institutional Distinctiveness",
+                    "name":"7.3 Institutional Distinctiveness",
                     "path":"7.3",
                     "link":"/institutional-values-best-practices/7.3",
                     "category":[
                         {
                             "id":1,
-                            "name":"  7.3.1 Institutional Distinctiveness",
+                            "name":"7.3.1 Performance of one area distinctive to its priority and thrust",
                             "link":""
                         }
                     ]

@@ -3355,5 +3355,232 @@
             "name":"2019-2020",
             "link":"/pdf/Membership_e_Journals_2019_2020.pdf"
         }
+    ],
+    "one_3_2_2":[
+        {
+            "id":1,
+            "name":"Entrepreneurship Awareness Camp",
+            "link":"/pdf/workshops/30.pdf"
+        },
+        {
+            "id":2,
+            "name":"Financial Assistance of TIIC for New Entrepreneurs",
+            "link":"/pdf/workshops/31.pdf"
+        },
+        {
+            "id":3,
+            "name":"Self Awareness",
+            "link":"/pdf/workshops/32.pdf"
+        },
+        {
+            "id":4,
+            "name":"Financial Education by Entrepreneurship development cell",
+            "link":"/pdf/workshops/33.pdf"
+        },
+        {
+            "id":5,
+            "name":"National conference on intellectual property rights in biodiversity and biotechnology",
+            "link":"/pdf/workshops/34.pdf"
+        },
+        {
+            "id":6,
+            "name":"Equip Your Skill; Break the Barrier",
+            "link":"/pdf/workshops/35.pdf"
+        },
+        {
+            "id":7,
+            "name":"Goal Setting for entrepreneurs",
+            "link":"/pdf/workshops/36.pdf"
+        }
+    ],
+    "two_3_2_2":[
+        {
+            "id":1,
+            "name":"National semiar on multilingual computing and communication skill ",
+            "link":"/pdf/workshops/26.pdf"
+        },
+        {
+            "id":2,
+            "name":"Financial Literacy for entrepreneurs",
+            "link":"/pdf/workshops/27.pdf"
+        },
+        {
+            "id":3,
+            "name":"Entrepreneurship Awareness Camp",
+            "link":"/pdf/workshops/28.pdf"
+        },
+        {
+            "id":4,
+            "name":"Attitude and Emotional Intelligence",
+            "link":"/pdf/workshops/29.pdf"
+        }
+    ],
+    "three_3_2_2":[
+        {
+            "id":1,
+            "name":"Entrepreneurial Opportunities in Aquaculture",
+            "link":"/pdf/workshops/20.pdf"
+        },
+        {
+            "id":2,
+            "name":"College Bazaar",
+            "link":"/pdf/workshops/21.pdf"
+        },
+        {
+            "id":3,
+            "name":"Financial Market Reforms and Entrepreneurship Opportunities",
+            "link":"/pdf/workshops/22.pdf"
+        },
+        {
+            "id":4,
+            "name":"Entrepreneurship Awareness Camp",
+            "link":"/pdf/workshops/23.pdf"
+        },
+        {
+            "id":5,
+            "name":"skill development centre for conducting certificate courses - PMKVY",
+            "link":"/pdf/workshops/24.pdf"
+        },
+        {
+            "id":6,
+            "name":"Enjoy Entrepreneurship",
+            "link":"/pdf/workshops/25.pdf"
+        }
+    ],
+    "four_3_2_2":[
+        {
+            "id":1,
+            "name":"Gender Budgeting",
+            "link":"/pdf/workshops/8.pdf"
+        },
+        {
+            "id":2,
+            "name":"Cyber Crime Prevention against Women – Causes and Remedies",
+            "link":"/pdf/workshops/9.pdf"
+        },
+        {
+            "id":3,
+            "name":"Employability and Entrepreneurship",
+            "link":"/pdf/workshops/10.pdf"
+        },
+        {
+            "id":4,
+            "name":"Why Intellectual Property Rights Important",
+            "link":"/pdf/workshops/11.pdf"
+        },
+        {
+            "id":5,
+            "name":"Financial Literacy",
+            "link":"/pdf/workshops/12.pdf"
+        },
+        {
+            "id":6,
+            "name":"One Day Basic Training Programme on Human Rights",
+            "link":"/pdf/workshops/13.pdf"
+        },
+        {
+            "id":7,
+            "name":"Research Methodology, Scientific writing and Statistical data analysis ",
+            "link":"/pdf/workshops/14.pdf"
+        },
+        {
+            "id":8,
+            "name":"Earning While You Learn",
+            "link":"/pdf/workshops/15.pdf"
+        },
+        {
+            "id":9,
+            "name":"Entrepreneurship Awareness Camp",
+            "link":"/pdf/workshops/16.pdf"
+        },
+        {
+            "id":10,
+            "name":"Awareness Programme on “NPTEL”",
+            "link":"/pdf/workshops/17.pdf"
+        },
+        {
+            "id":11,
+            "name":"Winning Skills",
+            "link":"/pdf/workshops/18.pdf"
+        },
+        {
+            "id":12,
+            "name":"Leaders Workshop",
+            "link":"/pdf/workshops/19.pdf"
+        }
+    ],
+    "five_3_2_2":[
+        {
+            "id":1,
+            "name":"Gender Budgeting",
+            "link":"/pdf/workshops/1_Gender_Budgeting.pdf"
+        },
+        {
+            "id":2,
+            "name":"National conferene on wetland biodiversity and its conservation strategy  ",
+            "link":"/pdf/workshops/2_National_conferene_on_wetland_biodiversity_and_its_conservation_strategy.pdf"
+        },
+        {
+            "id":3,
+            "name":"Basic Training Programme on Human Rights",
+            "link":"/pdf/workshops/3_Basic_Training_Programme_on_Human_Rights.pdf"
+        },
+        {
+            "id":4,
+            "name":"Idea Generation",
+            "link":"/pdf/workshops/4_Idea_Generation.pdf"
+        },
+        {
+            "id":5,
+            "name":"Financial Education Programme",
+            "link":"/pdf/workshops/5_Financial_Education_Programme.pdf"
+        },
+        {
+            "id":6,
+            "name":"Mega Life",
+            "link":"/pdf/workshops/6_Mega_Life.pdf"
+        },
+        {
+            "id":7,
+            "name":"Lecture workshop on Research Methodology",
+            "link":"/pdf/workshops/7_Lecture_workshop_on_Research_Methodology.pdf"
+        }
+    ],
+    "t_4_2_3":[
+        {
+            "id":1,
+            "name":"Books(2015-2016)",
+            "link":"/pdf/expenditure/Books_2015_2016.pdf"
+        },
+        {
+            "id":2,
+            "name":"Journals(2015_2016)",
+            "link":"/pdf/expenditure/Journals_2015_2016.pdf"
+        },
+        {
+            "id":3,
+            "name":"Books(2016-2017)",
+            "link":"/pdf/expenditure/Book_2016-2017.pdf"
+        },
+        {
+            "id":4,
+            "name":"Books(2017-2018)",
+            "link":"/pdf/expenditure/Book_2017 - 2018.pdf"
+        },
+        {
+            "id":5,
+            "name":"Books(2018-2019)",
+            "link":"/pdf/expenditure/Book_2018-2019.pdf"
+        },
+        {
+            "id":6,
+            "name":"Journals(2018-2019)",
+            "link":"/pdf/expenditure/Journals_2018_2019.pdf"
+        },
+        {
+            "id":7,
+            "name":"Books(2019-2020)",
+            "link":"/pdf/expenditure/Book_2019_2020.pdf"
+        }
     ]
 }

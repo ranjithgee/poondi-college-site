@@ -5,7 +5,7 @@
               <div v-for="category in item.category" :key="category.id">
                   <div  v-for="cat in category.category" :key="cat.id">
                       <div  v-if="$route.params.id == item.route_name && $route.params.subid == category.path && $route.params.cntid == cat.path" >
-                            <div class="heading"  >
+                            <div class="heading description"  >
                                 <div class="breadcrumbs"><span><router-link :to="item.link"> Home</router-link> <i class="fas fa-chevron-right" ></i> <router-link :to="item.link">{{item.name}}</router-link>  <i class="fas fa-chevron-right" ></i><router-link :to="category.link">{{category.name}}</router-link>  <i class="fas fa-chevron-right" ></i><router-link class="crnt_page" :to="cat.link">{{cat.name}}</router-link> </span></div>
                                 <span class="alter_heading" >{{cat.alter_name}}</span> <button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button>
                             </div> 

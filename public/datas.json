@@ -683,6 +683,7 @@
                             "name":" 3.3.1 Dedicated centers for research,entreprenurshipand etc.",
                             "alter_name":"3.3.1 Institution has created an eco system for innovations, creation and transfer of knowledge supported by dedicated centers for research, entrepreneurship, community orientation, Incubation etc.",
                             "link":"/research-innovations-extension/3.3/3.3.1",
+                            "path":"3.3.1",
                             "sub":[
                                 {
                                     "id":1,
@@ -981,6 +982,7 @@
                             "name":"4.1.4 Average expenditure for infrastructure augmentation",
                             "alter_name":"4.1.4 Average percentage of expenditure for infrastructure augmentation excluding salary during the last five years (INR in Lakhs)",
                             "link":"/infrastructure-learning-resources/4.1/4.1.4",
+                            "path":"4.1.4",
                             "sub":[
                                 {
                                     "id":1,
@@ -1054,6 +1056,7 @@
                             "name":" 4.2.4 Percentage of library usage/day",
                             "alter_name":"4.2.4 Percentage per day usage of library by teachers and students (foot falls and login data for online access)",
                             "link":"/infrastructure-learning-resources/4.2/4.2.4",
+                            "path":"4.2.4",
                             "sub":[
                                 {
                                     "id":1,
@@ -1112,6 +1115,7 @@
                             "name":"4.4.1 Expenditure and maintenance of facilities",
                             "alter_name":"4.4.1 Average percentage expenditure incurred on maintenance of physical facilities and academic support facilities excluding salary component, during the last five years",
                             "link":"/infrastructure-learning-resources/4.4/4.4.1",
+                            "path":"4.4.1",
                             "sub":[
                                 {
                                     "id":1,

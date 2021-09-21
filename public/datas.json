@@ -682,7 +682,39 @@
                             "id":1,
                             "name":" 3.3.1 Dedicated centers for research,entreprenurshipand etc.",
                             "alter_name":"3.3.1 Institution has created an eco system for innovations, creation and transfer of knowledge supported by dedicated centers for research, entrepreneurship, community orientation, Incubation etc.",
-                            "link":""
+                            "link":"/research-innovations-extension/3.3/3.3.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Report of Community Orientation Activity",
+                                    "link":"/pdf/Report_of_Community_Orientation_Activity.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Activities of EDC",
+                                    "link":"/pdf/Activities_of_EDC.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Research Nodal Centre",
+                                    "link":"/pdf/Research_Nodal_Centre.pdf"
+                                },
+                                {
+                                    "id":4,
+                                    "name":"Research Projects and Publications",
+                                    "link":"/pdf/Research_Projects_and_Publications.pdf"
+                                },
+                                {
+                                    "id":5,
+                                    "name":"Reserach facilities availed by other colleges",
+                                    "link":"/pdf/Reserach_facilities_availed_by_other_colleges.pdf"
+                                },
+                                {
+                                    "id":6,
+                                    "name":"UBA Activities",
+                                    "link":"/pdf/UBA_Activities.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,
@@ -948,7 +980,19 @@
                             "id":4,
                             "name":"4.1.4 Average expenditure for infrastructure augmentation",
                             "alter_name":"4.1.4 Average percentage of expenditure for infrastructure augmentation excluding salary during the last five years (INR in Lakhs)",
-                            "link":""
+                            "link":"/infrastructure-learning-resources/4.1/4.1.4",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Budget Allocation for infrastructure Augmentation",
+                                    "link":"/pdf/Budget_Allocation_for_infrastructure_Augmentation.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Expenditure for Infrastructure Augmentation",
+                                    "link":"/pdf/Expenditure_for_Infrastructure_Augmentation.pdf"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1009,7 +1053,19 @@
                             "id":4,
                             "name":" 4.2.4 Percentage of library usage/day",
                             "alter_name":"4.2.4 Percentage per day usage of library by teachers and students (foot falls and login data for online access)",
-                            "link":""
+                            "link":"/infrastructure-learning-resources/4.2/4.2.4",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Ledger Footfalls for five days",
+                                    "link":"/pdf/Ledger_Footfalls_for_five_days.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Number of Teachers and Students using Library",
+                                    "link":"/pdf/Number_of_Teachers_and_Students_using_Library.pdf"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1055,7 +1111,19 @@
                             "id":1,
                             "name":"4.4.1 Expenditure and maintenance of facilities",
                             "alter_name":"4.4.1 Average percentage expenditure incurred on maintenance of physical facilities and academic support facilities excluding salary component, during the last five years",
-                            "link":""
+                            "link":"/infrastructure-learning-resources/4.4/4.4.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Budget Allocation for maintenance of Physical facilities",
+                                    "link":"/pdf/Budget_Allocation_for_maintenance_of_Physical_facilities.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Expenditure for maintenance of Physical facilities",
+                                    "link":"/pdf/Expenditure_for_maintenance_of_Physical_facilities.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,

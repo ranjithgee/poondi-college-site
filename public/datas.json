@@ -736,7 +736,30 @@
                             "id":1,
                             "name":"3.4.1 Ensures code of ethics for research",
                             "alter_name":"3.4.1 The Institution ensures implementation of its stated Code of Ethics for research through the following:",
-                            "link":""
+                            "path":"3.4.1",
+                            "link":"/research-innovations-extension/3.4/3.4.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Inclusion of research ethics in the research methodology course",
+                                    "link":"/pdf/Research_ethics_in_the_research_methodology_courses.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Plagiarism check through software",
+                                    "link":"/pdf/Plagiarism_Check_through_software.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Research Advisory Committee",
+                                    "link":"/pdf/Research_Advisory_Committee.pdf"
+                                },
+                                {
+                                    "id":4,
+                                    "name":"Research Ethics Committee",
+                                    "link":"/pdf/Minutes_of_Research_Ethics_Committee.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,
@@ -884,7 +907,20 @@
                             "id":2,
                             "name":" 3.5.2 Amount spent on facilities,traningteachers and consultancy",
                             "alter_name":"3.5.2 Total amount spent on developing facilities, training teachers and staff for undertaking consultancy during the last five years",
-                            "link":""
+                            "path":"3.5.2",
+                            "link":"/research-innovations-extension/3.5/3.5.2",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Audit Report for Consultancy",
+                                    "link":"/pdf/Audit_Report_For_Consultancy.pdf"
+                                },
+                                {
+                                    "id":1,
+                                    "name":"Facilities Developed for Consultancy",
+                                    "link":"/pdf/3.5.2_Facilities_Developed_for_undertaking_Consultancy.pdf"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -898,7 +934,15 @@
                             "id":1,
                             "name":"3.6.1 Sensitizing to social issues for holistic development",
                             "alter_name":"3.6.1 Extension activities are carried out in the neighbourhood community, sensitising students to social issues, for their holistic development, and impact thereof during the last five year",
-                            "link":""
+                            "path":"3.6.1",
+                            "link":"/research-innovations-extension/3.6/3.6.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Extension activities",
+                                    "link":"/pdf/Extension_activities.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,
@@ -911,13 +955,39 @@
                             "id":3,
                             "name":"3.6.3 Extension and Outreach program by NSS/NCC etc",
                             "alter_name":"3.6.3 Number of extension and outreach programs conducted by the institution through NSS/NCC/Red cross/YRC etc., during the last five years (including Government initiated programs such as Swachh Bharat, Aids Awareness, Gender Issue, etc. and those organised in collaboration with industry, community and NGOs)",
-                            "link":""
+                            "path":"3.6.3",
+                            "link":"/research-innovations-extension/3.6/3.6.3",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"NCC Activities",
+                                    "link":"/pdf/NCC_Activities.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"NSS Activities",
+                                    "link":"/pdf/NSS_Activities.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":4,
                             "name":"3.6.4 Average percentage of 3.6.3",
                             "alter_name":"3.6.4 Average percentage of students participating in extension activities listed at 3.6.3 above during the last five years",
-                            "link":""
+                            "path":"3.6.4",
+                            "link":"/research-innovations-extension/3.6/3.6.4",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Students participation in NCC",
+                                    "link":"/pdf/Students_participation_in_NCC.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Students Participation in NSS",
+                                    "link":"/pdf/Students_participation_in_NSS.pdf"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1178,12 +1248,12 @@
                                     "link":"/pdf/HEALTH_AND_HYGIENE.pdf"
                                 },
                                 {
-                                    "id":1,
+                                    "id":2,
                                     "name":"Physical Fitness",
                                     "link":"/pdf/PHYSICAL_FITNESS.pdf"
                                 },
                                 {
-                                    "id":1,
+                                    "id":3,
                                     "name":"Yoga",
                                     "link":"/pdf/YOGA.pdf"
                                 }
@@ -1200,7 +1270,40 @@
                             "id":5,
                             "name":"5.1.5 Redressal-sexual harassment and ragging cases",
                             "alter_name":"5.1.5 The institution adopts the following for redressal of student grievances including sexual harassment and ragging cases",
-                            "link":""
+                            "path":"5.1.5",
+                            "link":"/student-support-progression/5.1/5.1.5",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Anti-ragging Committee",
+                                    "link":"/pdf/Anti_Ragging_committee_Report.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Details of Student Grievances",
+                                    "link":"/pdf/Details_of_Student_Grievances.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Grievance Redressal Policy",
+                                    "link":"/pdf/Grievence_Redressal_Policy.pdf"
+                                },
+                                {
+                                    "id":4,
+                                    "name":"Student academic grievances committee",
+                                    "link":"/pdf/STUDENT_GRIEVANCES_REDRESSAL_COMMITTEE.pdf"
+                                },
+                                {
+                                    "id":5,
+                                    "name":"Students discipline committee",
+                                    "link":"/pdf/Students_academic_discipline_committee.pdf"
+                                },
+                                {
+                                    "id":6,
+                                    "name":"Womens welfare committee",
+                                    "link":"/pdf/Womens_welfare_committee.pdf"
+                                }
+                            ]
                         }
                     ]
                 },

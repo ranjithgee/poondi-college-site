@@ -11,10 +11,10 @@
                             </div> 
                             <div class="sub_items">
                                 <div v-for="cnt in cat.sub" :key="cnt.id" >
-                                    <a class="i_list" v-if="cnt.pdf !== 'no'" :href="cnt.id == 4 ? cnt.link : $store.state.siteUrl + cnt.link" target="_blank" >
+                                    <a class="i_list" v-if="cnt.pdf == 'yes'" :href="cnt.id == 4 ? cnt.link : $store.state.siteUrl + cnt.link" target="_blank" >
                                         <img class="send_icon" src="@/assets/send.svg" alt=""> {{cnt.name}}
                                     </a>
-                                    <router-link v-if="cnt.pdf == 'yes'" class="i_list" :to="cnt.link" >
+                                    <router-link v-if="cnt.pdf == 'no'" class="i_list" :to="cnt.link" >
                                         <img class="send_icon" src="@/assets/send.svg" alt="">{{cnt.name}} 
                                     </router-link>
                                 </div>

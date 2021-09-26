@@ -170,6 +170,12 @@
                                             <router-link v-for="item in tables.main_1_3_3" :key="item.id" :to="item.link">{{item.name}}</router-link>
                                         </div>
                                 </div>
+                                <div class="year_category" v-if="cat.path == '3.1.2'" >
+                                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Policy documents for Sanction of seed money</div>
+                                        <div class="year_items">
+                                            <router-link v-for="item in tables.main_3_1_2" :key="item.id" :to="item.link">{{item.name}}</router-link>
+                                        </div>
+                                </div>
                                 <div class="year_category" v-if="cat.path == '3.6.2'" >
                                         <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt=""> Awards and Recognition recieved for extension activities</div>
                                         <div class="year_items">

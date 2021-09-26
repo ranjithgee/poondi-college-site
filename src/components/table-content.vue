@@ -213,6 +213,156 @@
           </div>
       </div>
   </div>
+  <div v-else-if="$route.params.tableid == '3.1.2_2015_2016'">
+      <div class="list">
+          <div class="item">
+              <div class="heading cnt"  >Policy documents for Sanction of seed money<button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button></div> 
+             <div class="sub_items">
+                 <div class="table_contents workshops" style="overflow-x:auto;">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>S.No</th>
+                                <th>Name of the teacher provided with seed money</th>
+                                <th>Link</th>
+                            </tr>
+                            <tr class="year">
+                                <th style="text-align:center;" colspan="3">2015-2016</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr v-for="item in tables.one_3_1_2" :key="item.id">
+                                <td class="s_no" >{{item.id}}</td>
+                                <td >{{item.name}}</td>
+                                <td class="pdf_items" ><a :href="$store.state.siteUrl + item.link"  target="_blank" ><img src="../assets/pdf_icon2.png" style="width:20px;" /></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+             </div>
+          </div>
+      </div>
+  </div>
+  <div v-else-if="$route.params.tableid == '3.1.2_2016_2017'">
+      <div class="list">
+          <div class="item">
+              <div class="heading cnt"  >Policy documents for Sanction of seed money<button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button></div> 
+             <div class="sub_items">
+                 <div class="table_contents workshops" style="overflow-x:auto;">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>S.No</th>
+                                <th>Name of the teacher provided with seed money</th>
+                                <th>Link</th>
+                            </tr>
+                            <tr class="year">
+                                <th style="text-align:center;" colspan="3">2016-2017</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr v-for="item in tables.two_3_1_2" :key="item.id">
+                                <td class="s_no" >{{item.id}}</td>
+                                <td >{{item.name}}</td>
+                                <td class="pdf_items" ><a :href="$store.state.siteUrl + item.link"  target="_blank" ><img src="../assets/pdf_icon2.png" style="width:20px;" /></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+             </div>
+          </div>
+      </div>
+  </div>
+  <div v-else-if="$route.params.tableid == '3.1.2_2017_2018'">
+      <div class="list">
+          <div class="item">
+              <div class="heading cnt"  >Policy documents for Sanction of seed money<button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button></div> 
+             <div class="sub_items">
+                 <div class="table_contents workshops" style="overflow-x:auto;">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>S.No</th>
+                                <th>Name of the teacher provided with seed money</th>
+                                <th>Link</th>
+                            </tr>
+                            <tr class="year">
+                                <th style="text-align:center;" colspan="3">2017-2018</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr v-for="item in tables.three_3_1_2" :key="item.id">
+                                <td class="s_no" >{{item.id}}</td>
+                                <td >{{item.name}}</td>
+                                <td class="pdf_items" ><a :href="$store.state.siteUrl + item.link"  target="_blank" ><img src="../assets/pdf_icon2.png" style="width:20px;" /></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+             </div>
+          </div>
+      </div>
+  </div>
+  <div v-else-if="$route.params.tableid == '3.1.2_2018_2019'">
+      <div class="list">
+          <div class="item">
+              <div class="heading cnt"  >Policy documents for Sanction of seed money<button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button></div> 
+             <div class="sub_items">
+                 <div class="table_contents workshops" style="overflow-x:auto;">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>S.No</th>
+                                <th>Name of the teacher provided with seed money</th>
+                                <th>Link</th>
+                            </tr>
+                            <tr class="year">
+                                <th style="text-align:center;" colspan="3">2018-2019</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr v-for="item in tables.four_3_1_2" :key="item.id">
+                                <td class="s_no" >{{item.id}}</td>
+                                <td >{{item.name}}</td>
+                                <td class="pdf_items" ><a :href="$store.state.siteUrl + item.link"  target="_blank" ><img src="../assets/pdf_icon2.png" style="width:20px;" /></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                 </div>
+             </div>
+          </div>
+      </div>
+  </div>
+  <div v-else-if="$route.params.tableid == '3.1.2_2019_2020'">
+      <div class="list">
+          <div class="item">
+              <div class="heading cnt"  >Policy documents for Sanction of seed money<button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button></div> 
+             <div class="sub_items">
+                 <div class="table_contents workshops" style="overflow-x:auto;">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>S.No</th>
+                                <th>Name of the teacher provided with seed money</th>
+                                <th>Link</th>
+                            </tr>
+                            <tr class="year">
+                                <th style="text-align:center;" colspan="3">2019-2020</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr v-for="item in tables.five_3_1_2" :key="item.id">
+                                <td class="s_no" >{{item.id}}</td>
+                                <td >{{item.name}}</td>
+                                <td class="pdf_items" ><a :href="$store.state.siteUrl + item.link"  target="_blank" ><img src="../assets/pdf_icon2.png" style="width:20px;" /></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+             </div>
+          </div>
+      </div>
+  </div>
   <div v-else-if="$route.params.tableid == 'feedback-analysis'">
       <div class="list">
           <div class="item">

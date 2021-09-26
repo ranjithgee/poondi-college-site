@@ -2,7 +2,7 @@ import { createStore } from 'vuex'
 
 export default createStore({
   state: {
-    baseUrl:"https://naac.sripushpamcollege.co.in/",
+    baseUrl:"http://localhost:8080/",
     siteUrl:window.location.origin
   },
   mutations: {

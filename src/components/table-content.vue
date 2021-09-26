@@ -138,6 +138,81 @@
           </div>
       </div>
   </div>
+  <div v-else-if="$route.params.tableid == '1.3.3_2015_2016'">
+      <div class="list">
+          <div class="item">
+              <div class="heading cnt"  >Value Added Courses attendance and results<button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button></div> 
+             <div class="sub_items">
+                 <div class="year_category2" >
+                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2015-2016</div>
+                    <div class="year_items2">
+                        <a v-for="item in tables.one_1_3_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                    </div>
+                </div>
+             </div>
+          </div>
+      </div>
+  </div>
+  <div v-else-if="$route.params.tableid == '1.3.3_2016_2017'">
+      <div class="list">
+          <div class="item">
+              <div class="heading cnt"  >Value Added Courses attendance and results<button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button></div> 
+             <div class="sub_items">
+                 <div class="year_category2" >
+                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2016-2017</div>
+                    <div class="year_items2">
+                        <a v-for="item in tables.two_1_3_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                    </div>
+                </div>
+             </div>
+          </div>
+      </div>
+  </div>
+  <div v-else-if="$route.params.tableid == '1.3.3_2017_2018'">
+      <div class="list">
+          <div class="item">
+              <div class="heading cnt"  >Value Added Courses attendance and results<button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button></div> 
+             <div class="sub_items">
+                 <div class="year_category2" >
+                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2017-2018</div>
+                    <div class="year_items2">
+                        <a v-for="item in tables.three_1_3_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                    </div>
+                </div>
+             </div>
+          </div>
+      </div>
+  </div>
+  <div v-else-if="$route.params.tableid == '1.3.3_2018_2019'">
+      <div class="list">
+          <div class="item">
+              <div class="heading cnt"  >Value Added Courses attendance and results<button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button></div> 
+             <div class="sub_items">
+                 <div class="year_category2" >
+                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2018-2019</div>
+                    <div class="year_items2">
+                        <a v-for="item in tables.four_1_3_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                    </div>
+                </div>
+             </div>
+          </div>
+      </div>
+  </div>
+  <div v-else-if="$route.params.tableid == '1.3.3_2019_2020'">
+      <div class="list">
+          <div class="item">
+              <div class="heading cnt"  >Value Added Courses attendance and results<button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button></div> 
+             <div class="sub_items">
+                 <div class="year_category2" >
+                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2019-2020</div>
+                    <div class="year_items2">
+                        <a v-for="item in tables.five_1_3_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                    </div>
+                </div>
+             </div>
+          </div>
+      </div>
+  </div>
   <div v-else-if="$route.params.tableid == 'feedback-analysis'">
       <div class="list">
           <div class="item">

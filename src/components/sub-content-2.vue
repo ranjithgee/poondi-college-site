@@ -164,35 +164,11 @@
                                             <a v-for="item in tables.t_1_3_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
                                         </div>
                                 </div>
-                                <div class="year_category2" v-if="cat.path == '1.3.3'">
-                                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2015-2016</div>
-                                    <div class="year_items2">
-                                        <a v-for="item in tables.one_1_3_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
-                                    </div>
-                                </div>
-                                <div class="year_category2" v-if="cat.path == '1.3.3'">
-                                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2016-2017</div>
-                                    <div class="year_items2">
-                                        <a v-for="item in tables.two_1_3_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
-                                    </div>
-                                </div>
-                                <div class="year_category2" v-if="cat.path == '1.3.3'">
-                                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2017-2018</div>
-                                    <div class="year_items2">
-                                        <a v-for="item in tables.three_1_3_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
-                                    </div>
-                                </div>
-                                <div class="year_category2" v-if="cat.path == '1.3.3'">
-                                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2018-2019</div>
-                                    <div class="year_items2">
-                                        <a v-for="item in tables.four_1_3_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
-                                    </div>
-                                </div>
-                                <div class="year_category2" v-if="cat.path == '1.3.3'">
-                                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2019-2020</div>
-                                    <div class="year_items2">
-                                        <a v-for="item in tables.five_1_3_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
-                                    </div>
+                                <div class="year_category" v-if="cat.path == '1.3.3'" >
+                                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Value Added Courses attendance and results</div>
+                                        <div class="year_items">
+                                            <router-link v-for="item in tables.main_1_3_3" :key="item.id" :to="item.link">{{item.name}}</router-link>
+                                        </div>
                                 </div>
                                 <div class="year_category" v-if="cat.path == '3.6.2'" >
                                         <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt=""> Awards and Recognition recieved for extension activities</div>

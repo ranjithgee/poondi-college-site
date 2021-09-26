@@ -173,6 +173,10 @@
     border-bottom: 1px solid lightgray;
 }
 
+.table_contents tbody{
+    border-bottom: 1px solid lightgray;
+}
+
 .table_contents.workshops{
     margin-bottom: 50px;
 }

@@ -46,46 +46,6 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <div class="table_contents" style="overflow-x:auto;" v-if="cat.path == '3.7.2'">
-                                    <table>
-                                        <thead>
-                                            <tr>
-                                                <th>S.No</th>
-                                                <th>Name of the institution/industry/corporate house</th>
-                                                <th>Date of MoU</th>
-                                                <th>Link</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr v-for="item in tables.t_3_7_2" :key="item.id">
-                                                <td>{{item.id}}</td>
-                                                <td>{{item.name}}</td>
-                                                <td>{{item.date}}</td>
-                                                <td class="pdf_items" ><a :href="$store.state.siteUrl + item.link"  target="_blank" ><img src="../assets/pdf_icon2.png" style="width:20px;" /></a></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="table_contents" style="overflow-x:auto;" v-if="cat.path == '3.7.1'">
-                                    <table>
-                                        <thead>
-                                            <tr>
-                                                <th>S.No</th>
-                                                <th>Name of the collaborating agency</th>
-                                                <th>Year</th>
-                                                <th>Link</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr v-for="item in tables.t_3_7_1" :key="item.id">
-                                                <td>{{item.id}}</td>
-                                                <td>{{item.name}}</td>
-                                                <td>{{item.year}}</td>
-                                                <td class="pdf_items" ><a :href="$store.state.siteUrl + item.link"  target="_blank" ><img src="../assets/pdf_icon2.png" style="width:20px;" /></a></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
                                 <div class="year_category" v-if="cat.path == '3.4.4'" >
                                         <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Books and chapters Published</div>
                                         <div class="year_items">
@@ -174,6 +134,18 @@
                                         <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Policy documents for Sanction of seed money</div>
                                         <div class="year_items">
                                             <router-link v-for="item in tables.main_3_1_2" :key="item.id" :to="item.link">{{item.name}}</router-link>
+                                        </div>
+                                </div>
+                                <div class="year_category" v-if="cat.path == '3.7.1'" >
+                                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Collaborative activities</div>
+                                        <div class="year_items">
+                                            <router-link v-for="item in tables.main_3_7_1" :key="item.id" :to="item.link">{{item.name}}</router-link>
+                                        </div>
+                                </div>
+                                <div class="year_category" v-if="cat.path == '3.7.2'" >
+                                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Functional MoUs</div>
+                                        <div class="year_items">
+                                            <router-link v-for="item in tables.main_3_7_2" :key="item.id" :to="item.link">{{item.name}}</router-link>
                                         </div>
                                 </div>
                                 <div class="year_category" v-if="cat.path == '3.6.2'" >

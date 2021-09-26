@@ -1103,39 +1103,7 @@
                             "name":"3.7.2 MoUs with national and international level",
                             "alter_name":"3.7.2 Number of functional MoUs with institutions of national, international importance, other universities, industries, corporate houses etc. during the last five years (only functional MoUs with ongoing activities to be considered)",
                             "path":"3.7.2",
-                            "link":"/research-innovations-extension/3.7/3.7.2",
-                            "sub":[
-                                {
-                                    "id":1,
-                                    "name":"2019-2020",
-                                    "pdf":"no",
-                                    "link":"/research-innovations-extension/3.7/3.7.2/function-mou1"
-                                },
-                                {
-                                    "id":2,
-                                    "name":"2018-2019",
-                                    "pdf":"no",
-                                    "link":"/research-innovations-extension/3.7/3.7.2/function-mou2"
-                                },
-                                {
-                                    "id":3,
-                                    "name":"2017-2018",
-                                    "pdf":"no",
-                                    "link":"/research-innovations-extension/3.7/3.7.2/function-mou3"
-                                },
-                                {
-                                    "id":4,
-                                    "name":"2016-2017",
-                                    "pdf":"no",
-                                    "link":"/research-innovations-extension/3.7/3.7.2/function-mou4"
-                                },
-                                {
-                                    "id":5,
-                                    "name":"2015-2016",
-                                    "pdf":"no",
-                                    "link":"/research-innovations-extension/3.7/3.7.2/function-mou5"
-                                }
-                            ]
+                            "link":"/research-innovations-extension/3.7/3.7.2"
                         }
                     ]
                 }

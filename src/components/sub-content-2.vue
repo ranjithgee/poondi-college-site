@@ -148,6 +148,12 @@
                                             <router-link v-for="item in tables.main_3_7_2" :key="item.id" :to="item.link">{{item.name}}</router-link>
                                         </div>
                                 </div>
+                                <div class="year_category" v-if="cat.path == '3.3.2'" >
+                                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Workshop/seminars on RM,IPR and etc.</div>
+                                        <div class="year_items">
+                                            <router-link v-for="item in tables.main_3_3_2" :key="item.id" :to="item.link">{{item.name}}</router-link>
+                                        </div>
+                                </div>
                                 <div class="year_category" v-if="cat.path == '5.1.1'" >
                                         <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Scholarship and freeship-govt.</div>
                                         <div class="year_items">
@@ -195,111 +201,6 @@
                                         <div class="year_items">
                                             <a v-for="item in tables.t_4_2_2" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
                                         </div>
-                                </div>
-                                <div class="table_contents workshops" style="overflow-x:auto;" v-if="cat.path == '3.3.2'">
-                                    <table>
-                                        <thead>
-                                            <tr>
-                                                <th>S.No</th>
-                                                <th>Workshops/seminars conducted</th>
-                                                <th>Link</th>
-                                            </tr>
-                                            <tr class="year">
-                                                <th style="text-align:center;" colspan="3">2015-2016</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr v-for="item in tables.one_3_2_2" :key="item.id">
-                                                <td class="s_no" >{{item.id}}</td>
-                                                <td >{{item.name}}</td>
-                                                <td class="pdf_items" ><a :href="$store.state.siteUrl + item.link"  target="_blank" ><img src="../assets/pdf_icon2.png" style="width:20px;" /></a></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="table_contents workshops" style="overflow-x:auto;" v-if="cat.path == '3.3.2'">
-                                    <table>
-                                        <thead>
-                                            <tr>
-                                                <th>S.No</th>
-                                                <th>Workshops/seminars conducted</th>
-                                                <th>Link</th>
-                                            </tr>
-                                            <tr class="year">
-                                                <th style="text-align:center;" colspan="3">2016-2017</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr v-for="item in tables.two_3_2_2" :key="item.id">
-                                                <td class="s_no" >{{item.id}}</td>
-                                                <td >{{item.name}}</td>
-                                                <td class="pdf_items" ><a :href="$store.state.siteUrl + item.link"  target="_blank" ><img src="../assets/pdf_icon2.png" style="width:20px;" /></a></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="table_contents workshops" style="overflow-x:auto;" v-if="cat.path == '3.3.2'">
-                                    <table>
-                                        <thead>
-                                            <tr>
-                                                <th>S.No</th>
-                                                <th>Workshops/seminars conducted</th>
-                                                <th>Link</th>
-                                            </tr>
-                                            <tr class="year">
-                                                <th style="text-align:center;" colspan="3">2017-2018</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr v-for="item in tables.three_3_2_2" :key="item.id">
-                                                <td class="s_no" >{{item.id}}</td>
-                                                <td >{{item.name}}</td>
-                                                <td class="pdf_items" ><a :href="$store.state.siteUrl + item.link"  target="_blank" ><img src="../assets/pdf_icon2.png" style="width:20px;" /></a></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="table_contents workshops" style="overflow-x:auto;" v-if="cat.path == '3.3.2'">
-                                    <table>
-                                        <thead>
-                                            <tr>
-                                                <th>S.No</th>
-                                                <th>Workshops/seminars conducted</th>
-                                                <th>Link</th>
-                                            </tr>
-                                            <tr class="year">
-                                                <th style="text-align:center;" colspan="3">2018-2019</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr v-for="item in tables.four_3_2_2" :key="item.id">
-                                                <td class="s_no" >{{item.id}}</td>
-                                                <td >{{item.name}}</td>
-                                                <td class="pdf_items" ><a :href="$store.state.siteUrl + item.link"  target="_blank" ><img src="../assets/pdf_icon2.png" style="width:20px;" /></a></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="table_contents workshops" style="overflow-x:auto;" v-if="cat.path == '3.3.2'">
-                                    <table>
-                                        <thead>
-                                            <tr>
-                                                <th>S.No</th>
-                                                <th>Workshops/seminars conducted</th>
-                                                <th>Link</th>
-                                            </tr>
-                                            <tr class="year">
-                                                <th style="text-align:center;" colspan="3">2019-2020</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr v-for="item in tables.five_3_2_2" :key="item.id">
-                                                <td class="s_no" >{{item.id}}</td>
-                                                <td >{{item.name}}</td>
-                                                <td class="pdf_items" ><a :href="$store.state.siteUrl + item.link"  target="_blank" ><img src="../assets/pdf_icon2.png" style="width:20px;" /></a></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
                                 </div>
                                 <div class="year_category" v-if="cat.path == '4.2.3'" >
                                         <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Expenditure for purchase of books and journals</div>

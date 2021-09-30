@@ -3803,6 +3803,45 @@
             "link":"/pdf/scholarships/20.pdf"
         }
     ],
+    "t_2_3_1":[
+        {
+            "id":1,
+            "name":"Experiential Learning",
+            "link":"/pdf/Experiential_learning.pdf"
+        },
+        {
+            "id":2,
+            "name":"Project 2015-2020",
+            "link":"/pdf/project-ma-2015-2020.pdf"
+        },
+        {
+            "id":3,
+            "name":"Mock Interview",
+            "link":"/pdf/mock_int_hy_2015_2020.pdf"
+        },
+        {
+            "id":4,
+            "name":"Students Projects",
+            "link":"/pdf/Students_Projects.pdf"
+        },
+        {
+            "id":5,
+            "name":"Tour and Industrial Visit",
+            "link":"/pdf/Tour_and_Industrial_Visit.pdf"
+        }
+    ],
+    "t2_2_3_1":[
+        {
+            "id":1,
+            "name":"Group Discussions",
+            "link":"/pdf/Group_Discussions.pdf"
+        },
+        {
+            "id":2,
+            "name":"Students Participation in Academic Competitions",
+            "link":"/pdf/Students_Participation_in_Academic_Competitions.pdf"
+        }
+    ],
     "four_5_1_1":[
         {
             "id":1,

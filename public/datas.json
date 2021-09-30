@@ -384,7 +384,28 @@
                             "id":1,
                             "name":" 2.3.1 Student-centric methods",
                             "alter_name":"2.3.1 Student centric methods, such as experiential learning, participative learning and problem-solving methodologies are used for enhancing learning experiences",
-                            "link":""
+                            "link":"/teaching-learning-evaluation/2.3/2.3.1",
+                            "path":"2.3.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Experiential Learning",
+                                    "pdf":"no",
+                                    "link":"/teaching-learning-evaluation/2.3/2.3.1/experiential_learning"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Participative Learning",
+                                    "pdf":"no",
+                                    "link":"/teaching-learning-evaluation/2.3/2.3.1/participative_learning"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Problem Solving Methodoligies",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Problem_solving_Methodoligies.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,
@@ -1133,7 +1154,34 @@
                             "id":2,
                             "name":" 4.1.2 Cultural activities, yoga, games and sports",
                             "alter_name":"4.1.2 The institution has adequate facilities for cultural activities, yoga, games (indoor, outdoor) and sports. (Gymnasium, yoga centre, auditorium, etc.) ",
-                            "link":""
+                            "path":"4.1.2",
+                            "link":"/infrastructure-learning-resources/4.1/4.1.2",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Cultural Activities",
+                                    "pdf":"yes",
+                                    "link":"/pdf/4.1.2_Cultural_Activities.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Gymnasium and Auditorium",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Gymnasium_and_Auditorium.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Sports Facilities",
+                                    "pdf":"yes",
+                                    "link":"/pdf/4.1.2_Sports_Facilities.pdf"
+                                },
+                                {
+                                    "id":4,
+                                    "name":"Yoga Activities",
+                                    "pdf":"yes",
+                                    "link":"/pdf/4.1.2_Yoga_Activities.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":3,
@@ -1554,13 +1602,55 @@
                             "id":1,
                             "name":"5.4.1 Alumni association to the development of the institution",
                             "alter_name":"5.4.1 The Alumni Association/Chapters (registered and functional) contributes significantly to the development of the institution through financial and other support services ",
-                            "link":""
+                            "path":"5.4.1",
+                            "link":"/student-support-progression/5.4/5.4.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Alumni as Resource persons",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Alumni_as_Resource_Persons.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Alumni Association Office bearers",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Alumni_Association_Office_bearers.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"General Alumni Meet",
+                                    "pdf":"yes",
+                                    "link":"/pdf/General_Alumni_Meet.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,
                             "name":"5.4.2 Alumni financial contribution",
                             "alter_name":"5.4.2 Alumni financial contribution during the last five years (in INR)",
-                            "link":""
+                            "path":"5.4.2",
+                            "link":"/student-support-progression/5.4/5.4.2",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Alumni  contribution",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Alumni_Contribution.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Faculty Alumni Contribution",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Faculty_Alumni_Contribution.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Fund generated from Alumni",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Fund_generated_from_Alumni.pdf"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1792,7 +1882,16 @@
                             "id":2,
                             "name":"6.3.2 Financial supports to conferences/workshops and membership fee",
                             "alter_name":"6.3.2 Average percentage of teachers provided with financial support to attend conferences / workshops and towards membership fee of professional bodies during the last five years",
-                            "link":""
+                            "path":"6.3.2",
+                            "link":"/governance-leadership-management/6.3/6.3.2",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Financial support to teachers",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Financial_support_to_teachers.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":3,
@@ -1922,7 +2021,52 @@
                             "id":3,
                             "name":" 6.5.3 Quality assurance initiatives",
                             "alter_name":"6.5.3 Quality assurance initiatives of the institution include:",
-                            "link":""
+                            "path":"6.5.3",
+                            "link":"/governance-leadership-management/6.5/6.5.3",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"External Academic Administrarive Audit",
+                                    "pdf":"yes",
+                                    "link":"/pdf/External_Academic_Administrarive_Audit.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Internal Academic Administrarive Audit",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Internal_Academic_Administrarive_Audit.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Feedback forms",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Feedback_forms.pdf"
+                                },
+                                {
+                                    "id":4,
+                                    "name":"IQAC Meeting",
+                                    "pdf":"yes",
+                                    "link":"/pdf/IQAC_Meetings.pdf"
+                                },
+                                {
+                                    "id":5,
+                                    "name":"Participation in NIRF",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Participation_in_NIRF.pdf"
+                                },
+                                {
+                                    "id":6,
+                                    "name":"Seminars conducted on Quality",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Seminars_conducted_on_quality.pdf"
+                                },
+                                {
+                                    "id":7,
+                                    "name":"Triennial Qualitive Audit",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Triennial_Quality_Audit.pdf"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2015,13 +2159,73 @@
                             "id":8,
                             "name":"7.1.8 Disabled-friendly and barrier free environment",
                             "alter_name":"7.1.8 Describe the Institutional efforts/initiatives in providing an inclusive environment i.e., tolerance and harmony towards cultural, regional, linguistic, communal socioeconomic and other diversities (within 500 words).",
-                            "link":""
+                            "path":"7.1.8",
+                            "link":"/institutional-values-best-practices/7.1/7.1.8",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Cultural Harmony",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Cultural_Harmony.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Multi Lingualism",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Multi_ligualism.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Regional Integration",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Regional_Integration.pdf"
+                                },
+                                {
+                                    "id":4,
+                                    "name":"Religious Tolerance",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Religious_Tolerance.pdf"
+                                },
+                                {
+                                    "id":5,
+                                    "name":"Socio Economic Inclusion",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Socio_Economic_inclusion.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":9,
                             "name":"7.1.9 Sensitization to the constitutional obligations",
                             "alter_name":"7.1.9 Sensitization of students and employees of the Institution to the constitutional obligations: values, rights, duties and responsibilities of citizensDescribe the various activities in the Institution for inculcating values for being responsible citizens as reflected in the Constitution of India within 500 words.",
-                            "link":""
+                            "path":"7.1.9",
+                            "link":"/institutional-values-best-practices/7.1/7.1.9",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Constitutional Obligation",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Constitutinal_Obligation.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Constitutional Rights",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Constitutinal_Rights.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Duties and Responsibilities",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Duties_Responsibilities.pdf"
+                                },
+                                {
+                                    "id":4,
+                                    "name":"Fostering Values",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Fostering_Values.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":10,

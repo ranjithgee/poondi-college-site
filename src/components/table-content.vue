@@ -138,6 +138,30 @@
           </div>
       </div>
   </div>
+  <div v-else-if="$route.params.tableid == 'experiential_learning'">
+      <div class="list">
+          <div class="item">
+              <div class="heading cnt"  >Experiential Learning<button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button></div> 
+             <div class="sub_items">
+                 <a class="i_list" v-for="cnt in tables.t_2_3_1" :key="cnt.id"  :href="$store.state.siteUrl + cnt.link" target="_blank" >
+                    <img class="send_icon" src="@/assets/send.svg" alt=""> {{cnt.name}}
+                 </a>
+             </div>
+          </div>
+      </div>
+  </div>
+  <div v-else-if="$route.params.tableid == 'participative_learning'">
+      <div class="list">
+          <div class="item">
+              <div class="heading cnt"  >Participative Learning<button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button></div> 
+             <div class="sub_items">
+                 <a class="i_list" v-for="cnt in tables.t2_2_3_1" :key="cnt.id"  :href="$store.state.siteUrl + cnt.link" target="_blank" >
+                    <img class="send_icon" src="@/assets/send.svg" alt=""> {{cnt.name}}
+                 </a>
+             </div>
+          </div>
+      </div>
+  </div>
   <div v-else-if="$route.params.tableid == '1.3.3_2015_2016'">
       <div class="list">
           <div class="item">

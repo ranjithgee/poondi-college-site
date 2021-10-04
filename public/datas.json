@@ -78,7 +78,16 @@
                             "id":3,
                             "name":"1.1.3 Employability/ entrepreneurshipskills",
                             "alter_name":"1.1.3 Average percentage of courses having focus on employability/entrepreneurship/ skill development offered by the institution during the last five years",
-                            "link":""
+                            "path":"1.1.3",
+                            "link":"/curricular_aspects/1.1/1.1.3",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Mapping of the Course to employability",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Mapping_of_the_course_to_employability.pdf"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -92,7 +101,22 @@
                             "id":1,
                             "name":" 1.2.1 Courses introduced-program wise",
                             "alter_name":"1.2.1 Percentage of new courses introduced of the total number of courses across all programs offered during the last five years",
-                            "link":""
+                            "path":"1.2.1",
+                            "link":"/curricular_aspects/1.2/1.2.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Academic Council meeting and Approval of new programmes compressed",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Academic_Council_meeting_and_Approval_of_new_programmes_compressed.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"New Courses",
+                                    "pdf":"yes",
+                                    "link":"/pdf/New_Courses.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,
@@ -355,7 +379,28 @@
                             "id":1,
                             "name":"2.2.1 Programmes for advanced and slow learners",
                             "alter_name":"2.2.1 The institution assesses the learning levels of the students and organises special Programmes for advanced learners and slow learners",
-                            "link":""
+                            "path":"2.2.1",
+                            "link":"/teaching-learning-evaluation/2.2/2.2.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Slow Learners and Advanced Learners list",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Slow_learners_and_Advanced_learners.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Special Programme for Advanced Learners",
+                                    "pdf":"no",
+                                    "link":"/teaching-learning-evaluation/2.2/2.2.1/advanced_learners"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Special Programme for Slow Learners",
+                                    "pdf":"no",
+                                    "link":"/teaching-learning-evaluation/2.2/2.2.1/slow_learners"
+                                }
+                            ]
                         },
                         {
                             "id":2,
@@ -450,7 +495,28 @@
                             "id":4,
                             "name":"2.3.4 Adherence of academic plans",
                             "alter_name":"Preparation and adherence of Academic Calendar and Teaching plans by the institution",
-                            "link":""
+                            "path":"2.3.4",
+                            "link":"/teaching-learning-evaluation/2.3/2.3.4",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Academic Calendar",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Academic_calendar.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Annual academic Plannar",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Annual_Academic_planner.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Annual Report",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Annual_report.pdf"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1897,13 +1963,15 @@
                             "id":3,
                             "name":"6.3.3 Training programs for teaching and non-teaching",
                             "alter_name":"6.3.3 Average number of professional development / administrative training programs organized by the Institution for teaching and non teaching staff during the last five years",
-                            "link":""
+                            "path":"6.3.3",
+                            "link":"/governance-leadership-management/6.3/6.3.3"
                         },
                         {
                             "id":4,
                             "name":"6.3.4  FDP by online/face-to-face",
                             "alter_name":"6.3.4 Average percentage of teachers undergoing online/ face-to-face Faculty Development Programmes during the last five years(Professional Development Programmes, Orientation / Induction Programmes, Refresher Course, Short Term Course etc.,)",
-                            "link":""
+                            "path":"6.3.4",
+                            "link":"/governance-leadership-management/6.3/6.3.4"
                         }
                     ]
                 },
@@ -2090,7 +2158,8 @@
                             "id":1,
                             "name":"7.1.1 Measures for gender equity",
                             "alter_name":"7.1.1 Measures initiated by the Institution for the promotion of gender equity during the last five years",
-                            "link":""
+                            "path":"7.1.1",
+                            "link":"/institutional-values-best-practices/7.1/7.1.1"
                         },
                         {
                             "id":2,
@@ -2135,7 +2204,34 @@
                             "id":4,
                             "name":"7.1.4 Water conservation facilities",
                             "alter_name":"7.1.4 Water conservation facilities available in the Institution: 1. Rain water harvesting  2. Borewell /Open well recharge 3. Construction of tanks and bunds 4. Waste water recycling  5. Maintenance of water bodies and distribution system in the campus ",
-                            "link":""
+                            "path":"7.1.4",
+                            "link":"/institutional-values-best-practices/7.1/7.1.4",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Borewell",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Borewell.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Construction of Tank",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Construction_of_Tank.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Rain_Water_Harvesting",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Rain Water Harvesting.pdf"
+                                },
+                                {
+                                    "id":4,
+                                    "name":"Water Bodies",
+                                    "pdf":"yes",
+                                    "link":"/pdf/Water_Bodies.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":5,

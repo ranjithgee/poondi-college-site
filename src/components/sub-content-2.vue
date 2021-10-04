@@ -52,6 +52,12 @@
                                             <a v-for="item in tables.t_3_4_4" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
                                         </div>
                                 </div>
+                                <div class="year_category" v-if="cat.path == '6.3.4'" >
+                                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Teachers Attended Professional Development Programmes</div>
+                                        <div class="year_items">
+                                            <a v-for="item in tables.t_6_3_4" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                        </div>
+                                </div>
                                 <div class="year_category" v-if="cat.path == '3.2.1'" >
                                         <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Project Grants Recieved</div>
                                         <div class="year_items">
@@ -88,10 +94,34 @@
                                             <a v-for="item in tables.iii_5_1_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
                                         </div>
                                 </div>
+                                <div class="year_category" v-if="cat.path == '6.3.3'" >
+                                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt=""> Professional Development Programmes</div>
+                                        <div class="year_items">
+                                            <a v-for="item in tables.t_6_3_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                        </div>
+                                </div>
+                                 <div class="year_category" v-if="cat.path == '7.1.1'" >
+                                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt=""> Annual Gender Sensitation Action plan</div>
+                                        <div class="year_items">
+                                            <a v-for="item in tables.t_7_1_1" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                        </div>
+                                </div>
+                                 <div class="year_category" v-if="cat.path == '7.1.1'" >
+                                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt=""> Specific Facilities provided for Women</div>
+                                        <div class="year_items">
+                                            <a v-for="item in tables.t2_7_1_1" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                        </div>
+                                </div>
                                 <div class="year_category2" v-if="cat.path == '5.1.4'">
                                     <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">2015-2016</div>
                                     <div class="year_items2">
                                         <a v-for="item in tables.one_5_1_4" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                    </div>
+                                </div>
+                                <div class="year_category2" v-if="cat.path == '2.3.4'">
+                                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Teaching plan</div>
+                                    <div class="year_items2">
+                                        <a v-for="item in tables.t_2_3_4" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
                                     </div>
                                 </div>
                                 <div class="year_category2" v-if="cat.path == '5.1.4'">
@@ -158,6 +188,12 @@
                                         <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Scholarship and freeship-govt.</div>
                                         <div class="year_items">
                                             <router-link v-for="item in tables.main_5_1_1" :key="item.id" :to="item.link">{{item.name}}</router-link>
+                                        </div>
+                                </div>
+                                <div class="year_category" v-if="cat.path == '1.1.3'" >
+                                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Courses focus on employability</div>
+                                        <div class="year_items">
+                                            <router-link v-for="item in tables.main_1_1_3" :key="item.id" :to="item.link">{{item.name}}</router-link>
                                         </div>
                                 </div>
                                 <div class="year_category" v-if="cat.path == '3.6.2'" >

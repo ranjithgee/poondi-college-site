@@ -716,7 +716,16 @@
                             "id":1,
                             "name":" 2.7.1 Online SSS on teaching-learning process ",
                             "alter_name":"2.7.1 Online student satisfaction survey regarding to teaching learning process.",
-                            "link":""
+                            "path":"2.7.1",
+                            "link":"/teaching-learning-evaluation/2.7/2.7.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Student Satisfaction Survey",
+                                    "pdf":"yes",
+                                    "link":"/pdf/2.7.1/2.7.1.xlsx"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1467,7 +1476,22 @@
                             "id":2,
                             "name":"4.3.2 Student-computer ratio",
                             "alter_name":"4.3.2 Student - Computer ratio (Data for the latest completed academic year)",
-                            "link":""
+                            "path":"4.3.2",
+                            "link":"/infrastructure-learning-resources/4.3/4.3.2",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Stock register",
+                                    "pdf":"yes",
+                                    "link":"/pdf/4.3.2/Stock_register.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Student computer ratio",
+                                    "pdf":"yes",
+                                    "link":"/pdf/4.3.2/Student_computer_ratio.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":3,
@@ -2554,7 +2578,22 @@
                             "id":1,
                             "name":"7.2.1 Best practices successfully implemented",
                             "alter_name":"7.2.1 Describe two best practices successfully implemented by the Institution as per NAAC format provided in the Manual.",
-                            "link":""
+                            "path":"7.2.1",
+                            "link":"/institutional-values-best-practices/7.2/7.2.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Best Practice I",
+                                    "pdf":"yes",
+                                    "link":"/pdf/7.2.1/Best_Practices_I.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Best Practice II",
+                                    "pdf":"yes",
+                                    "link":"/pdf/7.2.1/Best_Practice_2.pdf"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -2568,9 +2607,53 @@
                             "id":1,
                             "name":"7.3.1 Performance of one area distinctive to its priority and thrust",
                             "alter_name":"7.3.1 Portray the performance of the Institution in one area distinctive to its priority and thrust within 1000 words",
-                            "link":""
+                            "path":"7.3.1",
+                            "link":"/institutional-values-best-practices/7.3/7.3.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Institutional Distinctiveness",
+                                    "pdf":"yes",
+                                    "link":"/pdf/7.3.1/Institutional_Distinctiveness.pdf"
+                                }
+                            ]
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "id":8,
+            "name":"Extended Profile",
+            "hash":"#8",
+            "route_name":"extended-profile",
+            "link":"/extended-profile",
+            "icon":"fa-user-friends",
+            "category":[
+                {
+                    "id":1,
+                    "name":"2015-2016",
+                    "link":"/pdf/extended_profile/3.3_2015_2016.pdf"
+                },
+                {
+                    "id":2,
+                    "name":"2016-2017",
+                    "link":"/pdf/extended_profile/3.3_2016_2017.pdf"
+                },
+                {
+                    "id":3,
+                    "name":"2018-2019",
+                    "link":"/pdf/extended_profile/3.3_2018_2019.pdf"
+                },
+                {
+                    "id":4,
+                    "name":"2019-2020",
+                    "link":"/pdf/extended_profile/3.3_2019_2020.pdf"
+                },
+                {
+                    "id":5,
+                    "name":"Seats earmarked for reserved category",
+                    "link":"/pdf/extended_profile/Seats_earmarked_for_reserved_category.pdf"
                 }
             ]
         }

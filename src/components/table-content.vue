@@ -186,6 +186,30 @@
           </div>
       </div>
   </div>
+  <div v-else-if="$route.params.tableid == 'e_content_lectures'">
+      <div class="list">
+          <div class="item">
+              <div class="heading cnt"  >E-Content of Lectures<button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button></div> 
+             <div class="sub_items">
+                 <a class="i_list" v-for="cnt in tables.t_2_3_2" :key="cnt.id"  :href="$store.state.siteUrl + cnt.link" target="_blank" >
+                    <img class="send_icon" src="@/assets/send.svg" alt=""> {{cnt.name}}
+                 </a>
+             </div>
+          </div>
+      </div>
+  </div>
+  <div v-else-if="$route.params.tableid == 'video_lectures'">
+      <div class="list">
+          <div class="item">
+              <div class="heading cnt"  >Video Lectures<button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button></div> 
+             <div class="sub_items">
+                 <a class="i_list" v-for="cnt in tables.t2_2_3_2" :key="cnt.id"  :href="$store.state.siteUrl + cnt.link" target="_blank" >
+                    <img class="send_icon" src="@/assets/send.svg" alt=""> {{cnt.name}}
+                 </a>
+             </div>
+          </div>
+      </div>
+  </div>
   <div v-else-if="$route.params.tableid == '1.3.3_2015_2016'">
       <div class="list">
           <div class="item">

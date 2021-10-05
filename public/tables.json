@@ -4581,5 +4581,69 @@
             "name":"safety and security final",
             "link":"/pdf/7.1.1/safety_and_security_final_20-9-21.pdf"
         }
+    ],
+    "t_2_3_2":[
+        {
+            "id":1,
+            "name":"Differential Calculus Dr.A.V Maths",
+            "link":"/pdf/2.3.2/8.Differential_Calculus_Dr.A.V_Maths.pdf"
+        },
+        {
+            "id":2,
+            "name":"Cryptography Dr.GS Maths",
+            "link":"/pdf/2.3.2/Cryptography_Dr_GS_Maths.ppt"
+        },
+        {
+            "id":3,
+            "name":"Dr.PNM PPT Economics",
+            "link":"/pdf/2.3.2/Dr.PNM_PPT_Economics.ppt"
+        },
+        {
+            "id":4,
+            "name":"Dr.SRR PPT Economics",
+            "link":"/pdf/2.3.2/Dr.SRR_PPT_Economics.ppt"
+        },
+        {
+            "id":5,
+            "name":"Dr.TS PPT Economics",
+            "link":"/pdf/2.3.2/Dr.TS_PPT_Economics.pptx"
+        },
+        {
+            "id":6,
+            "name":"Dr.US PPT Economics",
+            "link":"/pdf/2.3.2/Dr.US_PPT_Economics.ppt"
+        },
+        {
+            "id":7,
+            "name":"ICT enabled teaching",
+            "link":"/pdf/2.3.2/ICT_enabled_teaching.pdf"
+        },
+        {
+            "id":8,
+            "name":"Prof.NL PPT Economics",
+            "link":"/pdf/2.3.2/Prof.NL_PPT_Economics.ppt"
+        },
+        {
+            "id":9,
+            "name":"Prof.VV PPT Economics",
+            "link":"/pdf/2.3.2/Prof.VV_PPT_Economics.ppt"
+        }
+    ],
+    "t2_2_3_2":[
+        {
+            "id":1,
+            "name":"Atomic Chemistry",
+            "link":"/pdf/2.3.2/Atomic_Chemistry.mp4"
+        },
+        {
+            "id":2,
+            "name":"Introduction to Chemistry",
+            "link":"/pdf/2.3.2/Introduction_to_Chemistry.mp4"
+        },
+        {
+            "id":3,
+            "name":"Introductory Botany",
+            "link":"/pdf/2.3.2/Introductory_Botany.mp4"
+        }
     ]
 }

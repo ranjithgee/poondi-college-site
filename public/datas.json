@@ -666,7 +666,22 @@
                             "id":2,
                             "name":"2.6.2 Attainment of POs and COs evaluation",
                             "alter_name":"2.6.2 Attainment of program outcomes and course outcomes are evaluated by the institution",
-                            "link":""
+                            "path":"2.6.2",
+                            "link":"/teaching-learning-evaluation/2.6/2.6.2",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Attainment of PO and CO on curriculum",
+                                    "pdf":"yes",
+                                    "link":"/pdf/2.6.2/Attainment_of_PO_CO_on_curriculum.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Feedback from Stakeholders",
+                                    "pdf":"yes",
+                                    "link":"/pdf/2.6.2/Feedback_from_stakeholders.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":3,
@@ -1247,7 +1262,52 @@
                             "id":1,
                             "name":" 4.1.1 Adequate infrastructure and physical facilities",
                             "alter_name":"4.1.1 The Institution has adequate infrastructure and physical facilities for teaching – learning, viz., classrooms, laboratories, computing equipment, etc.",
-                            "link":""
+                            "path":"4.1.1",
+                            "link":"/infrastructure-learning-resources/4.1/4.1.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Administrative various department buildings",
+                                    "pdf":"yes",
+                                    "link":"/pdf/4.1.1/Administrative_various_department_buildings.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Campus facility",
+                                    "pdf":"yes",
+                                    "link":"/pdf/4.1.1/Campus_facility.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"College campus",
+                                    "pdf":"yes",
+                                    "link":"/pdf/4.1.1/College_campus.pdf"
+                                },
+                                {
+                                    "id":4,
+                                    "name":"Event halls",
+                                    "pdf":"yes",
+                                    "link":"/pdf/4.1.1/Event_halls.pdf"
+                                },
+                                {
+                                    "id":5,
+                                    "name":"Labratories",
+                                    "pdf":"yes",
+                                    "link":"/pdf/4.1.1/Labratories.pdf"
+                                },
+                                {
+                                    "id":6,
+                                    "name":"Library",
+                                    "pdf":"yes",
+                                    "link":"/pdf/4.1.1/Library.pdf"
+                                },
+                                {
+                                    "id":7,
+                                    "name":"Other facilities",
+                                    "pdf":"yes",
+                                    "link":"/pdf/4.1.1/Other_facilities.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,
@@ -2348,13 +2408,55 @@
                             "id":6,
                             "name":"7.1.6 Audits on environment and energy",
                             "alter_name":"7.1.6 Quality audits on environment and energy are regularly undertaken by the institution (5) The institutional environment and energy initiatives are confirmed through the following  1.Green audit  2. Energy audit  3.Environment audit 4.Clean and green campus recognitions/awards  5. Beyond the campus environmental promotional activities ",
-                            "link":""
+                            "path":"7.1.6",
+                            "link":"/institutional-values-best-practices/7.1/7.1.6",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Auditing Agency Certificates",
+                                    "pdf":"yes",
+                                    "link":"/pdf/7.1.6/Auditing_Agency_Certificates.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Environmental Promotional Activities",
+                                    "pdf":"yes",
+                                    "link":"/pdf/7.1.6/Environmental_promotional_activities.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":7,
                             "name":"7.1.7 Disabled-friendly and barrier free environment",
                             "alter_name":"7.1.7 The Institution has disabled-friendly, barrier free environment  1. Built environment with ramps/lifts for easy access to classrooms. 2. Disabled-friendly washrooms  3. Signage including tactile path, lights, display boards and signposts  4. Assistive technology and facilities for persons with disabilities ( Divyangjan) accessible website,  screen-reading software, mechanized equipment 5. Provision for enquiry and information: Human assistance, reader, scribe, soft copies of reading  material, screen reading",
-                            "link":""
+                            "path":"7.1.7",
+                            "link":"/institutional-values-best-practices/7.1/7.1.7",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Built Environment with Ramps",
+                                    "pdf":"yes",
+                                    "link":"/pdf/7.1.7/Built_Environment_with_Ramps.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Disabled friendly barrier environment policy",
+                                    "pdf":"yes",
+                                    "link":"/pdf/7.1.7/Disabled_friendly_barrier_environment_policy.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Disabled Friendly Washrooms",
+                                    "pdf":"yes",
+                                    "link":"/pdf/7.1.7/Disabled_Friendly_Washrooms.pdf"
+                                },
+                                {
+                                    "id":4,
+                                    "name":"Provision for Enquiry and Information",
+                                    "pdf":"yes",
+                                    "link":"/pdf/7.1.7/Provision_for_Enquiry_and_Information.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":8,

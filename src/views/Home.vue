@@ -129,7 +129,7 @@ export default {
   box-shadow: 0 2px 10px 4px rgb(0 0 0/10%);
   background-color:#00478f;
   height: 79.4vh;
-  width: 24%;
+  width: 26%;
   padding: 40px 15px 0px 15px;
   transition: .3s ease-in-out;
 }
@@ -140,7 +140,7 @@ export default {
 
 .tab_item{
   margin: 15px 0;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 700;
   color: white;
 }
@@ -175,7 +175,7 @@ export default {
    color: black;
 }
 .content_item{
-  width: 76%;
+  width: 74%;
   height: 79.4vh;
   overflow: hidden;
   overflow-y: scroll ;

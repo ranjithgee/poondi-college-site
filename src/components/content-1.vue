@@ -10,8 +10,8 @@
                   </div>
                   <div class="sub_items">
                       <div  v-for="category in item.category" :key="category.id">
-                         <a class="i_list" :href="$store.state.siteUrl + category.link" target="_blank" v-if="$route.params.id == 'extended-profile'"> <img class="send_icon" src="@/assets/send.svg" alt=""> {{category.name}}</a> 
-                         <router-link class="i_list" :to="category.link" v-else> <img class="send_icon" src="@/assets/send.svg" alt=""> {{category.name}}</router-link>
+                         <router-link class="i_list" :to="category.link" v-if="category.path !== 'pdf'"> <img class="send_icon" src="@/assets/send.svg" alt=""> {{category.name}}</router-link> 
+                         <a class="i_list" v-if="category.path == 'pdf'" :href="$store.state.siteUrl + category.link" target="_blank" > <img class="send_icon" src="@/assets/send.svg" alt=""> {{category.name}}</a> 
                       </div>
                   </div>
               </div>

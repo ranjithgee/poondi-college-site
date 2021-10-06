@@ -2625,34 +2625,27 @@
         {
             "id":8,
             "name":"Extended Profile",
-            "hash":"#8",
+            "hash":"",
             "route_name":"extended-profile",
             "link":"/extended-profile",
             "icon":"fa-user-friends",
             "category":[
                 {
                     "id":1,
-                    "name":"2015-2016",
-                    "link":"/pdf/extended_profile/3.3_2015_2016.pdf"
+                    "name":"3.1",
+                    "path":"extended_profile_3.1",
+                    "link":"/extended-profile/extended_profile_3.1"
                 },
                 {
                     "id":2,
-                    "name":"2016-2017",
-                    "link":"/pdf/extended_profile/3.3_2016_2017.pdf"
+                    "name":"4.1",
+                    "path":"extended_profile_4.1",
+                    "link":"/extended-profile/extended_profile_4.1"
                 },
                 {
                     "id":3,
-                    "name":"2018-2019",
-                    "link":"/pdf/extended_profile/3.3_2018_2019.pdf"
-                },
-                {
-                    "id":4,
-                    "name":"2019-2020",
-                    "link":"/pdf/extended_profile/3.3_2019_2020.pdf"
-                },
-                {
-                    "id":5,
                     "name":"Seats earmarked for reserved category",
+                    "path":"pdf",
                     "link":"/pdf/extended_profile/Seats_earmarked_for_reserved_category.pdf"
                 }
             ]

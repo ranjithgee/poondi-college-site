@@ -140,7 +140,7 @@ export default {
 
 .tab_item{
   margin: 15px 0;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 700;
   color: white;
 }

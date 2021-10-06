@@ -4726,5 +4726,54 @@
             "name":"2019-2020",
             "link":"/pdf/7.1.6/GA_Report_19_20.pdf"
         }
+    ],
+    "extend_3_1":[
+        {
+            "id":1,
+            "name":"2015-2016",
+            "link":"/pdf/extended_profile/3.3_2015_2016.pdf"
+        },
+        {
+            "id":2,
+            "name":"2016-2017",
+            "link":"/pdf/extended_profile/3.3_2016_2017.pdf"
+        },
+        {
+            "id":3,
+            "name":"2018-2019",
+            "link":"/pdf/extended_profile/3.3_2018_2019.pdf"
+        },
+        {
+            "id":4,
+            "name":"2019-2020",
+            "link":"/pdf/extended_profile/3.3_2019_2020.pdf"
+        }
+    ],
+    "extend_4_1":[
+        {
+            "id":1,
+            "name":"2015-2016",
+            "link":"/pdf/4.1_extended_profile/2015_2016_Applications_recieved.pdf"
+        },
+        {
+            "id":2,
+            "name":"2016-2017",
+            "link":"/pdf/4.1_extended_profile/2016_2017_Applications_recieved.pdf"
+        },
+        {
+            "id":3,
+            "name":"2017-2018",
+            "link":"/pdf/4.1_extended_profile/2017_2018_Applications_recieved.pdf"
+        },
+        {
+            "id":4,
+            "name":"2018-2019",
+            "link":"/pdf/4.1_extended_profile/2018_2019_Applications_recieved.pdf"
+        },
+        {
+            "id":5,
+            "name":"2019-2020",
+            "link":"/pdf/4.1_extended_profile/2019_2020_Applications_recieved.pdf"
+        }
     ]
 }

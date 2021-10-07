@@ -1470,7 +1470,28 @@
                             "id":1,
                             "name":"4.3.1 IT policy covering Wi-Fi, cyber security and etc",
                             "alter_name":"4.3.1 Institution has an IT policy covering wi-fi, cyber security, etc., and allocated budget for updating its IT facilities",
-                            "link":""
+                            "path":"4.3.1",
+                            "link":"/infrastructure-learning-resources/4.3/4.3.1",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"IT Facilities",
+                                    "pdf":"yes",
+                                    "link":"/pdf/4.3.1/IT_Facilities.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"IT Maintenance",
+                                    "pdf":"yes",
+                                    "link":"/pdf/4.3.1/IT_Maintenance.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"IT Policy",
+                                    "pdf":"yes",
+                                    "link":"/pdf/4.3.1/IT_Policy.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":2,
@@ -1512,7 +1533,16 @@
                             "id":4,
                             "name":"4.3.4 Facilities for e-content development",
                             "alter_name":"4.3.4 Institution has Facilities for e-content development Facilities available for e-content development:",
-                            "link":""
+                            "path":"4.3.4",
+                            "link":"/infrastructure-learning-resources/4.3/4.3.4",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Media centre and software",
+                                    "pdf":"yes",
+                                    "link":"/pdf/4.3.4/Media_centre_and_software.pdf"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -2558,13 +2588,35 @@
                             "id":10,
                             "name":"7.1.10 Periodic programs for code of conduct for all",
                             "alter_name":"7.1.10 Sensitization of students and employees of the Institution to the constitutional obligations: values, rights, duties and responsibilities of citizensDescribe the various activities in the Institution for inculcating values for being responsible citizens as reflected in the Constitution of India within 500 words.",
-                            "link":""
+                            "path":"7.1.10",
+                            "link":"/institutional-values-best-practices/7.1/7.1.10",
+                            "sub":[
+                                {
+                                    "id":1,
+                                    "name":"Annual Awareness Programmes",
+                                    "pdf":"yes",
+                                    "link":"/pdf/7.1.10/Annual_Awareness_Programmes.pdf"
+                                },
+                                {
+                                    "id":2,
+                                    "name":"Monitaring Committees",
+                                    "pdf":"yes",
+                                    "link":"/pdf/7.1.10/Monitaring_Committees.pdf"
+                                },
+                                {
+                                    "id":3,
+                                    "name":"Professional Ethics Programmes",
+                                    "pdf":"yes",
+                                    "link":"/pdf/7.1.10/Professional_Ethics_Programmes.pdf"
+                                }
+                            ]
                         },
                         {
                             "id":11,
                             "name":"7.1.11 National/international commemorative days/events and festivals",
                             "alter_name":"7.1.11 Institution celebrates / organizes national and international commemorative days, events and festivals",
-                            "link":""
+                            "path":"7.1.11",
+                            "link":"/institutional-values-best-practices/7.1/7.1.11"
                         }
                     ]
                 },

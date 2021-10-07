@@ -178,6 +178,12 @@
                                             <router-link v-for="item in tables.main_1_3_3" :key="item.id" :to="item.link">{{item.name}}</router-link>
                                         </div>
                                 </div>
+                                <div class="year_category" v-if="cat.path == '7.1.11'" >
+                                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt=""> National/international commemorative days/events and festivals</div>
+                                        <div class="year_items">
+                                            <a v-for="item in tables.t_7_1_11" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                        </div>
+                                </div>
                                 <div class="year_category" v-if="cat.path == '3.1.2'" >
                                         <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Policy documents for Sanction of seed money</div>
                                         <div class="year_items">

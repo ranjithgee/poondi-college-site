@@ -100,12 +100,6 @@
                                             <a v-for="item in tables.t_6_3_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
                                         </div>
                                 </div>
-                                 <div class="year_category" v-if="cat.path == '7.1.1'" >
-                                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt=""> Annual Gender Sensitation Action plan</div>
-                                        <div class="year_items">
-                                            <a v-for="item in tables.t_7_1_1" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
-                                        </div>
-                                </div>
                                 <div class="year_category ssd" v-if="cat.path == '7.1.6'" >
                                         <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt=""> Energy Audit</div>
                                         <div class="year_items">
@@ -122,12 +116,6 @@
                                         <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt=""> Green Audit</div>
                                         <div class="year_items">
                                             <a v-for="item in tables.tIII_7_1_6" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
-                                        </div>
-                                </div>
-                                 <div class="year_category" v-if="cat.path == '7.1.1'" >
-                                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt=""> Specific Facilities provided for Women</div>
-                                        <div class="year_items">
-                                            <a v-for="item in tables.t2_7_1_1" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
                                         </div>
                                 </div>
                                 <div class="year_category2" v-if="cat.path == '5.1.4'">

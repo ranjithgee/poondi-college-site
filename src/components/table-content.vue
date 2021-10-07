@@ -210,6 +210,36 @@
           </div>
       </div>
   </div>
+  <div v-else-if="$route.params.tableid == 'gender_action_plan'">
+      <div class="list">
+          <div class="item">
+              <div class="heading cnt"  >Annual Gender Sensitation Action plan<button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button></div> 
+             <div class="sub_items">
+                 <div class="year_category" >
+                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt=""> Annual Gender Sensitation Action plan</div>
+                        <div class="year_items">
+                            <a v-for="item in tables.t_7_1_1" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                        </div>
+                </div>
+             </div>
+          </div>
+      </div>
+  </div>
+  <div v-else-if="$route.params.tableid == 'provided_for_women'">
+      <div class="list">
+          <div class="item">
+              <div class="heading cnt"  >Specific Facilities provided for Women<button type="button" class="back_btn" @click="this.$router.go(-1)"><i class="fas fa-chevron-left" ></i> Back</button></div> 
+             <div class="sub_items">
+                 <div class="year_category" >
+                        <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt=""> Specific Facilities provided for Women</div>
+                        <div class="year_items">
+                            <a v-for="item in tables.t2_7_1_1" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                        </div>
+                </div>
+             </div>
+          </div>
+      </div>
+  </div>
   <div v-else-if="$route.params.tableid == '1.3.3_2015_2016'">
       <div class="list">
           <div class="item">

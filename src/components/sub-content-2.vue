@@ -136,6 +136,18 @@
                                         <a v-for="item in tables.one_5_1_4" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
                                     </div>
                                 </div>
+                                <div class="year_category2" v-if="cat.path == '4.1.3'">
+                                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">ICT Class Rooms</div>
+                                    <div class="year_items2">
+                                        <a v-for="item in tables.t_4_1_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                    </div>
+                                </div>
+                                <div class="year_category2" v-if="cat.path == '4.1.3'">
+                                    <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">ICT Seminar Halls</div>
+                                    <div class="year_items2">
+                                        <a v-for="item in tables.t2_4_1_3" :key="item.id" :href="$store.state.siteUrl + item.link" target="_blank">{{item.name}}</a>
+                                    </div>
+                                </div>
                                 <div class="year_category2" v-if="cat.path == '2.3.4'">
                                     <div class="year_head"><img class="send_icon" src="@/assets/send.svg" alt="">Teaching plan</div>
                                     <div class="year_items2">

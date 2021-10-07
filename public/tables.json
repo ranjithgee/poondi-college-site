@@ -4802,5 +4802,159 @@
             "name":"2019-2020",
             "link":"/pdf/7.1.11/2019-2020.pdf"
         }
+    ],
+    "t_4_1_3":[
+        {
+            "id":1,
+            "name":"Library",
+            "link":"/pdf/4.1.3/ICT_class_rooms/1_Library.pdf"
+        },
+        {
+            "id":2,
+            "name":"Economics",
+            "link":"/pdf/4.1.3/ICT_class_rooms/2_Economics.pdf"
+        },
+        {
+            "id":3,
+            "name":"Tamil",
+            "link":"/pdf/4.1.3/ICT_class_rooms/3_Tamil.pdf"
+        },
+        {
+            "id":4,
+            "name":"English",
+            "link":"/pdf/4.1.3/ICT_class_rooms/4_English.pdf"
+        },
+        {
+            "id":5,
+            "name":"Mathematics",
+            "link":"/pdf/4.1.3/ICT_class_rooms/5_Mathematics.pdf"
+        },
+        {
+            "id":6,
+            "name":"Physics Room 03",
+            "link":"/pdf/4.1.3/ICT_class_rooms/6_Physics_Room_03.pdf"
+        },
+        {
+            "id":7,
+            "name":"Physics Room 04",
+            "link":"/pdf/4.1.3/ICT_class_rooms/7_Physics_Room_04.pdf"
+        },
+        {
+            "id":8,
+            "name":"Chemistry",
+            "link":"/pdf/4.1.3/ICT_class_rooms/8_Chemistry.pdf"
+        },
+        {
+            "id":9,
+            "name":"Botany Room 29",
+            "link":"/pdf/4.1.3/ICT_class_rooms/9_Botany_Room_29.pdf"
+        },
+        {
+            "id":10,
+            "name":"Botany Room 30",
+            "link":"/pdf/4.1.3/ICT_class_rooms/10_Botany_Room_30.pdf"
+        },
+        {
+            "id":11,
+            "name":"Botany Room 33",
+            "link":"/pdf/4.1.3/ICT_class_rooms/11_Botany_Room_33.pdf"
+        },
+        {
+            "id":12,
+            "name":"Zoology Room 44",
+            "link":"/pdf/4.1.3/ICT_class_rooms/12_Zoology_Room_44.pdf"
+        },
+        {
+            "id":13,
+            "name":"Zoology Room 46",
+            "link":"/pdf/4.1.3/ICT_class_rooms/13_Zoology_Room_46.pdf"
+        },
+        {
+            "id":14,
+            "name":"Zoology Room 47",
+            "link":"/pdf/4.1.3/ICT_class_rooms/14_Zoology_Room_47.pdf"
+        },
+        {
+            "id":15,
+            "name":"Computer Science LAB",
+            "link":"/pdf/4.1.3/ICT_class_rooms/15_Computer_Science_LAB.pdf"
+        },
+        {
+            "id":16,
+            "name":"CS Electronic Lab",
+            "link":"/pdf/4.1.3/ICT_class_rooms/16_CS_Electronic_Lab.pdf"
+        },
+        {
+            "id":17,
+            "name":"Physical Education",
+            "link":"/pdf/4.1.3/ICT_class_rooms/17_Physical_Education.pdf"
+        },
+        {
+            "id":18,
+            "name":"History",
+            "link":"/pdf/4.1.3/ICT_class_rooms/18_History.pdf"
+        },
+        {
+            "id":19,
+            "name":"MBA Room 13",
+            "link":"/pdf/4.1.3/ICT_class_rooms/19_MBA_Room_13.pdf"
+        },
+        {
+            "id":20,
+            "name":"MBA Room 14",
+            "link":"/pdf/4.1.3/ICT_class_rooms/20_MBA_Room_14.pdf"
+        },
+        {
+            "id":21,
+            "name":"Hindi",
+            "link":"/pdf/4.1.3/ICT_class_rooms/21_Hindi.pdf"
+        },
+        {
+            "id":22,
+            "name":"Geography",
+            "link":"/pdf/4.1.3/ICT_class_rooms/22_Geography.pdf"
+        }
+    ],
+    "t2_4_1_3":[
+        {
+            "id":1,
+            "name":"Physics",
+            "link":"/pdf/4.1.3/ICT_seminar_halls/1_Physics.pdf"
+        },
+        {
+            "id":2,
+            "name":"Mathematics",
+            "link":"/pdf/4.1.3/ICT_seminar_halls/2_Mathematics.pdf"
+        },
+        {
+            "id":3,
+            "name":"Chemistry",
+            "link":"/pdf/4.1.3/ICT_seminar_halls/3_Chemistry.pdf"
+        },
+        {
+            "id":4,
+            "name":"Botany",
+            "link":"/pdf/4.1.3/ICT_seminar_halls/4_Botany.pdf"
+        },
+        {
+            "id":5,
+            "name":"Zoology",
+            "link":"/pdf/4.1.3/ICT_seminar_halls/5_Zoology.pdf"
+        },
+        {
+            "id":6,
+            "name":"Computer Science",
+            "link":"/pdf/4.1.3/ICT_seminar_halls/6_Computer_Science.pdf"
+        },
+        {
+            "id":7,
+            "name":"EDC",
+            "link":"/pdf/4.1.3/ICT_seminar_halls/7_EDC.pdf"
+        },
+        {
+            "id":8,
+            "name":"Auditorium",
+            "link":"/pdf/4.1.3/ICT_seminar_halls/8_Auditorium.pdf"
+        }
     ]
 }

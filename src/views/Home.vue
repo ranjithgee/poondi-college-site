@@ -32,9 +32,9 @@ export default {
     Header
   },
   beforeCreate(){
-    if(!localStorage.getItem('user_token')){
-      this.$router.push('/login')
-    }
+    // if(!localStorage.getItem('user_token')){
+    //   this.$router.push('/login')
+    // }
     if(this.$route.path == '/'){
       this.$router.push('/curricular_aspects')
     }

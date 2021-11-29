@@ -12,9 +12,9 @@
               <div class="tab_item" v-for="(data) in datas.data" :key="data.id">
                 <router-link class="item_menu" :class="$route.params.id == data.route_name ? 'active ':''" :to="data.link"  @click="this.MenuBar()" ><span><i class="fas" :class="data.icon" style="min-width:17.5px;" ></i> <span class="hash">{{data.hash}}</span> {{data.name}}</span> <span class="chevron"><i class="fas fa-chevron-right chev"></i></span> </router-link> 
               </div>
-              <div class="logout">
+              <!-- <div class="logout">
                <button @click="Logout">Logout <i class="fas fa-sign-out-alt"></i></button>
-             </div>
+             </div> -->
           </div>
           <div class="content_item">
              <router-view/>
